@@ -1,0 +1,105 @@
+---
+title: Mathématique financière, niveau lycée
+author: Goldentz Grahamz
+date: '2020-05-28'
+categories: []
+tags:
+  - rmarkdown
+subtitle: ''
+summary: 'Eine kleine Hilfe in der Finanzmathematikbereich für meine kleine Schwester.'
+authors: []
+lastmod: '2020-05-28T20:45:57-07:00'
+featured: no
+disable_jquery: no
+image:
+  caption: '[Ein Schein mit ein und sieben null naher in 1923 ](http://www.nithart.com/images/monnaies/inflalle/dmwiesba.jpg)'
+  focal_point: ''
+  preview_only: no
+projects: []
+math: true
+---
+# Übung 1
+
+## Teil a
+
+Im Anfang der Period, sei $n=0$, unser Perrine hat ein Kapital von $8000$ euros, man schreibt $C_0=8000$.   
+    
+Sie weiss nicht wie sein Geld aus gibt, sie stielht sein Geld in einer Konto mit Interesse, es ist nicht genau das aber man vereinfacht.  
+In dies Übung beträgt die Intersesse $r=0.038$.    
+Man bezählt auch ein fest kosten, $F=76$ euros.    
+In ende des Jahr, Sse holt die Interesse auf die Kapital minus die Festkost man schreibt  :    
+$C_1=C_0+r*C_0-(1*F)$    
+$C_1=(1+r)*C_0-F$  
+      
+Vorausgesetzt, das dieses Kapital $C_1$ wieder stiehlen wird, mit der gleich Bedingung der letzte mal, man sieht :
+$C_2=(1+r)*C_1-F$  
+Vorausgesetzt für alle $n \in N$, man erhalt die Rekursionsrelation :  
+$C_n=(1+r)*C_{n-1}-F$  
+  
+## Teil b
+  
+On note  
+$D_n=C_n-2000$  
+$D_n=(1+r)C_{n-1}-F-2000$  
+$D_n=(1+r)C_{n-1}-(F+2000)$     
+A partir de là, il faut remarquer que pour $r=0.038$ et $F=76$ nous avons $(1+r)2000=2000+F$ ainsi     
+$D_n=(1+r)C_{n-1}-(1+r)2000$  
+$D_n=(1+r)(C_{n-1}-2000)$  
+$D_n=(1+r)D_{n-1}$  
+Si l'on pose $q=(1+r)$ nous obtenons bien la définition d'une suite géométrique, ainsi $D_n$ est une suite géométrique de raison $q=(1+r)$ et de premier terme $D_0=C_0-2000=8000-2000=6000$  
+
+## Partie c
+  
+Une suite géométrique peut toujour s'écrire sous la forme $D_n=q^nD_0$ en effet :    
+Si K est un corps commutatif – par exemple ℝ (corps des réels) ou ℂ (corps des complexes) – et si ${\displaystyle (u_{n})_{n\in \mathbb {N} }}$ est une suite géométrique de K de raison q ∈ K alors, pour tout entier naturel $n$ : 
+    
+${\displaystyle u_{n}=u_{0}q^{n}}$    
+  
+On pose l'égalité $C_n-2000=(1+r)^nD_0$  
+$C_n=(1+r)^nD_0+2000$  
+
+En rempaçant $r=0.038$ ; $n=10$ et $D_0=6000$ on obtient $C_{10}=1.038^{10}*6000+2000=10712.14$, le capital obtenue après $n=10$ ans de placement.  
+  
+## Partie c
+  
+On cherche $n^*$ tel que $C_{n*}=2C_0$ ainsi   
+$2C_0=(1+r)^{n^\star}*D_0+2000$      
+$2C_0-2000=(1+r)^{n^\star}*D_0$   
+$\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}$      
+$log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)$   
+$log(2C_0-2000)-log(D_0)=n^{\star}*log(1+r)$  
+
+$n^{\star}=\frac{log(2C_0-2000)-log(D_0)}{log(1+r)}$  
+
+En remplaçant  $r=0.038$ , $D_0=6000$ et $C_0=8000$    
+On obtient $n^{\star}=22.71833$ or $n \in N$ il faut donc attendre la $23$ année pour voir le capital de Perrinne doublé $n^{\star}=23$.  
+On peut vérifier par le calcul  
+$C_{23}=(1.038)^{23}*6000 +2000=16147.85$  
+$C_{22}=(1.038)^{22}*6000 +2000=15629.91$  
+
+# Graphique
+
+```{r, echo=FALSE}  
+  
+temps <- seq(1,30)
+r <- 0.038
+C_0 <- 8000
+D_0 <- 6000
+C <- rep(0,30)
+C[1] <- C_0
+D <- rep(0,30)
+D[1] <- 6000
+for (i in 1:29){
+    C[i+1]<-(1+r)^i*D_0+2000
+}
+for (i in 1:29){
+  D[i+1]<-C[i+1]-2000
+}
+data_C <- data.frame(C,temps)
+library(ggplot2)
+
+sp <- ggplot(data_C, aes(x = temps, y = C))+ 
+  geom_point(size=2.5,label="C") 
+
+sp
+```

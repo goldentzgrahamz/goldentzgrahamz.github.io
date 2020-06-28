@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Goldentz Grahamaz</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Mathématique financière, niveau lycée</title>
+      <link>/post/autre/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/autre/</guid>
+      <description>
+
+
+&lt;div id=&#34;übung-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Übung 1&lt;/h1&gt;
+&lt;div id=&#34;teil-a&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Teil a&lt;/h2&gt;
+&lt;p&gt;Im Anfang der Period, sei &lt;span class=&#34;math inline&#34;&gt;\(n=0\)&lt;/span&gt;, unser Perrine hat ein Kapital von &lt;span class=&#34;math inline&#34;&gt;\(8000\)&lt;/span&gt; euros, man schreibt &lt;span class=&#34;math inline&#34;&gt;\(C_0=8000\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Sie weiss nicht wie sein Geld aus gibt, sie stielht sein Geld in einer Konto mit Interesse, es ist nicht genau das aber man vereinfacht.&lt;br /&gt;
+In dies Übung beträgt die Intersesse &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt;.&lt;br /&gt;
+Man bezählt auch ein fest kosten, &lt;span class=&#34;math inline&#34;&gt;\(F=76\)&lt;/span&gt; euros.&lt;br /&gt;
+In ende des Jahr, Sse holt die Interesse auf die Kapital minus die Festkost man schreibt :&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(C_1=C_0+r*C_0-(1*F)\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(C_1=(1+r)*C_0-F\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Vorausgesetzt, das dieses Kapital &lt;span class=&#34;math inline&#34;&gt;\(C_1\)&lt;/span&gt; wieder stiehlen wird, mit der gleich Bedingung der letzte mal, man sieht :
+&lt;span class=&#34;math inline&#34;&gt;\(C_2=(1+r)*C_1-F\)&lt;/span&gt;&lt;br /&gt;
+Vorausgesetzt für alle &lt;span class=&#34;math inline&#34;&gt;\(n \in N\)&lt;/span&gt;, man erhalt die Rekursionsrelation :&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(C_n=(1+r)*C_{n-1}-F\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teil-b&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Teil b&lt;/h2&gt;
+&lt;p&gt;On note&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=C_n-2000\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-F-2000\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-(F+2000)\)&lt;/span&gt;&lt;br /&gt;
+A partir de là, il faut remarquer que pour &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(F=76\)&lt;/span&gt; nous avons &lt;span class=&#34;math inline&#34;&gt;\((1+r)2000=2000+F\)&lt;/span&gt; ainsi&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-(1+r)2000\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)(C_{n-1}-2000)\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)D_{n-1}\)&lt;/span&gt;&lt;br /&gt;
+Si l’on pose &lt;span class=&#34;math inline&#34;&gt;\(q=(1+r)\)&lt;/span&gt; nous obtenons bien la définition d’une suite géométrique, ainsi &lt;span class=&#34;math inline&#34;&gt;\(D_n\)&lt;/span&gt; est une suite géométrique de raison &lt;span class=&#34;math inline&#34;&gt;\(q=(1+r)\)&lt;/span&gt; et de premier terme &lt;span class=&#34;math inline&#34;&gt;\(D_0=C_0-2000=8000-2000=6000\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;partie-c&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Partie c&lt;/h2&gt;
+&lt;p&gt;Une suite géométrique peut toujour s’écrire sous la forme &lt;span class=&#34;math inline&#34;&gt;\(D_n=q^nD_0\)&lt;/span&gt; en effet :&lt;br /&gt;
+Si K est un corps commutatif – par exemple ℝ (corps des réels) ou ℂ (corps des complexes) – et si &lt;span class=&#34;math inline&#34;&gt;\({\displaystyle (u_{n})_{n\in \mathbb {N} }}\)&lt;/span&gt; est une suite géométrique de K de raison q ∈ K alors, pour tout entier naturel &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; :&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\({\displaystyle u_{n}=u_{0}q^{n}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;On pose l’égalité &lt;span class=&#34;math inline&#34;&gt;\(C_n-2000=(1+r)^nD_0\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(C_n=(1+r)^nD_0+2000\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;En rempaçant &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; ; &lt;span class=&#34;math inline&#34;&gt;\(n=10\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(D_0=6000\)&lt;/span&gt; on obtient &lt;span class=&#34;math inline&#34;&gt;\(C_{10}=1.038^{10}*6000+2000=10712.14\)&lt;/span&gt;, le capital obtenue après &lt;span class=&#34;math inline&#34;&gt;\(n=10\)&lt;/span&gt; ans de placement.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;partie-c-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Partie c&lt;/h2&gt;
+&lt;p&gt;On cherche &lt;span class=&#34;math inline&#34;&gt;\(n^*\)&lt;/span&gt; tel que &lt;span class=&#34;math inline&#34;&gt;\(C_{n*}=2C_0\)&lt;/span&gt; ainsi&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(2C_0=(1+r)^{n^\star}*D_0+2000\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(2C_0-2000=(1+r)^{n^\star}*D_0\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(log(2C_0-2000)-log(D_0)=n^{\star}*log(1+r)\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=\frac{log(2C_0-2000)-log(D_0)}{log(1+r)}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;En remplaçant &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; , &lt;span class=&#34;math inline&#34;&gt;\(D_0=6000\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(C_0=8000\)&lt;/span&gt;&lt;br /&gt;
+On obtient &lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=22.71833\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(n \in N\)&lt;/span&gt; il faut donc attendre la &lt;span class=&#34;math inline&#34;&gt;\(23\)&lt;/span&gt; année pour voir le capital de Perrinne doublé &lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=23\)&lt;/span&gt;.&lt;br /&gt;
+On peut vérifier par le calcul&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(C_{23}=(1.038)^{23}*6000 +2000=16147.85\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(C_{22}=(1.038)^{22}*6000 +2000=15629.91\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graphique&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Graphique&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: le package &amp;#39;ggplot2&amp;#39; a été compilé avec la version R 3.6.3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/autre/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/post/jupyter/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+jupyter lab index.ipynb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My post&#39;s title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the metadata of your post, using the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

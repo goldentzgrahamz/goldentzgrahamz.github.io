@@ -1,0 +1,73 @@
+---
+title: "Devoir maison de mathématique pour le 24/04/2020"
+author: "Sarah GOLLENTZ"
+output:
+  word_document:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+
+
+<div id="exercice-1" class="section level1">
+<h1>Exercice 1</h1>
+<div id="partie-a" class="section level2">
+<h2>Partie a</h2>
+<p>En début de période, soit <span class="math inline">\(n=0\)</span>, notre chère Perrine dispose d’un capital de <span class="math inline">\(8000\)</span> euros, on note <span class="math inline">\(C_0=8000\)</span> (Mashallah).<br />
+Ne sachant pas quoi faire de cet argent, elle place ce capital à la banque contre paiement d’intérêt (Attention connerie scolaire, c’est pas comme ça que cela se passe, mais passons).<br />
+Cet interêt proposé par la banque est de <span class="math inline">\(r=0.038\)</span>.<br />
+Cette banque nous font payés ce service (ah les bâtards), soit <span class="math inline">\(F=76\)</span> euros.<br />
+Ainsi à la fin de l’année, nous récupérons notre capital, le taux d’interet issue du capital, cependant nous devons payer les frais bancaire, on note :<br />
+<span class="math inline">\(C_1=C_0+r*C_0-(1*F)\)</span><br />
+<span class="math inline">\(C_1=(1+r)*C_0-F\)</span></p>
+<p>En supposant que ce nouveau capital <span class="math inline">\(C_1\)</span> soit placé de la même manière :<br />
+<span class="math inline">\(C_2=(1+r)*C_1-F\)</span><br />
+En généralisant pour tout <span class="math inline">\(n \in N\)</span>, on obtient la relation de recurrence :<br />
+<span class="math inline">\(C_n=(1+r)*C_{n-1}-F\)</span></p>
+</div>
+<div id="partie-b" class="section level2">
+<h2>Partie b</h2>
+<p>On note<br />
+<span class="math inline">\(D_n=C_n-2000\)</span><br />
+<span class="math inline">\(D_n=(1+r)C_{n-1}-F-2000\)</span><br />
+<span class="math inline">\(D_n=(1+r)C_{n-1}-(F+2000)\)</span><br />
+A partir de là, il faut remarquer que pour <span class="math inline">\(r=0.038\)</span> et <span class="math inline">\(F=76\)</span> nous avons <span class="math inline">\((1+r)2000=2000+F\)</span> ainsi<br />
+<span class="math inline">\(D_n=(1+r)C_{n-1}-(1+r)2000\)</span><br />
+<span class="math inline">\(D_n=(1+r)(C_{n-1}-2000)\)</span><br />
+<span class="math inline">\(D_n=(1+r)D_{n-1}\)</span><br />
+Si l’on pose <span class="math inline">\(q=(1+r)\)</span> nous obtenons bien la définition d’une suite géométrique, ainsi <span class="math inline">\(D_n\)</span> est une suite géométrique de raison <span class="math inline">\(q=(1+r)\)</span> et de premier terme <span class="math inline">\(D_0=C_0-2000=8000-2000=6000\)</span></p>
+</div>
+<div id="partie-c" class="section level2">
+<h2>Partie c</h2>
+<p>Une suite géométrique peut toujour s’écrire sous la forme <span class="math inline">\(D_n=q^nD_0\)</span> en effet :<br />
+Si K est un corps commutatif – par exemple ℝ (corps des réels) ou ℂ (corps des complexes) – et si <span class="math inline">\({\displaystyle (u_{n})_{n\in \mathbb {N} }}\)</span> est une suite géométrique de K de raison q ∈ K alors, pour tout entier naturel <span class="math inline">\(n\)</span> :</p>
+<p><span class="math inline">\({\displaystyle u_{n}=u_{0}q^{n}}\)</span></p>
+<p>On pose l’égalité <span class="math inline">\(C_n-2000=(1+r)^nD_0\)</span><br />
+<span class="math inline">\(C_n=(1+r)^nD_0+2000\)</span></p>
+<p>En rempaçant <span class="math inline">\(r=0.038\)</span> ; <span class="math inline">\(n=10\)</span> et <span class="math inline">\(D_0=6000\)</span> on obtient <span class="math inline">\(C_{10}=1.038^{10}*6000+2000=10712.14\)</span>, le capital obtenue après <span class="math inline">\(n=10\)</span> ans de placement.</p>
+</div>
+<div id="partie-c-1" class="section level2">
+<h2>Partie c</h2>
+<p>On cherche <span class="math inline">\(n^*\)</span> tel que <span class="math inline">\(C_{n*}=2C_0\)</span> ainsi<br />
+<span class="math inline">\(2C_0=(1+r)^{n^\star}*D_0+2000\)</span><br />
+<span class="math inline">\(2C_0-2000=(1+r)^{n^\star}*D_0\)</span><br />
+<span class="math inline">\(\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}\)</span><br />
+<span class="math inline">\(log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)\)</span><br />
+<span class="math inline">\(log(2C_0-2000)-log(D_0)=n^{\star}*log(1+r)\)</span></p>
+<p><span class="math inline">\(n^{\star}=\frac{log(2C_0-2000)-log(D_0)}{log(1+r)}\)</span></p>
+<p>En remplaçant <span class="math inline">\(r=0.038\)</span> , <span class="math inline">\(D_0=6000\)</span> et <span class="math inline">\(C_0=8000\)</span><br />
+On obtient <span class="math inline">\(n^{\star}=22.71833\)</span> or <span class="math inline">\(n \in N\)</span> il faut donc attendre la <span class="math inline">\(23\)</span> année pour voir le capital de Perrinne doublé <span class="math inline">\(n^{\star}=23\)</span>.<br />
+On peut vérifier par le calcul<br />
+<span class="math inline">\(C_{23}=(1.038)^{23}*6000 +2000=16147.85\)</span><br />
+<span class="math inline">\(C_{22}=(1.038)^{22}*6000 +2000=15629.91\)</span></p>
+</div>
+</div>
+<div id="graphique" class="section level1">
+<h1>Graphique</h1>
+<pre><code>## Warning: Ignoring unknown parameters: label</code></pre>
+<p><img src="/courses/example/DmSarah_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>

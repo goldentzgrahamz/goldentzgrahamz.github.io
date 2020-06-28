@@ -1,0 +1,104 @@
+---
+title: "Devoir maison de mathématique pour le 24/04/2020"
+author: "Sarah GOLLENTZ"
+output:
+  word_document:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+library(ggplot2) ## For ggplot
+rm(list = ls())
+
+``````
+
+# Exercice 1
+
+## Partie a
+
+En début de période, soit $n=0$, notre chère Perrine dispose d'un capital de $8000$ euros, on note $C_0=8000$ (Mashallah).   
+Ne sachant pas quoi faire de cet argent, elle place ce capital à la banque contre paiement d'intérêt (Attention connerie scolaire, c'est pas comme ça que cela se passe, mais passons).  
+Cet interêt proposé par la banque est de $r=0.038$.    
+Cette banque nous font payés ce service (ah les bâtards), soit $F=76$ euros.    
+Ainsi à la fin de l'année, nous récupérons notre capital, le taux d'interet issue du capital, cependant nous devons payer les frais bancaire, on note :    
+$C_1=C_0+r*C_0-(1*F)$    
+$C_1=(1+r)*C_0-F$  
+  
+En supposant que ce nouveau capital $C_1$ soit placé de la même manière :  
+$C_2=(1+r)*C_1-F$  
+En généralisant pour tout $n \in N$, on obtient la relation de recurrence :  
+$C_n=(1+r)*C_{n-1}-F$  
+  
+## Partie b
+  
+On note  
+$D_n=C_n-2000$  
+$D_n=(1+r)C_{n-1}-F-2000$  
+$D_n=(1+r)C_{n-1}-(F+2000)$     
+A partir de là, il faut remarquer que pour $r=0.038$ et $F=76$ nous avons $(1+r)2000=2000+F$ ainsi     
+$D_n=(1+r)C_{n-1}-(1+r)2000$  
+$D_n=(1+r)(C_{n-1}-2000)$  
+$D_n=(1+r)D_{n-1}$  
+Si l'on pose $q=(1+r)$ nous obtenons bien la définition d'une suite géométrique, ainsi $D_n$ est une suite géométrique de raison $q=(1+r)$ et de premier terme $D_0=C_0-2000=8000-2000=6000$  
+
+## Partie c
+  
+Une suite géométrique peut toujour s'écrire sous la forme $D_n=q^nD_0$ en effet :    
+Si K est un corps commutatif – par exemple ℝ (corps des réels) ou ℂ (corps des complexes) – et si ${\displaystyle (u_{n})_{n\in \mathbb {N} }}$ est une suite géométrique de K de raison q ∈ K alors, pour tout entier naturel $n$ : 
+    
+${\displaystyle u_{n}=u_{0}q^{n}}$    
+  
+On pose l'égalité $C_n-2000=(1+r)^nD_0$  
+$C_n=(1+r)^nD_0+2000$  
+
+En rempaçant $r=0.038$ ; $n=10$ et $D_0=6000$ on obtient $C_{10}=1.038^{10}*6000+2000=10712.14$, le capital obtenue après $n=10$ ans de placement.  
+  
+## Partie c
+  
+On cherche $n^*$ tel que $C_{n*}=2C_0$ ainsi   
+$2C_0=(1+r)^{n^\star}*D_0+2000$      
+$2C_0-2000=(1+r)^{n^\star}*D_0$   
+$\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}$      
+$log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)$   
+$log(2C_0-2000)-log(D_0)=n^{\star}*log(1+r)$  
+
+$n^{\star}=\frac{log(2C_0-2000)-log(D_0)}{log(1+r)}$  
+
+En remplaçant  $r=0.038$ , $D_0=6000$ et $C_0=8000$    
+On obtient $n^{\star}=22.71833$ or $n \in N$ il faut donc attendre la $23$ année pour voir le capital de Perrinne doublé $n^{\star}=23$.  
+On peut vérifier par le calcul  
+$C_{23}=(1.038)^{23}*6000 +2000=16147.85$  
+$C_{22}=(1.038)^{22}*6000 +2000=15629.91$  
+
+# Graphique
+
+```{r, echo=FALSE}  
+  
+temps <- seq(1,30)
+r <- 0.038
+C_0 <- 8000
+D_0 <- 6000
+C <- rep(0,30)
+C[1] <- C_0
+D <- rep(0,30)
+D[1] <- 6000
+for (i in 1:29){
+    C[i+1]<-(1+r)^i*D_0+2000
+}
+for (i in 1:29){
+  D[i+1]<-C[i+1]-2000
+}
+data_C <- data.frame(C,temps)
+library(ggplot2)
+
+sp <- ggplot(data_C, aes(x = temps, y = C))+ 
+  geom_point(size=2.5,label="C") 
+
+sp
+```
