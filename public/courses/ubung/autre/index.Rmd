@@ -1,41 +1,42 @@
 ---
-title: "Devoir maison de mathématique pour le 24/04/2020"
-author: "Sarah GOLLENTZ"
-output:
-  word_document:
-    toc: yes
-  pdf_document:
-    toc: yes
-  html_document:
-    toc: yes
-    toc_float: yes
+title: Mathématique financière, niveau lycée
+author: Goldentz Grahamz
+date: '2020-05-28'
+categories: []
+tags:
+  - rmarkdown
+subtitle: ''
+summary: 'Eine kleine Hilfe in der Finanzmathematikbereich für meine kleine Schwester.'
+authors: []
+lastmod: '2020-05-28T20:45:57-07:00'
+featured: no
+disable_jquery: no
+image:
+  caption: '[Ein Schein mit ein und sieben null naher in 1923 ](http://www.nithart.com/images/monnaies/inflalle/dmwiesba.jpg)'
+  focal_point: ''
+  preview_only: no
+projects: []
+math: true
 ---
+# Übung 1
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
-library(ggplot2) ## For ggplot
-rm(list = ls())
+## Teil a
 
-``````
-
-# Exercice 1
-
-## Partie a
-
-En début de période, soit $n=0$, notre chère Perrine dispose d'un capital de $8000$ euros, on note $C_0=8000$ (Mashallah).   
-Ne sachant pas quoi faire de cet argent, elle place ce capital à la banque contre paiement d'intérêt (Attention connerie scolaire, c'est pas comme ça que cela se passe, mais passons).  
-Cet interêt proposé par la banque est de $r=0.038$.    
-Cette banque nous font payés ce service (ah les bâtards), soit $F=76$ euros.    
-Ainsi à la fin de l'année, nous récupérons notre capital, le taux d'interet issue du capital, cependant nous devons payer les frais bancaire, on note :    
+Im Anfang der Period, sei $n=0$, unser Perrine hat ein Kapital von $8000$ euros, man schreibt $C_0=8000$.   
+    
+Sie weiss nicht wie sein Geld aus gibt, sie stielht sein Geld in einer Konto mit Interesse, es ist nicht genau das aber man vereinfacht.  
+In dies Übung beträgt die Intersesse $r=0.038$.    
+Man bezählt auch ein fest kosten, $F=76$ euros.    
+In ende des Jahr, Sse holt die Interesse auf die Kapital minus die Festkost man schreibt  :    
 $C_1=C_0+r*C_0-(1*F)$    
 $C_1=(1+r)*C_0-F$  
-  
-En supposant que ce nouveau capital $C_1$ soit placé de la même manière :  
+      
+Vorausgesetzt, das dieses Kapital $C_1$ wieder stiehlen wird, mit der gleich Bedingung der letzte mal, man sieht :
 $C_2=(1+r)*C_1-F$  
-En généralisant pour tout $n \in N$, on obtient la relation de recurrence :  
+Vorausgesetzt für alle $n \in N$, man erhalt die Rekursionsrelation :  
 $C_n=(1+r)*C_{n-1}-F$  
   
-## Partie b
+## Teil b
   
 On note  
 $D_n=C_n-2000$  
