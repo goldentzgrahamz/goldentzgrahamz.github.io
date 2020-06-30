@@ -26,7 +26,7 @@ font = ""
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "L"
+font_size = "S"
 
 ############################
 ## Basic Info
@@ -62,7 +62,7 @@ highlight_languages = ["r"]  # Add support for highlighting additional languages
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = false
+math = true
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
@@ -104,7 +104,7 @@ directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Jeden Tag ausser für Wochenende 8:00 to 12:00 - 13:00 to 17:00"]
+office_hours = ["Jeden Tag ausser für Wochenende von 8:00 bis 12:00 und von 13:00 bis 17:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""
@@ -112,8 +112,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "discord", icon_pack = "fab", name = "Reden auf Discord,(GoldentzGrahamz#4609)", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discord.com/"},
+  {icon = "discord", icon_pack = "fab", name = "Reden auf Discord : GoldentzGrahamz#4609", link = "https://discord.com/"},
   ]
 
 ############################
@@ -137,7 +136,7 @@ date_format = "Jan 2, 2006"
 time_format = "3:04 PM"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
-address_format = "en-us"
+address_format = "de"
 
 ############################
 ## Advanced

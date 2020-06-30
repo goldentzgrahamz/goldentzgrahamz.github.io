@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Goldentz Grahamz</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>Goldentz Grahamz</title>
@@ -141,7 +141,7 @@ On peut vérifier par le calcul&lt;br /&gt;
 &lt;h1&gt;Graphique&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: le package &amp;#39;ggplot2&amp;#39; a été compilé avec la version R 3.6.3&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/autre/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//post/autre/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -398,16 +398,15 @@ Three
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       <guid>/privacy/</guid>
-      <description>&lt;p&gt;My 
-&lt;a href=&#34;/post/&#34;&gt;blog posts&lt;/a&gt; are released under a 
-&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Meine 
+&lt;a href=&#34;/post/&#34;&gt;blog posts&lt;/a&gt; wird unter einer [Creative Commons Attribution-ShareAlike 4.0 International License] veröffentlicht (&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/)&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/)&lt;/a&gt;.&lt;/p&gt;
 &lt;center&gt;
 &lt;i class=&#34;fab fa-creative-commons fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-by fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-sa fa-2x&#34;&gt;&lt;/i&gt;
 &lt;/center&gt;</description>
     </item>
     
     <item>
-      <title>Terms</title>
+      <title>Begriffe</title>
       <link>/terms/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       <guid>/terms/</guid>
@@ -436,23 +435,11 @@ Three
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>A Fully Homomorphic Encryption Scheme</title>
+      <link>/publication/these/</link>
+      <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/these/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -519,7 +506,7 @@ On peut vérifier par le calcul&lt;br /&gt;
 &lt;div id=&#34;graphique&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Graphique&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/courses/example/DmSarah_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//courses/example/DmSarah_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
