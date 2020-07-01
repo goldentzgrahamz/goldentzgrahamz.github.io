@@ -24,17 +24,22 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
+    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/rmarkdown/</loc>
-    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
+    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
+    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/homorphic-encryption/</loc>
+    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
   </url>
   
   <url>

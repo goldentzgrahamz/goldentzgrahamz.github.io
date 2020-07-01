@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="translate(0 114.127) scale(0.634921)"><svg style="font-weight:bold; font-size:12pt; font-family:'Calibri', Helvetica, sans-serif;;stroke-width:1;stroke-linejoin:round;stroke-linecap:round" viewBox="0 0 1575 428" width="1575" height="428" xmlns:ev="http://www.w3.org/2001/xml-events" baseProfile="full" version="1.1">
+  <title>nomnoml</title>
+  <desc>
+#fill: #FEFEFF
+#lineWidth: 1
+#zoom: 4
+#direction: right
+
+
+[&lt;frame&gt;Homomorpher Kryptographie|
+  [&lt;abstract&gt;Nachricht von Alice1||+ Publische Schlussel K]
+  [&lt;abstract&gt;Nachricht von Alice2||+ Publische Schlussel K]
+  [&lt;abstract&gt;Bob|| + Privatishce Schlussel DK]
+  [&lt;abstract&gt;Drittenperson|| + Operation 0 und Speichern S]
+  [Alice1]
+  [&lt;abstract&gt;Alice1||+ PK und DK]
+  [&lt;abstract&gt;Alice2||+ PK und DK]
+
+
+
+  [Nachricht von Alice1]K -&gt; [KryptetNachricht1]
+  [Nachricht von Alice2]K -&gt; [KryptetNachricht2]
+  
+  [KryptetNachricht1]--&gt; [Drittenperson]
+  [KryptetNachricht2] --&gt; [Drittenperson]
+  
+  [Drittenperson] S--&gt; [Speichern]
+  
+  [Drittenperson] O--&gt; [MetaKryptetNachricht]
+  [MetaKryptetNachricht] --&gt;[Bob]
+  [Bob] DK -&gt;[MetaNachricht]
+  
+  [Alice1] &lt;------&gt; [Speichern]
+  [Alice2] &lt;------&gt; [Speichern]
+
+]
+</desc>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="13.5" y="13.5" width="1549" height="402"/>
+  <text style="fill: #33322E;font-weight:normal;" x="21.5" y="35">Homomorpher Kryptographie</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 13.5 44.5 L 259 44.5 L 274.5 29 L 274.5 13.5"/>
+  <text style="fill: #33322E;font-weight:normal;" x="269.5" y="387.5">K</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 261.5 367.5 L 281.5 367.5 L 301.5 367.5 L 301.5 367.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 288.2 372.8 L 294.8 367.5 L 288.2 362.2 L 301.5 367.5 Z"/>
+  <text style="fill: #33322E;font-weight:normal;" x="269.5" y="277.5">K</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 261.5 257.5 L 281.5 257.5 L 301.5 257.5 L 301.5 257.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 288.2 262.8 L 294.8 257.5 L 288.2 252.2 L 301.5 257.5 Z"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:4 4;" d="M 479.5 367.5 L 499.5 367.5 L 559.9 347.5 L 559.9 347.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 548.9 356.8 L 553.5 349.6 L 545.5 346.6 L 559.9 347.5 Z"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:4 4;" d="M 479.5 257.5 L 499.5 257.5 L 559.9 277.5 L 559.9 277.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 545.5 278.4 L 553.5 275.4 L 548.9 268.2 L 559.9 277.5 Z"/>
+  <text style="fill: #33322E;font-weight:normal;" x="794" y="273.7">S</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:4 4;" d="M 811.5 281.7 L 831.5 277.5 L 931.1 218 L 931.1 218"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 922.4 229.4 L 925.3 221.4 L 916.9 220.3 L 931.1 218 Z"/>
+  <text style="fill: #33322E;font-weight:normal;" x="794" y="350.1">O</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:4 4;" d="M 811.5 330.1 L 831.5 332.5 L 851.5 332.5 L 851.5 332.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 838.2 337.8 L 844.8 332.5 L 838.2 327.2 L 851.5 332.5 Z"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:4 4;" d="M 1062.5 332.5 L 1082.5 332.5 L 1102.5 332.5 L 1102.5 332.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 1089.2 337.8 L 1095.8 332.5 L 1089.2 327.2 L 1102.5 332.5 Z"/>
+  <text style="fill: #33322E;font-weight:normal;" x="1373.5" y="352.5">DK</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 1365.5 332.5 L 1385.5 332.5 L 1405.5 332.5 L 1405.5 332.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 1392.2 337.8 L 1398.8 332.5 L 1392.2 327.2 L 1405.5 332.5 Z"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:4 4;" d="M 726 202.5 L 831.5 202.5 L 906 202.5 L 906 202.5"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 892.7 207.8 L 899.3 202.5 L 892.7 197.2 L 906 202.5 Z"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 739.3 197.2 L 732.7 202.5 L 739.3 207.8 L 726 202.5 Z"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:4 4;" d="M 726 92.5 L 831.5 92.5 L 939.3 187 L 939.3 187"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 925.8 182.2 L 934.3 182.6 L 932.8 174.2 L 939.3 187 Z"/>
+  <path style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;" d="M 739.3 87.2 L 732.7 92.5 L 739.3 97.8 L 726 92.5 Z"/>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="26.5" y="332.5" width="235" height="70"/>
+  <text style="fill: #33322E;font-weight:normal;font-style:italic;text-anchor: middle;" x="144" y="354">Nachricht von Alice1</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 26.5 363.5 L 261.5 363.5"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 26.5 371.5 L 261.5 371.5"/>
+  <text style="fill: #33322E;font-weight:normal;" x="34.5" y="393">+ Publische Schlussel K</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="26.5" y="222.5" width="235" height="70"/>
+  <text style="fill: #33322E;font-weight:normal;font-style:italic;text-anchor: middle;" x="144" y="244">Nachricht von Alice2</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 26.5 253.5 L 261.5 253.5"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 26.5 261.5 L 261.5 261.5"/>
+  <text style="fill: #33322E;font-weight:normal;" x="34.5" y="283">+ Publische Schlussel K</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="1102.5" y="297.5" width="263" height="70"/>
+  <text style="fill: #33322E;font-weight:normal;font-style:italic;text-anchor: middle;" x="1234" y="319">Bob</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 1102.5 328.5 L 1365.5 328.5"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 1102.5 336.5 L 1365.5 336.5"/>
+  <text style="fill: #33322E;font-weight:normal;" x="1110.5" y="358">+ Privatishce Schlussel DK</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="519.5" y="277.5" width="292" height="70"/>
+  <text style="fill: #33322E;font-weight:normal;font-style:italic;text-anchor: middle;" x="665.5" y="299">Drittenperson</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 519.5 308.5 L 811.5 308.5"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 519.5 316.5 L 811.5 316.5"/>
+  <text style="fill: #33322E;font-weight:normal;" x="527.5" y="338">+ Operation 0 und Speichern S</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="605.5" y="167.5" width="121" height="70"/>
+  <text style="fill: #33322E;font-weight:normal;font-style:italic;text-anchor: middle;" x="666" y="189">Alice1</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 605.5 198.5 L 726.5 198.5"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 605.5 206.5 L 726.5 206.5"/>
+  <text style="fill: #33322E;font-weight:normal;" x="613.5" y="228">+ PK und DK</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="605.5" y="57.5" width="121" height="70"/>
+  <text style="fill: #33322E;font-weight:normal;font-style:italic;text-anchor: middle;" x="666" y="79">Alice2</text>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 605.5 88.5 L 726.5 88.5"/>
+  <path style="stroke:#33322E;fill:none;stroke-dasharray:none;" d="M 605.5 96.5 L 726.5 96.5"/>
+  <text style="fill: #33322E;font-weight:normal;" x="613.5" y="118">+ PK und DK</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="301.5" y="352.5" width="178" height="31"/>
+  <text style="fill: #33322E;text-anchor: middle;" x="390.5" y="374">KryptetNachricht1</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="301.5" y="242.5" width="178" height="31"/>
+  <text style="fill: #33322E;text-anchor: middle;" x="390.5" y="264">KryptetNachricht2</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="906.5" y="187.5" width="102" height="31"/>
+  <text style="fill: #33322E;text-anchor: middle;" x="957.5" y="209">Speichern</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="851.5" y="317.5" width="211" height="31"/>
+  <text style="fill: #33322E;text-anchor: middle;" x="957" y="339">MetaKryptetNachricht</text>
+  <rect style="stroke:#33322E;fill:#FEFEFF;stroke-dasharray:none;" x="1405.5" y="317.5" width="144" height="31"/>
+  <text style="fill: #33322E;text-anchor: middle;" x="1477.5" y="339">MetaNachricht</text>
+</svg></g></svg>
