@@ -24,22 +24,32 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
+    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/rmarkdown/</loc>
-    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
+    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
+    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/homorphic-encryption/</loc>
-    <lastmod>2020-06-29T20:45:57-07:00</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/goldentz-grahamz/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,11 +88,6 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2009-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/craig-gentry/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -94,10 +99,6 @@
   
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/goldentz-grahamz/</loc>
   </url>
   
 </urlset>

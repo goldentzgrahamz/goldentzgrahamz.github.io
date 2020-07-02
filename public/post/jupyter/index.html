@@ -664,11 +664,21 @@
   <div class="article-container">
 
     <div class="article-style">
-      <pre><code class="language-python">from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
+      <pre><code class="language-python">import sys
+import os
+import phe as phe 
+from phe import paillier
 </code></pre>
 <p><img src="./index_1_0.png" alt="png"></p>
-<pre><code class="language-python">print(&quot;Welcome to Academic!&quot;)
+<pre><code class="language-python">pub_key,priv_key = paillier.generate_paillier_keypair() 
+# On genere une cle prive et une cle publique
+
+x=int(100)
+enc1 = pub_key.encrypt(x)
+print(&quot;Choix&quot; )
+print(x)
+print(&quot;Krypte 1&quot;)
+print(enc1.ciphertext())
 </code></pre>
 <pre><code>Welcome to Academic!
 </code></pre>

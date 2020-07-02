@@ -105,93 +105,61 @@ On peut vérifier par le calcul&lt;br /&gt;
     </item>
     
     <item>
-      <title>RSA teil homomorpher mit Multplikation</title>
-      <link>/post/homorphic-encryption/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/homorphic-encryption/</guid>
-      <description>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/post/jupyter/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import sys
+import os
+import phe as phe 
+from phe import paillier
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pub_key,priv_key = paillier.generate_paillier_keypair() 
+# On genere une cle prive et une cle publique
 
+x=int(100)
+enc1 = pub_key.encrypt(x)
+print(&amp;quot;Choix&amp;quot; )
+print(x)
+print(&amp;quot;Krypte 1&amp;quot;)
+print(enc1.ciphertext())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+jupyter lab index.ipynb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My post&#39;s title
+date: 2019-09-01
 
-&lt;p&gt;Homomorpher Kryptographie mit R, ein Regression mit ein Regressor&lt;/p&gt;
-&lt;p&gt;Klein Erklarung ber homorpher Kryptographie&lt;/p&gt;
-&lt;p&gt;Es gibt immer die folgen Situation :
-&#34;Alice möchte Bob eine Nachricht zukommen lassen und sie möchte, dass nur Bob die Nachricht lesen kann“&lt;/p&gt;
-&lt;p&gt;Fur das, kann Alice&lt;/p&gt;
-&lt;p&gt;Nehmen wir an, dass es viele Alice gibt und sie wollen Bob eine Mega-Nachricht zukommen lassen aber nicht die einzige Nachricht. Niemals soll die einzige Nachricht können sehen.&lt;/p&gt;
-&lt;p&gt;Hier ist der Job von Susie, sie gibt die Krypto-Nachricht und sie macht die Mega-KryptoNachricht&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::include_graphics(&amp;quot;index.svg&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;index.svg&#34; /&gt;&lt;!-- --&gt;
-## RSA ist teil homomorpher.&lt;/p&gt;
-&lt;p&gt;Hier ist nicht ein Demonstrotion, sondern ein klein “implementation”
-von der Algorithmus, der man auf Wikipedia-Seite finden kann.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Implementation RSA
-library(numbers) #Inverse mdoulaire&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: le package &amp;#39;numbers&amp;#39; a été compilé avec la version R 3.6.3&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#################
-#creation des cle
-#################
-
-# Public
-#Choisis deux nombre premier (Secret)
-p1 &amp;lt;- 971
-p2 &amp;lt;- 383
-
-#Multiplie les deux nombres chosii
-n &amp;lt;- p1*p2 #Public key 1 or encryption key 1 : Decomposition difficile
-
-#Calcul le nombre de premeier entre 1 et n qui n&amp;#39;est autre
-phi.n &amp;lt;- (p1-1)*(p2-1)
-
-#On choisit e tel 2 que inférieur à phi.n (Généralement doit être grand)
-e &amp;lt;- 7 #Public key 2 or encryption key 2 : Potentiellement long si phi.n grand
-
-#On crée la clé privée - decrypt key
-d &amp;lt;- modinv(e,phi.n)
-
-#Encypt fonction
-encypt &amp;lt;- function(msg) {
-  p &amp;lt;- 1
-  a1 &amp;lt;- msg
-  for (i in 1:e){
-    p &amp;lt;- p*a1
-    p &amp;lt;- p%%n
-    i &amp;lt;- i+1
-  }
-  return(p)
-}
-
-#Decrypt
-decrypt &amp;lt;-function(c){
-  p &amp;lt;- 1
-  a1 &amp;lt;- c
-  for (i in 1:d) {
-    p &amp;lt;- p*a1
-    p &amp;lt;- p%%n
-    i &amp;lt;- i+1
-  }
-  return(p)
-}
-
-#Test homomorphe pour l&amp;#39;addition
-x &amp;lt;- 5
-y &amp;lt;- 19
-z &amp;lt;- x*y
-zadd &amp;lt;- x + y
-
-xprime &amp;lt;-encypt(5)
-yprime &amp;lt;- encypt(19)
-zprime &amp;lt;- xprime * yprime
-zprimeadd &amp;lt;- xprime + yprime
-
-
-decrypt(zprime)==z&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Fonctionne donc pour la multiplication
-decrypt(zprimeadd)==z&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;decrypt(zprimeadd)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 65097&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# ne fonctionne pas pour l&amp;#39;addition&lt;/code&gt;&lt;/pre&gt;
+# Put any other Academic metadata here...
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the metadata of your post, using the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
