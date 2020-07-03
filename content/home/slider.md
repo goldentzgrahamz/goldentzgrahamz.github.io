@@ -24,8 +24,8 @@ height = "325px"
   overlay_img = "headers/daisy.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
   
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
 
@@ -38,8 +38,8 @@ height = "325px"
   overlay_img = "headers/tulip.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
   
@@ -52,8 +52,8 @@ height = "325px"
   overlay_img = "headers/bees.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
   
@@ -66,8 +66,8 @@ height = "325px"
   overlay_img = "headers/bats.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
   
@@ -80,8 +80,8 @@ height = "325px"
   overlay_img = "headers/daisy-gray.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
   
@@ -94,8 +94,8 @@ height = "325px"
   overlay_img = "headers/pheasants.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
   
@@ -108,8 +108,8 @@ height = "325px"
   overlay_img = "headers/pomegranate.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
   
@@ -122,8 +122,8 @@ height = "325px"
   overlay_img = "headers/birds.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
   
@@ -136,8 +136,8 @@ height = "325px"
   overlay_img = "headers/lacrim.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
-  cta_label = "see my projects"
-  cta_url = "/projects"
+  cta_label = "Guck mal meine Zeitung"
+  cta_url = "/post"
   cta_icon_pack = "fas"
   cta_icon = "spa"
 +++

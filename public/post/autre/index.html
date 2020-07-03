@@ -236,7 +236,7 @@
   
   <meta property="og:site_name" content="Goldentz Grahamz">
   <meta property="og:url" content="/post/autre/">
-  <meta property="og:title" content="Mathématique financière, niveau lycée | Goldentz Grahamz">
+  <meta property="og:title" content="Finanzmathematik, Gymnasiumstufe | Goldentz Grahamz">
   <meta property="og:description" content="Eine kleine Hilfe in der Finanzmathematikbereich für meine kleine Schwester."><meta property="og:image" content="/post/autre/featured.jpg">
   <meta property="twitter:image" content="/post/autre/featured.jpg"><meta property="og:locale" content="ge">
   
@@ -269,7 +269,7 @@
     "@type": "WebPage",
     "@id": "/post/autre/"
   },
-  "headline": "Mathématique financière, niveau lycée",
+  "headline": "Finanzmathematik, Gymnasiumstufe",
   
   "image": [
     "/post/autre/featured.jpg"
@@ -309,7 +309,7 @@
 
 
 
-  <title>Mathématique financière, niveau lycée | Goldentz Grahamz</title>
+  <title>Finanzmathematik, Gymnasiumstufe | Goldentz Grahamz</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -580,7 +580,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Mathématique financière, niveau lycée</h1>
+  <h1>Finanzmathematik, Gymnasiumstufe</h1>
 
   
 
@@ -609,7 +609,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -659,58 +659,88 @@
 <h1>Übung 1</h1>
 <div id="teil-a" class="section level2">
 <h2>Teil a</h2>
-<p>Im Anfang der Period, sei <span class="math inline">\(n=0\)</span>, unser Perrine hat ein Kapital von <span class="math inline">\(8000\)</span> euros, man schreibt <span class="math inline">\(C_0=8000\)</span>.</p>
-<p>Sie weiss nicht wie sein Geld aus gibt, sie stielht sein Geld in einer Konto mit Interesse, es ist nicht genau das aber man vereinfacht.<br />
-In dies Übung beträgt die Intersesse <span class="math inline">\(r=0.038\)</span>.<br />
-Man bezählt auch ein fest kosten, <span class="math inline">\(F=76\)</span> euros.<br />
-In ende des Jahr, Sse holt die Interesse auf die Kapital minus die Festkost man schreibt :<br />
-<span class="math inline">\(C_1=C_0+r*C_0-(1*F)\)</span><br />
+<p><span style="text-decoration: underline">(Zeigen Sie, dass das Kapital auf ein Konto ein Beziehungwiederholung ist)</span></p>
+<p>Am Anfang der Periode, sei <span class="math inline">\(n=0\)</span>, unser Perrine hat ein Kapital von <span class="math inline">\(8000\)</span> euros, man schreibt <span class="math inline">\(C_0=8000\)</span>.</p>
+<p>Sie weißt nicht wie sein Geld aus gibt, sie legt sein Geld in einem Konto mit Interesse an, es ist nicht genau wie das aber man vereinfacht.</p>
+<p>In diese Übung beträgt die Interesse <span class="math inline">\(r=0.038\)</span>.<br />
+Man bezahlt auch ein fest kosten, <span class="math inline">\(F=76\)</span> euros.</p>
+<p>Am Ende des Jahres, sie holt die Interesse auf die Kapital, minus die Festkost, man schreibt :</p>
+<p><span class="math inline">\(C_1=C_0+r*C_0-(1*F)\)</span><br />
 <span class="math inline">\(C_1=(1+r)*C_0-F\)</span></p>
-<p>Vorausgesetzt, das dieses Kapital <span class="math inline">\(C_1\)</span> wieder stiehlen wird, mit der gleich Bedingung der letzte mal, man sieht :
-<span class="math inline">\(C_2=(1+r)*C_1-F\)</span><br />
-Vorausgesetzt für alle <span class="math inline">\(n \in N\)</span>, man erhalt die Rekursionsrelation :<br />
-<span class="math inline">\(C_n=(1+r)*C_{n-1}-F\)</span></p>
+<p>Angenommen, dieses Kapital <span class="math inline">\(C_1\)</span> wieder angelegt wird, mit der gleich Bedingung der letzte Mal, man sieht:
+<span class="math inline">\(C_2=(1+r)*C_1-F\)</span></p>
+<p>Vorausgesetzt, dass für alle <span class="math inline">\(n \in N\)</span>, erhält man die Rekursionsrelation : <span class="math inline">\(C_n=(1+r)*C_{n-1}-F\)</span></p>
 </div>
 <div id="teil-b" class="section level2">
 <h2>Teil b</h2>
-<p>On note<br />
-<span class="math inline">\(D_n=C_n-2000\)</span><br />
+<p><span style="text-decoration: underline">(Zeigen Sie, dass <span class="math inline">\(D_n\)</span> eine geometrische Reihenfolge ist.)</span></p>
+<p>Man schreibt :</p>
+<p><span class="math inline">\(D_n=C_n-2000\)</span><br />
 <span class="math inline">\(D_n=(1+r)C_{n-1}-F-2000\)</span><br />
-<span class="math inline">\(D_n=(1+r)C_{n-1}-(F+2000)\)</span><br />
-A partir de là, il faut remarquer que pour <span class="math inline">\(r=0.038\)</span> et <span class="math inline">\(F=76\)</span> nous avons <span class="math inline">\((1+r)2000=2000+F\)</span> ainsi<br />
-<span class="math inline">\(D_n=(1+r)C_{n-1}-(1+r)2000\)</span><br />
+<span class="math inline">\(D_n=(1+r)C_{n-1}-(F+2000)\)</span></p>
+<p>Von dort, kann man merken, dass für <span class="math inline">\(r=0.038\)</span> und <span class="math inline">\(F=76\)</span> , wir haben <span class="math inline">\((1+r)2000=2000+F\)</span> also :</p>
+<p><span class="math inline">\(D_n=(1+r)C_{n-1}-(1+r)2000\)</span><br />
 <span class="math inline">\(D_n=(1+r)(C_{n-1}-2000)\)</span><br />
-<span class="math inline">\(D_n=(1+r)D_{n-1}\)</span><br />
-Si l’on pose <span class="math inline">\(q=(1+r)\)</span> nous obtenons bien la définition d’une suite géométrique, ainsi <span class="math inline">\(D_n\)</span> est une suite géométrique de raison <span class="math inline">\(q=(1+r)\)</span> et de premier terme <span class="math inline">\(D_0=C_0-2000=8000-2000=6000\)</span></p>
+<span class="math inline">\(D_n=(1+r)D_{n-1}\)</span></p>
+<p>Wenn man schreibt <span class="math inline">\(q=(1+r)\)</span>, wir haben doch die Definition von eine geometrische Reihenfolge , also <span class="math inline">\(D_n\)</span> ist eine geometrishe Reihenfolge mit Faktor <span class="math inline">\(q=(1+r)\)</span> und erste Term <span class="math inline">\(D_0=C_0-2000=8000-2000=6000\)</span>.</p>
+</div>
+<div id="teil-c" class="section level2">
+<h2>Teil c</h2>
+<p><span style="text-decoration: underline">(Wie viel Geld bekommt Perinne nach zehn Jahren ?)</span></p>
+<p>Man kann immer eine geometrsiche Reihenfolgen in Form von <span class="math inline">\(D_n=q^nD_0\)</span> geschrieben, tatsächlich :</p>
+<p>Wenn K est un kommutativer Körper – zum Beispiel ℝ (realer Körper) oder ℂ (komplex Körper) – und wenn <span class="math inline">\({\displaystyle (u_{n})_{n\in \mathbb {N} }}\)</span> ein geometrsiche Reihenfolge von K mit Faktor q ∈ K ist, also wir haben für allen natürlichen Ganzzahlen <span class="math inline">\(n\)</span> :</p>
+<p><span class="math inline">\({\displaystyle u_{n}=u_{0}q^{n}}\)</span></p>
+<p>Man schreibt die Gleichheit <span class="math inline">\(C_n-2000=(1+r)^nD_0\)</span><br />
+<span class="math inline">\(C_n=(1+r)^nD_0+2000\)</span></p>
+<p>Ersetzen Sie <span class="math inline">\(r=0.038\)</span> ; <span class="math inline">\(n=10\)</span> und <span class="math inline">\(D_0=6000\)</span> :</p>
+<p>Wir erhalten <span class="math inline">\(C_{10}=1.038^{10}*6000+2000=10712.14\)</span>, die Kapital bekommt nach <span class="math inline">\(n=10\)</span> Jahre.</p>
 </div>
 <div id="partie-c" class="section level2">
 <h2>Partie c</h2>
-<p>Une suite géométrique peut toujour s’écrire sous la forme <span class="math inline">\(D_n=q^nD_0\)</span> en effet :<br />
-Si K est un corps commutatif – par exemple ℝ (corps des réels) ou ℂ (corps des complexes) – et si <span class="math inline">\({\displaystyle (u_{n})_{n\in \mathbb {N} }}\)</span> est une suite géométrique de K de raison q ∈ K alors, pour tout entier naturel <span class="math inline">\(n\)</span> :</p>
-<p><span class="math inline">\({\displaystyle u_{n}=u_{0}q^{n}}\)</span></p>
-<p>On pose l’égalité <span class="math inline">\(C_n-2000=(1+r)^nD_0\)</span><br />
-<span class="math inline">\(C_n=(1+r)^nD_0+2000\)</span></p>
-<p>En rempaçant <span class="math inline">\(r=0.038\)</span> ; <span class="math inline">\(n=10\)</span> et <span class="math inline">\(D_0=6000\)</span> on obtient <span class="math inline">\(C_{10}=1.038^{10}*6000+2000=10712.14\)</span>, le capital obtenue après <span class="math inline">\(n=10\)</span> ans de placement.</p>
-</div>
-<div id="partie-c-1" class="section level2">
-<h2>Partie c</h2>
-<p>On cherche <span class="math inline">\(n^*\)</span> tel que <span class="math inline">\(C_{n*}=2C_0\)</span> ainsi<br />
-<span class="math inline">\(2C_0=(1+r)^{n^\star}*D_0+2000\)</span><br />
-<span class="math inline">\(2C_0-2000=(1+r)^{n^\star}*D_0\)</span><br />
-<span class="math inline">\(\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}\)</span><br />
-<span class="math inline">\(log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)\)</span><br />
+<p><span style="text-decoration: underline">(Wie viel Jahren braucht man um das Kapitatl zu verdoppeln ?)</span></p>
+<p>Man sucht <span class="math inline">\(n^*\)</span> sowie <span class="math inline">\(C_{n*}=2C_0\)</span> also :</p>
+<p><span class="math inline">\(2C_0=(1+r)^{n^\star}*D_0+2000\)</span><br />
+<span class="math inline">\(2C_0-2000=(1+r)^{n^\star}*D_0\)</span></p>
+<p><span class="math inline">\(\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}\)</span></p>
+<p><span class="math inline">\(log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)\)</span><br />
 <span class="math inline">\(log(2C_0-2000)-log(D_0)=n^{\star}*log(1+r)\)</span></p>
 <p><span class="math inline">\(n^{\star}=\frac{log(2C_0-2000)-log(D_0)}{log(1+r)}\)</span></p>
-<p>En remplaçant <span class="math inline">\(r=0.038\)</span> , <span class="math inline">\(D_0=6000\)</span> et <span class="math inline">\(C_0=8000\)</span><br />
-On obtient <span class="math inline">\(n^{\star}=22.71833\)</span> or <span class="math inline">\(n \in N\)</span> il faut donc attendre la <span class="math inline">\(23\)</span> année pour voir le capital de Perrinne doublé <span class="math inline">\(n^{\star}=23\)</span>.<br />
-On peut vérifier par le calcul<br />
+<p>Man ersetzt <span class="math inline">\(r=0.038\)</span> , <span class="math inline">\(D_0=6000\)</span> und <span class="math inline">\(C_0=8000\)</span> :</p>
+<p>Man gibt <span class="math inline">\(n^{\star}=22.71833\)</span> aber <span class="math inline">\(n \in N\)</span>, man soll die <span class="math inline">\(23.\)</span> Jahre warte, um die Kapital doppelt zu sehen <span class="math inline">\(n^{\star}=23\)</span>.</p>
+<p>Man kann mit Kalkül prüfen.<br />
 <span class="math inline">\(C_{23}=(1.038)^{23}*6000 +2000=16147.85\)</span><br />
 <span class="math inline">\(C_{22}=(1.038)^{22}*6000 +2000=15629.91\)</span></p>
 </div>
 </div>
-<div id="graphique" class="section level1">
-<h1>Graphique</h1>
-<pre><code>## Warning: le package &#39;ggplot2&#39; a été compilé avec la version R 3.6.3</code></pre>
+<div id="graphik" class="section level1">
+<h1>Graphik</h1>
+<p>NB : Ich weiss nocht nicht, wie ich die “Warnung” auslöschen kann.
+Ich habe die folge Parametre geschreiben, aber passt nicht</p>
+<pre class="r"><code>library(ggplot2)
+
+temps &lt;- seq(1,31)
+r &lt;- 0.038
+C_0 &lt;- 8000
+D_0 &lt;- 6000
+C &lt;- rep(0,30)
+C[1] &lt;- C_0
+D &lt;- rep(0,30)
+D[1] &lt;- 6000
+for (i in 1:30){
+    C[i+1]&lt;-(1+r)^i*D_0+2000
+}
+for (i in 1:30){
+  D[i+1]&lt;-C[i+1]-2000
+}
+temps &lt;- temps-1
+data_C &lt;- data.frame(C,temps)
+
+ggplot(data_C, aes(x = temps, y = C))+ 
+      geom_point(size=2.5,label=&quot;C&quot;) + 
+      ggtitle(&quot;Die Kapital&quot;) +
+      facet_grid(labeller = label_value) +
+      geom_hline(yintercept = 16000)+
+      geom_vline(xintercept = 23)</code></pre>
 <pre><code>## Warning: Ignoring unknown parameters: label</code></pre>
 <p><img src="//post/autre/index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 </div>
@@ -743,7 +773,7 @@ On peut vérifier par le calcul<br />
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/autre/&amp;text=Math%c3%a9matique%20financi%c3%a8re,%20niveau%20lyc%c3%a9e" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/autre/&amp;text=Finanzmathematik,%20Gymnasiumstufe" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -756,7 +786,7 @@ On peut vérifier par le calcul<br />
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/autre/&amp;t=Math%c3%a9matique%20financi%c3%a8re,%20niveau%20lyc%c3%a9e" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/autre/&amp;t=Finanzmathematik,%20Gymnasiumstufe" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -769,7 +799,7 @@ On peut vérifier par le calcul<br />
       
       
       <li>
-        <a href="mailto:?subject=Math%c3%a9matique%20financi%c3%a8re,%20niveau%20lyc%c3%a9e&amp;body=/post/autre/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Finanzmathematik,%20Gymnasiumstufe&amp;body=/post/autre/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -782,7 +812,7 @@ On peut vérifier par le calcul<br />
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/autre/&amp;title=Math%c3%a9matique%20financi%c3%a8re,%20niveau%20lyc%c3%a9e" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/autre/&amp;title=Finanzmathematik,%20Gymnasiumstufe" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -795,7 +825,7 @@ On peut vérifier par le calcul<br />
       
       
       <li>
-        <a href="whatsapp://send?text=Math%c3%a9matique%20financi%c3%a8re,%20niveau%20lyc%c3%a9e%20/post/autre/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Finanzmathematik,%20Gymnasiumstufe%20/post/autre/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -808,7 +838,7 @@ On peut vérifier par le calcul<br />
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/autre/&amp;title=Math%c3%a9matique%20financi%c3%a8re,%20niveau%20lyc%c3%a9e" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/autre/&amp;title=Finanzmathematik,%20Gymnasiumstufe" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -851,7 +881,7 @@ On peut vérifier par le calcul<br />
       <div class="media-body">
         <h5 class="card-title"><a href="">Goldentz Grahamz</a></h5>
         <h6 class="card-subtitle">Daten Analyst &amp; Chämaleon</h6>
-        <p class="card-text">matter.</p>
+        <p class="card-text">Meine Name, Goldentz jetz der Chef.</p>
         <ul class="network-icon" aria-hidden="true">
   
     

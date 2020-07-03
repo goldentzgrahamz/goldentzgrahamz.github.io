@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Mathématique financière, niveau lycée</title>
+      <title>Finanzmathematik, Gymnasiumstufe</title>
       <link>/post/autre/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       <guid>/post/autre/</guid>
@@ -24,58 +24,88 @@
 &lt;h1&gt;Übung 1&lt;/h1&gt;
 &lt;div id=&#34;teil-a&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Teil a&lt;/h2&gt;
-&lt;p&gt;Im Anfang der Period, sei &lt;span class=&#34;math inline&#34;&gt;\(n=0\)&lt;/span&gt;, unser Perrine hat ein Kapital von &lt;span class=&#34;math inline&#34;&gt;\(8000\)&lt;/span&gt; euros, man schreibt &lt;span class=&#34;math inline&#34;&gt;\(C_0=8000\)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Sie weiss nicht wie sein Geld aus gibt, sie stielht sein Geld in einer Konto mit Interesse, es ist nicht genau das aber man vereinfacht.&lt;br /&gt;
-In dies Übung beträgt die Intersesse &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt;.&lt;br /&gt;
-Man bezählt auch ein fest kosten, &lt;span class=&#34;math inline&#34;&gt;\(F=76\)&lt;/span&gt; euros.&lt;br /&gt;
-In ende des Jahr, Sse holt die Interesse auf die Kapital minus die Festkost man schreibt :&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(C_1=C_0+r*C_0-(1*F)\)&lt;/span&gt;&lt;br /&gt;
+&lt;p&gt;&lt;span style=&#34;text-decoration: underline&#34;&gt;(Zeigen Sie, dass das Kapital auf ein Konto ein Beziehungwiederholung ist)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Am Anfang der Periode, sei &lt;span class=&#34;math inline&#34;&gt;\(n=0\)&lt;/span&gt;, unser Perrine hat ein Kapital von &lt;span class=&#34;math inline&#34;&gt;\(8000\)&lt;/span&gt; euros, man schreibt &lt;span class=&#34;math inline&#34;&gt;\(C_0=8000\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Sie weißt nicht wie sein Geld aus gibt, sie legt sein Geld in einem Konto mit Interesse an, es ist nicht genau wie das aber man vereinfacht.&lt;/p&gt;
+&lt;p&gt;In diese Übung beträgt die Interesse &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt;.&lt;br /&gt;
+Man bezahlt auch ein fest kosten, &lt;span class=&#34;math inline&#34;&gt;\(F=76\)&lt;/span&gt; euros.&lt;/p&gt;
+&lt;p&gt;Am Ende des Jahres, sie holt die Interesse auf die Kapital, minus die Festkost, man schreibt :&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(C_1=C_0+r*C_0-(1*F)\)&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;math inline&#34;&gt;\(C_1=(1+r)*C_0-F\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Vorausgesetzt, das dieses Kapital &lt;span class=&#34;math inline&#34;&gt;\(C_1\)&lt;/span&gt; wieder stiehlen wird, mit der gleich Bedingung der letzte mal, man sieht :
-&lt;span class=&#34;math inline&#34;&gt;\(C_2=(1+r)*C_1-F\)&lt;/span&gt;&lt;br /&gt;
-Vorausgesetzt für alle &lt;span class=&#34;math inline&#34;&gt;\(n \in N\)&lt;/span&gt;, man erhalt die Rekursionsrelation :&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(C_n=(1+r)*C_{n-1}-F\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Angenommen, dieses Kapital &lt;span class=&#34;math inline&#34;&gt;\(C_1\)&lt;/span&gt; wieder angelegt wird, mit der gleich Bedingung der letzte Mal, man sieht:
+&lt;span class=&#34;math inline&#34;&gt;\(C_2=(1+r)*C_1-F\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Vorausgesetzt, dass für alle &lt;span class=&#34;math inline&#34;&gt;\(n \in N\)&lt;/span&gt;, erhält man die Rekursionsrelation : &lt;span class=&#34;math inline&#34;&gt;\(C_n=(1+r)*C_{n-1}-F\)&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;teil-b&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Teil b&lt;/h2&gt;
-&lt;p&gt;On note&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(D_n=C_n-2000\)&lt;/span&gt;&lt;br /&gt;
+&lt;p&gt;&lt;span style=&#34;text-decoration: underline&#34;&gt;(Zeigen Sie, dass &lt;span class=&#34;math inline&#34;&gt;\(D_n\)&lt;/span&gt; eine geometrische Reihenfolge ist.)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Man schreibt :&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(D_n=C_n-2000\)&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-F-2000\)&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-(F+2000)\)&lt;/span&gt;&lt;br /&gt;
-A partir de là, il faut remarquer que pour &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(F=76\)&lt;/span&gt; nous avons &lt;span class=&#34;math inline&#34;&gt;\((1+r)2000=2000+F\)&lt;/span&gt; ainsi&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-(1+r)2000\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-(F+2000)\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Von dort, kann man merken, dass für &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; und &lt;span class=&#34;math inline&#34;&gt;\(F=76\)&lt;/span&gt; , wir haben &lt;span class=&#34;math inline&#34;&gt;\((1+r)2000=2000+F\)&lt;/span&gt; also :&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)C_{n-1}-(1+r)2000\)&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)(C_{n-1}-2000)\)&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)D_{n-1}\)&lt;/span&gt;&lt;br /&gt;
-Si l’on pose &lt;span class=&#34;math inline&#34;&gt;\(q=(1+r)\)&lt;/span&gt; nous obtenons bien la définition d’une suite géométrique, ainsi &lt;span class=&#34;math inline&#34;&gt;\(D_n\)&lt;/span&gt; est une suite géométrique de raison &lt;span class=&#34;math inline&#34;&gt;\(q=(1+r)\)&lt;/span&gt; et de premier terme &lt;span class=&#34;math inline&#34;&gt;\(D_0=C_0-2000=8000-2000=6000\)&lt;/span&gt;&lt;/p&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(D_n=(1+r)D_{n-1}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Wenn man schreibt &lt;span class=&#34;math inline&#34;&gt;\(q=(1+r)\)&lt;/span&gt;, wir haben doch die Definition von eine geometrische Reihenfolge , also &lt;span class=&#34;math inline&#34;&gt;\(D_n\)&lt;/span&gt; ist eine geometrishe Reihenfolge mit Faktor &lt;span class=&#34;math inline&#34;&gt;\(q=(1+r)\)&lt;/span&gt; und erste Term &lt;span class=&#34;math inline&#34;&gt;\(D_0=C_0-2000=8000-2000=6000\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teil-c&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Teil c&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;text-decoration: underline&#34;&gt;(Wie viel Geld bekommt Perinne nach zehn Jahren ?)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Man kann immer eine geometrsiche Reihenfolgen in Form von &lt;span class=&#34;math inline&#34;&gt;\(D_n=q^nD_0\)&lt;/span&gt; geschrieben, tatsächlich :&lt;/p&gt;
+&lt;p&gt;Wenn K est un kommutativer Körper – zum Beispiel ℝ (realer Körper) oder ℂ (komplex Körper) – und wenn &lt;span class=&#34;math inline&#34;&gt;\({\displaystyle (u_{n})_{n\in \mathbb {N} }}\)&lt;/span&gt; ein geometrsiche Reihenfolge von K mit Faktor q ∈ K ist, also wir haben für allen natürlichen Ganzzahlen &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; :&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\({\displaystyle u_{n}=u_{0}q^{n}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Man schreibt die Gleichheit &lt;span class=&#34;math inline&#34;&gt;\(C_n-2000=(1+r)^nD_0\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(C_n=(1+r)^nD_0+2000\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ersetzen Sie &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; ; &lt;span class=&#34;math inline&#34;&gt;\(n=10\)&lt;/span&gt; und &lt;span class=&#34;math inline&#34;&gt;\(D_0=6000\)&lt;/span&gt; :&lt;/p&gt;
+&lt;p&gt;Wir erhalten &lt;span class=&#34;math inline&#34;&gt;\(C_{10}=1.038^{10}*6000+2000=10712.14\)&lt;/span&gt;, die Kapital bekommt nach &lt;span class=&#34;math inline&#34;&gt;\(n=10\)&lt;/span&gt; Jahre.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;partie-c&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Partie c&lt;/h2&gt;
-&lt;p&gt;Une suite géométrique peut toujour s’écrire sous la forme &lt;span class=&#34;math inline&#34;&gt;\(D_n=q^nD_0\)&lt;/span&gt; en effet :&lt;br /&gt;
-Si K est un corps commutatif – par exemple ℝ (corps des réels) ou ℂ (corps des complexes) – et si &lt;span class=&#34;math inline&#34;&gt;\({\displaystyle (u_{n})_{n\in \mathbb {N} }}\)&lt;/span&gt; est une suite géométrique de K de raison q ∈ K alors, pour tout entier naturel &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; :&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\({\displaystyle u_{n}=u_{0}q^{n}}\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;On pose l’égalité &lt;span class=&#34;math inline&#34;&gt;\(C_n-2000=(1+r)^nD_0\)&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(C_n=(1+r)^nD_0+2000\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;En rempaçant &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; ; &lt;span class=&#34;math inline&#34;&gt;\(n=10\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(D_0=6000\)&lt;/span&gt; on obtient &lt;span class=&#34;math inline&#34;&gt;\(C_{10}=1.038^{10}*6000+2000=10712.14\)&lt;/span&gt;, le capital obtenue après &lt;span class=&#34;math inline&#34;&gt;\(n=10\)&lt;/span&gt; ans de placement.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;partie-c-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Partie c&lt;/h2&gt;
-&lt;p&gt;On cherche &lt;span class=&#34;math inline&#34;&gt;\(n^*\)&lt;/span&gt; tel que &lt;span class=&#34;math inline&#34;&gt;\(C_{n*}=2C_0\)&lt;/span&gt; ainsi&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(2C_0=(1+r)^{n^\star}*D_0+2000\)&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(2C_0-2000=(1+r)^{n^\star}*D_0\)&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}\)&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)\)&lt;/span&gt;&lt;br /&gt;
+&lt;p&gt;&lt;span style=&#34;text-decoration: underline&#34;&gt;(Wie viel Jahren braucht man um das Kapitatl zu verdoppeln ?)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Man sucht &lt;span class=&#34;math inline&#34;&gt;\(n^*\)&lt;/span&gt; sowie &lt;span class=&#34;math inline&#34;&gt;\(C_{n*}=2C_0\)&lt;/span&gt; also :&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(2C_0=(1+r)^{n^\star}*D_0+2000\)&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(2C_0-2000=(1+r)^{n^\star}*D_0\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\frac{2C_0-2000}{D_0}=(1+r)^{n^\star}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(log(\frac{2C_0-2000}{D_0})=n^{\star}*log(1+r)\)&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;math inline&#34;&gt;\(log(2C_0-2000)-log(D_0)=n^{\star}*log(1+r)\)&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=\frac{log(2C_0-2000)-log(D_0)}{log(1+r)}\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;En remplaçant &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; , &lt;span class=&#34;math inline&#34;&gt;\(D_0=6000\)&lt;/span&gt; et &lt;span class=&#34;math inline&#34;&gt;\(C_0=8000\)&lt;/span&gt;&lt;br /&gt;
-On obtient &lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=22.71833\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(n \in N\)&lt;/span&gt; il faut donc attendre la &lt;span class=&#34;math inline&#34;&gt;\(23\)&lt;/span&gt; année pour voir le capital de Perrinne doublé &lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=23\)&lt;/span&gt;.&lt;br /&gt;
-On peut vérifier par le calcul&lt;br /&gt;
+&lt;p&gt;Man ersetzt &lt;span class=&#34;math inline&#34;&gt;\(r=0.038\)&lt;/span&gt; , &lt;span class=&#34;math inline&#34;&gt;\(D_0=6000\)&lt;/span&gt; und &lt;span class=&#34;math inline&#34;&gt;\(C_0=8000\)&lt;/span&gt; :&lt;/p&gt;
+&lt;p&gt;Man gibt &lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=22.71833\)&lt;/span&gt; aber &lt;span class=&#34;math inline&#34;&gt;\(n \in N\)&lt;/span&gt;, man soll die &lt;span class=&#34;math inline&#34;&gt;\(23.\)&lt;/span&gt; Jahre warte, um die Kapital doppelt zu sehen &lt;span class=&#34;math inline&#34;&gt;\(n^{\star}=23\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Man kann mit Kalkül prüfen.&lt;br /&gt;
 &lt;span class=&#34;math inline&#34;&gt;\(C_{23}=(1.038)^{23}*6000 +2000=16147.85\)&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;math inline&#34;&gt;\(C_{22}=(1.038)^{22}*6000 +2000=15629.91\)&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;graphique&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Graphique&lt;/h1&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: le package &amp;#39;ggplot2&amp;#39; a été compilé avec la version R 3.6.3&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;graphik&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Graphik&lt;/h1&gt;
+&lt;p&gt;NB : Ich weiss nocht nicht, wie ich die “Warnung” auslöschen kann.
+Ich habe die folge Parametre geschreiben, aber passt nicht&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+
+temps &amp;lt;- seq(1,31)
+r &amp;lt;- 0.038
+C_0 &amp;lt;- 8000
+D_0 &amp;lt;- 6000
+C &amp;lt;- rep(0,30)
+C[1] &amp;lt;- C_0
+D &amp;lt;- rep(0,30)
+D[1] &amp;lt;- 6000
+for (i in 1:30){
+    C[i+1]&amp;lt;-(1+r)^i*D_0+2000
+}
+for (i in 1:30){
+  D[i+1]&amp;lt;-C[i+1]-2000
+}
+temps &amp;lt;- temps-1
+data_C &amp;lt;- data.frame(C,temps)
+
+ggplot(data_C, aes(x = temps, y = C))+ 
+      geom_point(size=2.5,label=&amp;quot;C&amp;quot;) + 
+      ggtitle(&amp;quot;Die Kapital&amp;quot;) +
+      facet_grid(labeller = label_value) +
+      geom_hline(yintercept = 16000)+
+      geom_vline(xintercept = 23)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;//post/autre/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
