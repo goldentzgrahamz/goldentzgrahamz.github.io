@@ -35,29 +35,21 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Ich heiße  GOLLENTZ Quentin, geboren am 25. Juli 1994 im Guebwiller (Frankreich).
+Ich heiße Quentin GOLLENTZ, ich bin am 25. Juli 1994 in Guebwiller (Elsass, Frankreich) geboren.
 
-Zuerst eine kleine Erklärung über mein Bescheid, dass ich meine Webseite auf Deutsch schreiben werde.
+Zuerst möchte ich kurz schildern, was mich dazu veranlasst hat, eine deutsche Internetseite zu erstellen.
 
-Ich will in meiner Heimat leben, nämlich in Elsass, deswegen muss ich die Goethe Sprache lernen, sondern ich finde interessant die Nachbarsprache zu lernen.
+Ich möchte in meiner Heimat leben, aber die Möglichkeit, in Deutschland zu arbeiten und zu leben finde ich ebenfalls interessant.
 
-Wenn man eine Sprachen sprechen will, soll man in jeder Situation die Sprache üben.
+Ich habe einen Master in Ökonometrie und Statistik absolviert und in diesen Bereichen würde ich gerne arbeiten, eine Vorliebe habe ich für die Datenanalyse.
 
-Vielleicht dieses ist es so für jeder Bereich.
+Ich habe Berufserfahrung im Bereich Business Intelligence bei der Firma Sopra Steria sammeln können.
 
-Im Voraus entschuldige ich mich für jeder Fehler, dass ich gemacht habe. Wenn Sie merken einen, bitte, schicken Sie mir eine Nachricht.
+Im Rahmen der französischen öffentlichen Verkehrsmittel besteht mein jetziger Auftrag darin, an der Erneuerung des Informatiksystems (= système informatique) zu arbeiten.
 
-Als junger Absolvent eines Master in Ökonometrie und Statistik möchte ich meinen Beruf ausüben, nämlich die Datenanalyse.
+Ich bin stets offen und lernbereit, was die verschiedenen Möglichkeiten im Bereich der Datenanalyse anbelangt, vorausgesetzt, dass es nicht direkt oder indirekt gegen meinen Moralkodex verstößt.
 
-Ich habe ein wenig Erfahrung im Bereich Business Inteligence bei Soprasteria und insbesondere im Verkehrssektor, in der Tat bin ich derzeit auf einer Mission im Rahmen einer IS-Überholung,
+Die bereichsübergreifenden Aspekte, bzw. die verschiedenen Studienbereiche, welche dieses Fach bietet, weiß ich zu schätzen.
 
-Ich möchte jedoch aufhören, insbesondere um Doktorand zu promovieren.
+Ich interessiere mich für die homomorphe Verschlüsselung, für die Verarbeitung von sensiblen Daten in anonymisierter Form, was für mich ein zukunftsweisendes Thema darstellt.
 
-Ich bin jedoch offen für alle Entwicklungsmöglichkeiten und Lernen im Bereich der Datenanalyse.
-Vorausgestezt, dass es nicht direkt oder indirekt gegen meinen Moralkodex verstößt
-
-Ich mag die transversale Seite, die diese Disziplin bietet und die verschiedenen Studienbereiche, die es erlaubt zu studieren.
-
-Die Implementierung der Computerverarbeitung für verschlüsselte Daten, scheint mir ein Thema der Zukunft in dem Sinne zu sein, dass: Dies würde die Verarbeitung von Informationen ermöglichen als empfindlich angesehen.
-
-Aber zuerst muss ich wirklich mehr darüber lernen seine Umsetzung und Verwendung zu beanspruchen.

@@ -5,12 +5,32 @@
     <link>/tag/rmarkdown/</link>
       <atom:link href="/tag/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <description>rmarkdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>rmarkdown</title>
       <link>/tag/rmarkdown/</link>
     </image>
+    
+    <item>
+      <title>Die Abstimmungverschlüssung der FränzosenBürger.</title>
+      <link>/post/demokratie-daten/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/demokratie-daten/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;https://www.youtube.com/watch?v=ATUilmrCeRg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ist die repräsentative Demokratie ist wirklich ein Demokratie ?&lt;/p&gt;
+&lt;p&gt;Es ist einfach zu denken, dass wir im demokratische Länd leben.
+Wir hören jeden Tag im Zeitung dieses Satz wie wurde ein Physikgesetz.&lt;/p&gt;
+&lt;p&gt;Zu dieseme Thema, sollen wir zu drei Fragen antworten :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Was ist die Demokratie ?&lt;/li&gt;
+&lt;li&gt;Welche Bedingung soll die potentiel Demokratie .&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Finanzmathematik, Gymnasiumstufe</title>
@@ -20,8 +40,13 @@
       <description>
 
 
-&lt;div id=&#34;übung-1&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Übung 1&lt;/h1&gt;
+&lt;p&gt;“Weißt du, das ist der Lauf der Welt.
+Manchmal bist du reich und manchnmal bist du arm, und wenn du oben bist, ist es nie sogut wie es scheint…
+und wenn du unten bist glaubst du du kommst nie wieder nach oben.
+Aber das Leben geht weiter. Vergiss das nie! Geld ist nur Papier
+Darauf kommts nicht an, auch wenn es oft so scheint”.&lt;/p&gt;
+&lt;p&gt;Hier ist es meine erste Artikel, die ich gemacht habe, um meine Schwester zu helfen.
+Es geht um ein Reihenfolge im Finanzbereich, nämlich die Interessezahl.&lt;/p&gt;
 &lt;div id=&#34;teil-a&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Teil a&lt;/h2&gt;
 &lt;p&gt;&lt;span style=&#34;text-decoration: underline&#34;&gt;(Zeigen Sie, dass das Kapital auf ein Konto ein Beziehungwiederholung ist)&lt;/span&gt;&lt;/p&gt;
@@ -76,7 +101,6 @@ Man bezahlt auch ein fest kosten, &lt;span class=&#34;math inline&#34;&gt;\(F=76
 &lt;span class=&#34;math inline&#34;&gt;\(C_{23}=(1.038)^{23}*6000 +2000=16147.85\)&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;math inline&#34;&gt;\(C_{22}=(1.038)^{22}*6000 +2000=15629.91\)&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 &lt;div id=&#34;graphik&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Graphik&lt;/h1&gt;
 &lt;p&gt;NB : Ich weiss nocht nicht, wie ich die “Warnung” auslöschen kann.
@@ -107,7 +131,7 @@ ggplot(data_C, aes(x = temps, y = C))+
       geom_hline(yintercept = 16000)+
       geom_vline(xintercept = 23)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;//post/autre/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/autre/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

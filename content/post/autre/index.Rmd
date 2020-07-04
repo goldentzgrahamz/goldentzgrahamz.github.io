@@ -18,7 +18,20 @@ image:
 projects: []
 math: true
 ---
-# Übung 1
+
+<iframe width="800" height="420"
+  src="https://www.youtube.com/embed/nb9NCjoWIJ8">
+</iframe>
+
+
+"Weißt du, das ist der Lauf der Welt. 
+Manchmal bist du reich und manchnmal bist du arm, und wenn du oben bist, ist es nie sogut wie es scheint...
+und wenn du unten bist glaubst du du kommst nie wieder nach oben. 
+Aber das Leben geht weiter. Vergiss das nie! Geld ist nur Papier
+Darauf kommts nicht an, auch wenn es oft so scheint".
+
+Hier ist es meine erste Artikel, die ich gemacht habe, um meine Schwester zu helfen.
+Es geht um ein Reihenfolge im Finanzbereich, nämlich die Interessezahl.
 
 ## Teil a
 
