@@ -117,8 +117,15 @@ $C_{22}=(1.038)^{22}*6000 +2000=15629.91$
 
 # Graphik
 
-NB : Ich weiss nocht nicht, wie ich die "Warnung" auslöschen kann. 
+NB : Ich weiss nocht nicht, wie ich die "Warnung" auslöschen kann.
+    
 Ich habe die folge Parametre geschreiben, aber passt nicht
+```{r}
+print("```{r message=FALSE}")
+#Wenn jemand die Lôsung hat
+message=FALSE
+print("```")
+```
 
 ```{r, message=FALSE}  
 library(ggplot2)

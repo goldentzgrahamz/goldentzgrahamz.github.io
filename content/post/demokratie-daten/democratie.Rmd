@@ -1,5 +1,5 @@
 ---
-title: "Die Abstimmungverschlüssung der FränzosenBürger."
+title: "De la démocratie conceptuel,à la démocratie empirique : Un critère de mesure"
 author: "Goldentz Grahamz"
 date: '2020-07-04'
 categories: []
@@ -13,21 +13,126 @@ lastmod: '2020-05-28T20:45:57-07:00'
 math: yes
 projects: []
 subtitle: ''
-summary: 'Wir nehmen die Daten auf die franzosen Opendata über das Thema : Die Abstimmungverschlüssung
-  der FränzosenBürger.'
+summary: 'Essai dune tentative de definition quantitative de la notion de democratie.'
 tags:
 - rmarkdown
 - json
 - demokratie
 authors: []
 ---
+<iframe width="800" height="420"
+  src="https://www.youtube.com/embed/YIFwo6lKDhI">
+</iframe>
 
-Ist die repräsentative Demokratie ist wirklich ein Demokratie ?
+# De la pertinence d'une distinction : democratie ou dictature 
+    
+Tel ou tel pays est-il démocratique ou dictatorial ?
+    
+Il est facile d'affirmer que l'on vit dans une démocratie, car c'est ce que l'on entend partout, tout du moins à l'école, et dans certains journaux.
+    
+Il est également régulier d'entendre que tels ou tels pays serait des dictatures, sous-entendu pas des démocraties.
 
-Es ist einfach zu denken, dass wir im demokratische Länd leben.
-Wir hören jeden Tag im Zeitung dieses Satz wie wurde ein Physikgesetz.
+On peut critiquer cette vision manichéenne du problème, en effet il m'apparait que la vérité est plus complexe, et nécessite donc de poser la problématique.
+    
+Néanmoins cette question mérite d'être posé, car il apparait que ci une chose "est", il faut déterminé le critère du "est", pour ensuite déterminer ci la chose 
 
-Zu dieseme Thema, sollen wir zu drei Fragen antworten :
+On peut pour répondre à cette problématique, l'on doit répondre aux questions suivantes :
 
-- Was ist die Demokratie ?
-- Welche Bedingung soll die potentiel Demokratie .
+- Qu'est ce que la démocratie ?
+- Quels sont les conditions que doit respecter la potentiel "democratie" pour être qualifié de tel? 
+- Pouvons nous mesurer ces conditions ?
+- Qu'observe t-on empiriquement ?
+
+# La démocratie, une histoire de commun
+
+Demos = Peuple
+Kratie = Pouvoir
+    
+Pour faire simple, on peut dire que c'est une situation où les membres d'un groupe participe
+à l'lélaboration des règles et leurs application, et est donc le fait de la participation et d'une decision commune des membres du groupe. 
+    
+Definition : Est démocratique tout ce qui est le fruit de décision accepter et réalisés par toute personne pour lesquels s'applique la décision.
+    
+On voit directement ici apparaitre l'importance de la notion de commun pusique qu'en théorie
+il est toujours possible d'arriver à une décision accepter de tous, décider par tous.
+On peut cepent faire l'hypothèse que cette eventualité tend à diminuer à mesure que la taille du groupe augmente.
+    
+Voter à mains lever, semble en effet difficile dans un pays de près de 60 millions d'âme.
+    
+On peut également faire l'hypothèse que la probabilité d'arriver à une décision accepter de tous, décider par tous diminue l'hétérogéneité des individus du groupe en question.
+    
+En effet, si l'on que des Quentin GOLLENTZ dans le groupe la probabilité qu'ils se mettent d'accord est à priori proche de 100%. On peut par opposition faire l'hypothèses qu'une groupe constitué de personnes qui ne s'aimentpas du tout arrivent à se mettre d'accord tend vers 0.
+    
+Si l'on regarde les choses de façon empiriques, l'on constate qu'il n'existe pas de groupes dans lesquels les rêgles sont le fruit d'une décision démocratique, sauf si le groupe est restreint et que ces membres sont sur une même longeur d'onde.
+    
+On peut donc dire que la démocratie est un idéal vers lequel on tend plus au moins.
+    
+On peut faire remarquer la distinction faite entre :
+
+- le mode d'elaboration et d'application de la regle
+- la regle elle-même
+    
+Il est très important de faire la distinction entre ces deux champs bien qu'il est possible que la frontière ne soient pas totalement hermétique. 
+L'hypothèse de travail est que ces deux champs sont distincts.
+    
+Definition : Est plus ou moins démocratique tout ce qui est le fruit de décision plus ou moins accepter et plus ou moins réalisés par les personnes pour lesquels s'applique la décision.
+
+# La democratie, une histoire de pourcentage d'adéquation
+
+J'aimerais faire l'hypothèse de travail ici que malgrès la distinction que j'ai fait précédemment, une democratie est communément qualifié de tel, lorqu'une majorité des personnes sujettes aux regles sont d'accord avec celle-ci, et dont l'accord est exprimer de façon, claire, libre et conscentie.
+
+On peut faire la remarque que dans cette définition de la démocratie, que ce qu'on appelle communément dictature, dans le sens où les regles sont le fait d'un seul homme, peu très bien être démocratique si les membres sont dans leurs majorités d'accord avec les règles. Cependant, empiriquement, ce type de société viole généralement le principe d'un accord exprimé de façon claire, libre et conscentie.
+
+Le mode d'élaboration de la regle n'intervient pas dans la définition (=mesure) de la democratie mais vient influencé sur la probabilité de l'être. On peut faire le apriori qu'une regle realise par l'ensmble des membre, sera egalement acceptés par l'ensmemble des membres.
+
+On
+    
+Cependant ce mode de scrutin n'implique en aucune façon ni le caractère démocratique ni le caractère représentatif, tout du moins pas dans la définition que j'ai faite de la démocratie.
+    
+Le caractère démocratique ne peut être le cas dans notre définition que si les membres sont globalement d'accord avec les regles.
+On peut estimer ce carctère par le fait de prendre un échantillon aléatoire du groupe considéré de leurs proposé de voter les lois en application et de regarder si une majorité de lois votés par les députés élus au scrutin majoritaire le sont aussi.
+
+Le carcatère représentatif est une suite logique de la democratie, tout du moins dans notre définition.
+
+
+Une loi peut-être démocratique ou non dans une société démocra&tique ou non. Par contre si une loi démocratique est voté alors mécaniquement cela fait augmenter le taux de democratie.
+    
+On doit apporter alors la notion de pondération, en effet je peux être d'accord avec la majorité des regles si il existe une regle qui specifie que je suis exclue du champs des regles, dans ce cas là cette loi a pour moi une importance de 100%.
+
+```{r, message=FALSE}  
+library(jsonlite)
+library(dplyr)
+library(stringr)
+
+vote <- fromJSON("VTANR5L15V1899.json", flatten=TRUE)
+vote_contre <- bind_rows(vote[["scrutin"]][["ventilationVotes"]][["organe"]][["groupes"]][["groupe"]][["vote.decompteNominatif.contres.votant"]])
+vote_pour <- bind_rows(vote[["scrutin"]][["ventilationVotes"]][["organe"]][["groupes"]][["groupe"]][["vote.decompteNominatif.pours.votant"]])
+
+vote_contre <- vote_contre[,-2]
+vote_pour <- vote_pour[,-2]
+
+###############
+
+depute <- list.files()
+depute <- depute[substr(depute, 1, 2)=="PA"]
+
+fonction_lecture <- function(fichier){
+  data.frame(fromJSON(fichier, flatten=TRUE)[["acteur"]][["uid"]][3][[1]],
+             fromJSON(fichier, flatten=TRUE)[["acteur"]][["etatCivil"]][["ident"]][["nom"]],
+             fromJSON(fichier, flatten=TRUE)[["acteur"]][["etatCivil"]][["ident"]][["prenom"]])
+}
+
+
+depute_liste<-lapply(depute,fonction_lecture)
+depute_liste <- bind_rows(depute_liste)
+names(depute_liste) <- c("acteurRef","Nom","Prenom")
+
+###########
+vote_contre <- merge(vote_contre, depute_liste, by = "acteurRef")
+vote_pour <- merge(vote_pour, depute_liste, by = "acteurRef")
+
+vote_pour[,c(1,3,4)]
+
+vote_contre[,c(1,3,4)]
+
+```

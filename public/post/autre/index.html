@@ -702,8 +702,14 @@ Man bezahlt auch ein fest kosten, <span class="math inline">\(F=76\)</span> euro
 </div>
 <div id="graphik" class="section level1">
 <h1>Graphik</h1>
-<p>NB : Ich weiss nocht nicht, wie ich die “Warnung” auslöschen kann.
-Ich habe die folge Parametre geschreiben, aber passt nicht</p>
+<p>NB : Ich weiss nocht nicht, wie ich die “Warnung” auslöschen kann.</p>
+<p>Ich habe die folge Parametre geschreiben, aber passt nicht</p>
+<pre class="r"><code>print(&quot;```{r message=FALSE}&quot;)</code></pre>
+<pre><code>## [1] &quot;```{r message=FALSE}&quot;</code></pre>
+<pre class="r"><code>#Wenn jemand die Lôsung hat
+message=FALSE
+print(&quot;```&quot;)</code></pre>
+<pre><code>## [1] &quot;```&quot;</code></pre>
 <pre class="r"><code>library(ggplot2)
 
 temps &lt;- seq(1,31)
@@ -730,7 +736,7 @@ ggplot(data_C, aes(x = temps, y = C))+
       geom_hline(yintercept = 16000)+
       geom_vline(xintercept = 23)</code></pre>
 <pre><code>## Warning: Ignoring unknown parameters: label</code></pre>
-<p><img src="/post/autre/index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><img src="/post/autre/index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
 
     </div>
@@ -931,7 +937,7 @@ ggplot(data_C, aes(x = temps, y = C))+
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/demokratie-daten/democratie/">Die Abstimmungverschlüssung der FränzosenBürger.</a></li>
+      <li><a href="/post/demokratie-daten/democratie/">De la démocratie conceptuel,à la démocratie empirique : Un critère de mesure</a></li>
       
     </ul>
   </div>
