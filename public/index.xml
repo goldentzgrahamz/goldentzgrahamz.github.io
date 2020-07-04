@@ -36,13 +36,12 @@
     
     <item>
       <title>Die Abstimmungverschlüssung der FränzosenBürger.</title>
-      <link>/post/demokratie-daten/</link>
+      <link>/post/demokratie-daten/democratie/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/demokratie-daten/</guid>
+      <guid>/post/demokratie-daten/democratie/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;https://www.youtube.com/watch?v=ATUilmrCeRg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Ist die repräsentative Demokratie ist wirklich ein Demokratie ?&lt;/p&gt;
 &lt;p&gt;Es ist einfach zu denken, dass wir im demokratische Länd leben.
 Wir hören jeden Tag im Zeitung dieses Satz wie wurde ein Physikgesetz.&lt;/p&gt;
@@ -62,6 +61,8 @@ Wir hören jeden Tag im Zeitung dieses Satz wie wurde ein Physikgesetz.&lt;/p&gt
       <description>
 
 
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/nb9NCjoWIJ8&#34;&gt;
+&lt;/iframe&gt;
 &lt;p&gt;“Weißt du, das ist der Lauf der Welt.
 Manchmal bist du reich und manchnmal bist du arm, und wenn du oben bist, ist es nie sogut wie es scheint…
 und wenn du unten bist glaubst du du kommst nie wieder nach oben.
@@ -155,39 +156,6 @@ ggplot(data_C, aes(x = temps, y = C))+
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/autre/index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cryptograhie Homomorphe avec Python</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;h2 id=&#34;test-de-cryptage-dun-nombre&#34;&gt;Test de cryptage d&amp;rsquo;un nombre&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import sys
-import os
-import phe as phe 
-from phe import paillier
-import sys
-from sys import argv
-from ipywidgets import widgets
-
-text = widgets.Text()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pub_key,priv_key = paillier.generate_paillier_keypair() 
-# On genere une cle prive et une cle publique
-
-print(&amp;quot;Choix 1&amp;quot; )
-x=int(input())
-
-enc1 = pub_key.encrypt(x)
-print(&amp;quot;Krypte 1&amp;quot;)
-print(enc1.ciphertext())
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Choix 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

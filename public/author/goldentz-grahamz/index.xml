@@ -5,45 +5,12 @@
     <link>/author/goldentz-grahamz/</link>
       <atom:link href="/author/goldentz-grahamz/index.xml" rel="self" type="application/rss+xml" />
     <description>Goldentz Grahamz</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright>
     <image>
       <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>Goldentz Grahamz</title>
       <link>/author/goldentz-grahamz/</link>
     </image>
-    
-    <item>
-      <title>Cryptograhie Homomorphe avec Python</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;h2 id=&#34;test-de-cryptage-dun-nombre&#34;&gt;Test de cryptage d&amp;rsquo;un nombre&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import sys
-import os
-import phe as phe 
-from phe import paillier
-import sys
-from sys import argv
-from ipywidgets import widgets
-
-text = widgets.Text()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pub_key,priv_key = paillier.generate_paillier_keypair() 
-# On genere une cle prive et une cle publique
-
-print(&amp;quot;Choix 1&amp;quot; )
-x=int(input())
-
-enc1 = pub_key.encrypt(x)
-print(&amp;quot;Krypte 1&amp;quot;)
-print(enc1.ciphertext())
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Choix 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
