@@ -19,11 +19,6 @@ projects: []
 math: true
 ---
 
-<iframe width="800" height="420"
-  src="https://www.youtube.com/embed/nb9NCjoWIJ8">
-</iframe>
-
-
 "Weißt du, das ist der Lauf der Welt. 
 Manchmal bist du reich und manchnmal bist du arm, und wenn du oben bist, ist es nie sogut wie es scheint...
 und wenn du unten bist glaubst du du kommst nie wieder nach oben. 
