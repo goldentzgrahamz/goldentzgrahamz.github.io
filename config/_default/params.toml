@@ -93,7 +93,7 @@ phone = "066413558#"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "25 Parc de la vallée", city = "Buhl", region = "", postcode = "68530", country = "Franckreich", country_code = "FR"}
+address = {street = "Parc de la vallée", city = "Buhl", region = "", postcode = "68530", country = "Franckreich", country_code = "FR"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.

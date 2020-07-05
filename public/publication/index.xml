@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artikel | Goldentz Grahamz</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://goldentzgrahamz.netlify.app/publication/</link>
+      <atom:link href="https://goldentzgrahamz.netlify.app/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Artikel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Tue, 01 Dec 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
+      <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>Artikel</title>
-      <link>/publication/</link>
+      <link>https://goldentzgrahamz.netlify.app/publication/</link>
     </image>
     
     <item>
       <title>A Fully Homomorphic Encryption Scheme</title>
-      <link>/publication/these/</link>
+      <link>https://goldentzgrahamz.netlify.app/publication/these/</link>
       <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
-      <guid>/publication/these/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/publication/these/</guid>
       <description></description>
     </item>
     

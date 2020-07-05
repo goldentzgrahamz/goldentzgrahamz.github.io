@@ -1,5 +1,5 @@
 ---
-title: "De la démocratie conceptuel,à la démocratie empirique : Un critère de mesure"
+title: "De la démocratie conceptuel, à la démocratie empirique : un critère de mesure"
 author: "Goldentz Grahamz"
 date: '2020-07-04'
 categories: []
@@ -13,7 +13,7 @@ lastmod: '2020-05-28T20:45:57-07:00'
 math: yes
 projects: []
 subtitle: ''
-summary: 'Essai dune tentative de definition quantitative de la notion de democratie.'
+summary: 'Essai sur la recherche de definition quantitative de la notion de democratie.'
 tags:
 - rmarkdown
 - json
@@ -27,17 +27,17 @@ authors: []
 # De la pertinence d'une distinction : democratie ou dictature 
     
 Tel ou tel pays est-il démocratique ou dictatorial ?
-    
+        
 Il est facile d'affirmer que l'on vit dans une démocratie, car c'est ce que l'on entend partout, tout du moins à l'école, et dans certains journaux.
     
 Il est également régulier d'entendre que tels ou tels pays serait des dictatures, sous-entendu pas des démocraties.
-
-On peut critiquer cette vision manichéenne du problème, en effet il m'apparait que la vérité est plus complexe, et nécessite donc de poser la problématique.
     
-Néanmoins cette question mérite d'être posé, car il apparait que ci une chose "est", il faut déterminé le critère du "est", pour ensuite déterminer ci la chose 
-
-On peut pour répondre à cette problématique, l'on doit répondre aux questions suivantes :
-
+On peut critiquer cette vision manichéenne du problème, en effet il m'apparait que la vérité est plus complexe, et nécessite donc de poser la problématique, à savoir comment peut-on qualifier un groupe ou société de démocratique, sur la base de quels critères ?
+    
+Cette question mérite d'être posé, car il apparait que ci une chose "est", il faut déterminé le critère du "est", pour ensuite déterminer ci la chose "est".
+    
+On doit pour tenter d'appréhender cette problématique, répondre aux questions suivantes :
+    
 - Qu'est ce que la démocratie ?
 - Quels sont les conditions que doit respecter la potentiel "democratie" pour être qualifié de tel? 
 - Pouvons nous mesurer ces conditions ?
@@ -57,25 +57,27 @@ On voit directement ici apparaitre l'importance de la notion de commun pusique q
 il est toujours possible d'arriver à une décision accepter de tous, décider par tous.
 On peut cepent faire l'hypothèse que cette eventualité tend à diminuer à mesure que la taille du groupe augmente.
     
-Voter à mains lever, semble en effet difficile dans un pays de près de 60 millions d'âme.
+- Voter à mains lever, semble en effet difficile dans un pays de près de 60 millions d'âme.
     
 On peut également faire l'hypothèse que la probabilité d'arriver à une décision accepter de tous, décider par tous diminue l'hétérogéneité des individus du groupe en question.
     
-En effet, si l'on que des Quentin GOLLENTZ dans le groupe la probabilité qu'ils se mettent d'accord est à priori proche de 100%. On peut par opposition faire l'hypothèses qu'une groupe constitué de personnes qui ne s'aimentpas du tout arrivent à se mettre d'accord tend vers 0.
+- En effet, si l'on est que des Quentin GOLLENTZ dans le groupe la probabilité qu'ils se mettent d'accord est à priori proche de 100%, quoique.
+On peut par opposition faire l'hypothèses qu'une groupe constitué de personnes qui ne s'aimentpas du tout arrivent à se mettre d'accord tend vers 0.
     
 Si l'on regarde les choses de façon empiriques, l'on constate qu'il n'existe pas de groupes dans lesquels les rêgles sont le fruit d'une décision démocratique, sauf si le groupe est restreint et que ces membres sont sur une même longeur d'onde.
     
-On peut donc dire que la démocratie est un idéal vers lequel on tend plus au moins.
+On peut donc dire que la démocratie est un idéal vers lequel on tend plus au moins. Définition proposé notamment par Alain Deneault et Jacques Rancière.
     
 On peut faire remarquer la distinction faite entre :
 
-- le mode d'elaboration et d'application de la regle
-- la regle elle-même
+- le mode d'elaboration et d'application de la regle : c'est la constitution qui établit ce que l'on peut appelé des méta-règles ou loi constitunionnel
+- la regle elle-même, ou loi au sens commun du terme.
     
 Il est très important de faire la distinction entre ces deux champs bien qu'il est possible que la frontière ne soient pas totalement hermétique. 
-L'hypothèse de travail est que ces deux champs sont distincts.
     
-Definition : Est plus ou moins démocratique tout ce qui est le fruit de décision plus ou moins accepter et plus ou moins réalisés par les personnes pour lesquels s'applique la décision.
+L'hypothèse de travail est que ces deux champs sont distincts, nous proposons la définition suivante :
+    
+<span style="text-decoration: underline">Définition</span> : Est plus ou moins démocratique tout ce qui est le fruit de décision plus ou moins accepter et plus ou moins réalisés par les personnes pour lesquels s'applique la décision.
 
 # La democratie, une histoire de pourcentage d'adéquation
 
@@ -83,56 +85,134 @@ J'aimerais faire l'hypothèse de travail ici que malgrès la distinction que j'a
 
 On peut faire la remarque que dans cette définition de la démocratie, que ce qu'on appelle communément dictature, dans le sens où les regles sont le fait d'un seul homme, peu très bien être démocratique si les membres sont dans leurs majorités d'accord avec les règles. Cependant, empiriquement, ce type de société viole généralement le principe d'un accord exprimé de façon claire, libre et conscentie.
 
-Le mode d'élaboration de la regle n'intervient pas dans la définition (=mesure) de la democratie mais vient influencé sur la probabilité de l'être. On peut faire le apriori qu'une regle realise par l'ensmble des membre, sera egalement acceptés par l'ensmemble des membres.
+Le mode d'élaboration de la regle n'intervient pas dans la définition (=mesure) de la democratie mais vient influencé sur la probabilité de l'être. On peut faire l'apriori qu'une regle realise par l'ensmble des membre, sera egalement acceptés par l'ensmemble des membres.
 
-On
+On distinguera ce que l'on appelle communément "démocratie representative", en autant de systêmes de décisions.
+
+Par exemple pour le cas francais, on parlera de systeme d'élus au scrutin majoriaire.
+Le caractère démocratique reste à démontrer.
     
 Cependant ce mode de scrutin n'implique en aucune façon ni le caractère démocratique ni le caractère représentatif, tout du moins pas dans la définition que j'ai faite de la démocratie.
     
 Le caractère démocratique ne peut être le cas dans notre définition que si les membres sont globalement d'accord avec les regles.
-On peut estimer ce carctère par le fait de prendre un échantillon aléatoire du groupe considéré de leurs proposé de voter les lois en application et de regarder si une majorité de lois votés par les députés élus au scrutin majoritaire le sont aussi.
+
+On peut estimer ce caractère par le fait de prendre un échantillon aléatoire du groupe considéré de leurs proposé de voter les lois en application et de regarder si une majorité de lois votés par les députés élus au scrutin majoritaire le sont aussi.
 
 Le carcatère représentatif est une suite logique de la democratie, tout du moins dans notre définition.
-
-
-Une loi peut-être démocratique ou non dans une société démocra&tique ou non. Par contre si une loi démocratique est voté alors mécaniquement cela fait augmenter le taux de democratie.
+En effet si une loi est accepté de tous, il apparait mécanique que les personnes qui les ont votés et réalisés sont reprensattif.
+    
+Une loi peut-être démocratique ou non dans une société démocratique ou non. 
+Par contre si une loi démocratique est voté alors mécaniquement cela fait augmenter le taux de democratie.
     
 On doit apporter alors la notion de pondération, en effet je peux être d'accord avec la majorité des regles si il existe une regle qui specifie que je suis exclue du champs des regles, dans ce cas là cette loi a pour moi une importance de 100%.
 
-```{r, message=FALSE}  
-library(jsonlite)
-library(dplyr)
-library(stringr)
+# La democratie, une histoire de tentative de mathematisation
 
+Ci-dessous, une tentative de formalisation du problème de qualification démocratique.
+    
+Soit $S$ la société ou groupe que l'on cherche à qualifier de démocratique ou non.
+        
+Cette société $S$ est constitué :
+    
+- un ensemble de lois ou regles $L$ de dimension $K$ : $L=L_{1},...,L_{k}$
+- un ensemble de membre ou citoyen $C$ de dimension $N$ : $C=C_{1},...,C_{N}$
+- un sous-ensemble $D$ de $C$ de dimension $P$ qui représente les citoyens participant à l'élaboration et la votation de la regle : $D=D_{1},...,D_{p}$
+
+
+Dans cette société $S$ nous avons également un ensemble de fonction associant les divers ensembles : 
+    
+- Une fonction d'"election" qui associe des éléments  de $C$ aux éléments de $D$ tel que :
+$E_{S}(C,.) -> D$ , avec $.$ un ensemble de paramètres ou variables influant 
+- Une fonction de "vote" dont les membres de $D$voté les lois, tel que :
+$V_{S}(D,.) -> L$
+
+Cette société a un niveau democratique, on note $D(S)$, et est calculé de la suivante
+    
+- Pour chaque individus $C_i$ on calcule son taux d'accord $\bar{A_i}$ avec le systeme de regle $L$ tel que :
+$\bar{A_i}=\sum_{k=1}^{K}\alpha_{ik}A_{ik}$
+    - Avec $A_{ik}=1$ si $C_i$ est d'accord avec cette regle, accord exprimée de façon libre, claire et conscentie, 0 si non.
+    - Avec $\alpha_{ik$ l'importance relative de loi $L_{k}$ pour $C_i$ avec $\sum_{1}^{K}\alpha_{ik}=1$
+
+-On calcule la moyenne des taux d'accord tel que $\bar{A}=\sum_{i=1}^{N}\bar{A_i}$.
+
+Nous posons $D(S)=\bar{A}$
+
+On peut faire la remarque qu'une loi, peut également être évalué par la fonction $D$, on obtient alors la définition suivante :
+
+- Pour chaque individus $C_i$ on mesure son taux d'accord à la loi $L_k$ relatif aux systeme de regle $L$ tel que : $\alpha_{ik}A_{ik}$
+- On calcule la moyenne des taux d'accord relatif tel que $\bar{A_k}=\sum_{i=1}^{N}\alpha_{ik}A_{ik}$
+
+Nous posons $D(L_k)=\bar{A_k}$.
+
+Si l'on enlève la pondération des équations, et on suppose que chaque loi possède le m^me poids, on parle de mesure démocratique absolue si non on parle de mesure démocratique relative.
+
+# La democratie, une histoire d'empirisme
+
+Il est tout à fait impossible d'arriver à mesurer la démocratie de la façon dont nous l'avons définis précédemment.
+Non pour des raisons théoriques, mais pour l'ingénérie que cela nécessite de mêtre en oeuvre.
+    
+Par contre il est tout à fait possible d'estimer ce niveau démocratique.
+
+Si l'on prend une loi aux hasard, voté par le parlement français, que l'on propose à un échantillon aléatoire de la population française suffisamment grand pour être représentatifs que l'on fait voter la loi à ces personnes, en les aidants à comprendre ce texte de loi. 
+
+Que l'on compare les résultats du vote de l'échantillon aux résultats du vote de la loi effectivement en place.
+
+Nous pouvons mesurer le niveau democratique absolue de la loi en question.
+
+Pour finir ce post, j'aimerais mettre à disposition, un code permettant d'obtenir dans un tableau synthétique les résultats d'un vote pour une loi donné.
+Les données peuvent être trouvé dans :
+
+- http://data.assemblee-nationale.fr/acteurs/deputes-en-exercice
+- http://data.assemblee-nationale.fr/travaux-parlementaires/votes
+
+
+```{r, message=FALSE}  
+library(jsonlite) # Pour ouvrir fichier json
+library(dplyr) # Pour manipuler les donnees
+library(stringr) #Pour manipuler les caracteres
+
+############  Loi
+
+# Une loi prise aux hasard
 vote <- fromJSON("VTANR5L15V1899.json", flatten=TRUE)
+
+#Titre du texte de loi
+vote[["scrutin"]][["titre"]]
+
+#Mise en forme des vote POUR
 vote_contre <- bind_rows(vote[["scrutin"]][["ventilationVotes"]][["organe"]][["groupes"]][["groupe"]][["vote.decompteNominatif.contres.votant"]])
+#Mise en forme des vote CONTRE
 vote_pour <- bind_rows(vote[["scrutin"]][["ventilationVotes"]][["organe"]][["groupes"]][["groupe"]][["vote.decompteNominatif.pours.votant"]])
 
-vote_contre <- vote_contre[,-2]
-vote_pour <- vote_pour[,-2]
+#Suprression d'une variable qui ne m'interesse pas
+vote_contre <- vote_contre[,-3]
+vote_pour <- vote_pour[,-3]
 
-###############
+############ Depute
 
+#Recuperation de la liste des fichiers
 depute <- list.files()
+#Filtre sur les fichier des deputes
 depute <- depute[substr(depute, 1, 2)=="PA"]
 
+#Lecture des fichier
 fonction_lecture <- function(fichier){
   data.frame(fromJSON(fichier, flatten=TRUE)[["acteur"]][["uid"]][3][[1]],
              fromJSON(fichier, flatten=TRUE)[["acteur"]][["etatCivil"]][["ident"]][["nom"]],
              fromJSON(fichier, flatten=TRUE)[["acteur"]][["etatCivil"]][["ident"]][["prenom"]])
 }
-
-
 depute_liste<-lapply(depute,fonction_lecture)
+
+#Mise en forme final
 depute_liste <- bind_rows(depute_liste)
 names(depute_liste) <- c("acteurRef","Nom","Prenom")
 
-###########
+############# Merge des deux donnée en mode INNER JOIN
+
 vote_contre <- merge(vote_contre, depute_liste, by = "acteurRef")
 vote_pour <- merge(vote_pour, depute_liste, by = "acteurRef")
 
-vote_pour[,c(1,3,4)]
+vote_pour
 
-vote_contre[,c(1,3,4)]
-
+vote_contre
 ```

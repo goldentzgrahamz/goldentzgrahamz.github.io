@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goldentz Grahamz</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://goldentzgrahamz.netlify.app/</link>
+      <atom:link href="https://goldentzgrahamz.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Goldentz Grahamz</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
+      <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>Goldentz Grahamz</title>
-      <link>/</link>
+      <link>https://goldentzgrahamz.netlify.app/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://goldentzgrahamz.netlify.app/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -35,10 +35,10 @@
     </item>
     
     <item>
-      <title>De la démocratie conceptuel,à la démocratie empirique : Un critère de mesure</title>
-      <link>/post/demokratie-daten/democratie/</link>
+      <title>De la démocratie conceptuel, à la démocratie empirique : un critère de mesure</title>
+      <link>https://goldentzgrahamz.netlify.app/post/demokratie-daten/democratie/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/demokratie-daten/democratie/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/post/demokratie-daten/democratie/</guid>
       <description>
 
 
@@ -49,9 +49,9 @@
 &lt;p&gt;Tel ou tel pays est-il démocratique ou dictatorial ?&lt;/p&gt;
 &lt;p&gt;Il est facile d’affirmer que l’on vit dans une démocratie, car c’est ce que l’on entend partout, tout du moins à l’école, et dans certains journaux.&lt;/p&gt;
 &lt;p&gt;Il est également régulier d’entendre que tels ou tels pays serait des dictatures, sous-entendu pas des démocraties.&lt;/p&gt;
-&lt;p&gt;On peut critiquer cette vision manichéenne du problème, en effet il m’apparait que la vérité est plus complexe, et nécessite donc de poser la problématique.&lt;/p&gt;
-&lt;p&gt;Néanmoins cette question mérite d’être posé, car il apparait que ci une chose “est”, il faut déterminé le critère du “est”, pour ensuite déterminer ci la chose&lt;/p&gt;
-&lt;p&gt;On peut pour répondre à cette problématique, l’on doit répondre aux questions suivantes :&lt;/p&gt;
+&lt;p&gt;On peut critiquer cette vision manichéenne du problème, en effet il m’apparait que la vérité est plus complexe, et nécessite donc de poser la problématique, à savoir comment peut-on qualifier un groupe ou société de démocratique, sur la base de quels critères ?&lt;/p&gt;
+&lt;p&gt;Cette question mérite d’être posé, car il apparait que ci une chose “est”, il faut déterminé le critère du “est”, pour ensuite déterminer ci la chose “est”.&lt;/p&gt;
+&lt;p&gt;On doit pour tenter d’appréhender cette problématique, répondre aux questions suivantes :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Qu’est ce que la démocratie ?&lt;/li&gt;
 &lt;li&gt;Quels sont les conditions que doit respecter la potentiel “democratie” pour être qualifié de tel?&lt;/li&gt;
@@ -69,140 +69,214 @@ Kratie = Pouvoir&lt;/p&gt;
 &lt;p&gt;On voit directement ici apparaitre l’importance de la notion de commun pusique qu’en théorie
 il est toujours possible d’arriver à une décision accepter de tous, décider par tous.
 On peut cepent faire l’hypothèse que cette eventualité tend à diminuer à mesure que la taille du groupe augmente.&lt;/p&gt;
-&lt;p&gt;Voter à mains lever, semble en effet difficile dans un pays de près de 60 millions d’âme.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voter à mains lever, semble en effet difficile dans un pays de près de 60 millions d’âme.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;On peut également faire l’hypothèse que la probabilité d’arriver à une décision accepter de tous, décider par tous diminue l’hétérogéneité des individus du groupe en question.&lt;/p&gt;
-&lt;p&gt;En effet, si l’on que des Quentin GOLLENTZ dans le groupe la probabilité qu’ils se mettent d’accord est à priori proche de 100%. On peut par opposition faire l’hypothèses qu’une groupe constitué de personnes qui ne s’aimentpas du tout arrivent à se mettre d’accord tend vers 0.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En effet, si l’on est que des Quentin GOLLENTZ dans le groupe la probabilité qu’ils se mettent d’accord est à priori proche de 100%, quoique.
+On peut par opposition faire l’hypothèses qu’une groupe constitué de personnes qui ne s’aimentpas du tout arrivent à se mettre d’accord tend vers 0.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Si l’on regarde les choses de façon empiriques, l’on constate qu’il n’existe pas de groupes dans lesquels les rêgles sont le fruit d’une décision démocratique, sauf si le groupe est restreint et que ces membres sont sur une même longeur d’onde.&lt;/p&gt;
-&lt;p&gt;On peut donc dire que la démocratie est un idéal vers lequel on tend plus au moins.&lt;/p&gt;
+&lt;p&gt;On peut donc dire que la démocratie est un idéal vers lequel on tend plus au moins. Définition proposé notamment par Alain Deneault et Jacques Rancière.&lt;/p&gt;
 &lt;p&gt;On peut faire remarquer la distinction faite entre :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;le mode d’elaboration et d’application de la regle&lt;/li&gt;
-&lt;li&gt;la regle elle-même&lt;/li&gt;
+&lt;li&gt;le mode d’elaboration et d’application de la regle : c’est la constitution qui établit ce que l’on peut appelé des méta-règles ou loi constitunionnel&lt;/li&gt;
+&lt;li&gt;la regle elle-même, ou loi au sens commun du terme.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Il est très important de faire la distinction entre ces deux champs bien qu’il est possible que la frontière ne soient pas totalement hermétique.
-L’hypothèse de travail est que ces deux champs sont distincts.&lt;/p&gt;
-&lt;p&gt;Definition : Est plus ou moins démocratique tout ce qui est le fruit de décision plus ou moins accepter et plus ou moins réalisés par les personnes pour lesquels s’applique la décision.&lt;/p&gt;
+&lt;p&gt;Il est très important de faire la distinction entre ces deux champs bien qu’il est possible que la frontière ne soient pas totalement hermétique.&lt;/p&gt;
+&lt;p&gt;L’hypothèse de travail est que ces deux champs sont distincts, nous proposons la définition suivante :&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;text-decoration: underline&#34;&gt;Définition&lt;/span&gt; : Est plus ou moins démocratique tout ce qui est le fruit de décision plus ou moins accepter et plus ou moins réalisés par les personnes pour lesquels s’applique la décision.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;la-democratie-une-histoire-de-pourcentage-dadéquation&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;La democratie, une histoire de pourcentage d’adéquation&lt;/h1&gt;
 &lt;p&gt;J’aimerais faire l’hypothèse de travail ici que malgrès la distinction que j’ai fait précédemment, une democratie est communément qualifié de tel, lorqu’une majorité des personnes sujettes aux regles sont d’accord avec celle-ci, et dont l’accord est exprimer de façon, claire, libre et conscentie.&lt;/p&gt;
 &lt;p&gt;On peut faire la remarque que dans cette définition de la démocratie, que ce qu’on appelle communément dictature, dans le sens où les regles sont le fait d’un seul homme, peu très bien être démocratique si les membres sont dans leurs majorités d’accord avec les règles. Cependant, empiriquement, ce type de société viole généralement le principe d’un accord exprimé de façon claire, libre et conscentie.&lt;/p&gt;
-&lt;p&gt;Le mode d’élaboration de la regle n’intervient pas dans la définition (=mesure) de la democratie mais vient influencé sur la probabilité de l’être. On peut faire le apriori qu’une regle realise par l’ensmble des membre, sera egalement acceptés par l’ensmemble des membres.&lt;/p&gt;
-&lt;p&gt;On&lt;/p&gt;
+&lt;p&gt;Le mode d’élaboration de la regle n’intervient pas dans la définition (=mesure) de la democratie mais vient influencé sur la probabilité de l’être. On peut faire l’apriori qu’une regle realise par l’ensmble des membre, sera egalement acceptés par l’ensmemble des membres.&lt;/p&gt;
+&lt;p&gt;On distinguera ce que l’on appelle communément “démocratie representative”, en autant de systêmes de décisions.&lt;/p&gt;
+&lt;p&gt;Par exemple pour le cas francais, on parlera de systeme d’élus au scrutin majoriaire.
+Le caractère démocratique reste à démontrer.&lt;/p&gt;
 &lt;p&gt;Cependant ce mode de scrutin n’implique en aucune façon ni le caractère démocratique ni le caractère représentatif, tout du moins pas dans la définition que j’ai faite de la démocratie.&lt;/p&gt;
-&lt;p&gt;Le caractère démocratique ne peut être le cas dans notre définition que si les membres sont globalement d’accord avec les regles.
-On peut estimer ce carctère par le fait de prendre un échantillon aléatoire du groupe considéré de leurs proposé de voter les lois en application et de regarder si une majorité de lois votés par les députés élus au scrutin majoritaire le sont aussi.&lt;/p&gt;
-&lt;p&gt;Le carcatère représentatif est une suite logique de la democratie, tout du moins dans notre définition.&lt;/p&gt;
-&lt;p&gt;Une loi peut-être démocratique ou non dans une société démocra&amp;amp;tique ou non. Par contre si une loi démocratique est voté alors mécaniquement cela fait augmenter le taux de democratie.&lt;/p&gt;
+&lt;p&gt;Le caractère démocratique ne peut être le cas dans notre définition que si les membres sont globalement d’accord avec les regles.&lt;/p&gt;
+&lt;p&gt;On peut estimer ce caractère par le fait de prendre un échantillon aléatoire du groupe considéré de leurs proposé de voter les lois en application et de regarder si une majorité de lois votés par les députés élus au scrutin majoritaire le sont aussi.&lt;/p&gt;
+&lt;p&gt;Le carcatère représentatif est une suite logique de la democratie, tout du moins dans notre définition.
+En effet si une loi est accepté de tous, il apparait mécanique que les personnes qui les ont votés et réalisés sont reprensattif.&lt;/p&gt;
+&lt;p&gt;Une loi peut-être démocratique ou non dans une société démocratique ou non.
+Par contre si une loi démocratique est voté alors mécaniquement cela fait augmenter le taux de democratie.&lt;/p&gt;
 &lt;p&gt;On doit apporter alors la notion de pondération, en effet je peux être d’accord avec la majorité des regles si il existe une regle qui specifie que je suis exclue du champs des regles, dans ce cas là cette loi a pour moi une importance de 100%.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(jsonlite)
-library(dplyr)
-library(stringr)
+&lt;/div&gt;
+&lt;div id=&#34;la-democratie-une-histoire-de-tentative-de-mathematisation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;La democratie, une histoire de tentative de mathematisation&lt;/h1&gt;
+&lt;p&gt;Ci-dessous, une tentative de formalisation du problème de qualification démocratique.&lt;/p&gt;
+&lt;p&gt;Soit &lt;span class=&#34;math inline&#34;&gt;\(S\)&lt;/span&gt; la société ou groupe que l’on cherche à qualifier de démocratique ou non.&lt;/p&gt;
+&lt;p&gt;Cette société &lt;span class=&#34;math inline&#34;&gt;\(S\)&lt;/span&gt; est constitué :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;un ensemble de lois ou regles &lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt; de dimension &lt;span class=&#34;math inline&#34;&gt;\(K\)&lt;/span&gt; : &lt;span class=&#34;math inline&#34;&gt;\(L=L_{1},...,L_{k}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;un ensemble de membre ou citoyen &lt;span class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; de dimension &lt;span class=&#34;math inline&#34;&gt;\(N\)&lt;/span&gt; : &lt;span class=&#34;math inline&#34;&gt;\(C=C_{1},...,C_{N}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;un sous-ensemble &lt;span class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt; de &lt;span class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; de dimension &lt;span class=&#34;math inline&#34;&gt;\(P\)&lt;/span&gt; qui représente les citoyens participant à l’élaboration et la votation de la regle : &lt;span class=&#34;math inline&#34;&gt;\(D=D_{1},...,D_{p}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dans cette société &lt;span class=&#34;math inline&#34;&gt;\(S\)&lt;/span&gt; nous avons également un ensemble de fonction associant les divers ensembles :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Une fonction d’“election” qui associe des éléments de &lt;span class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; aux éléments de &lt;span class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt; tel que :
+&lt;span class=&#34;math inline&#34;&gt;\(E_{S}(C,.) -&amp;gt; D\)&lt;/span&gt; , avec &lt;span class=&#34;math inline&#34;&gt;\(.\)&lt;/span&gt; un ensemble de paramètres ou variables influant&lt;/li&gt;
+&lt;li&gt;Une fonction de “vote” dont les membres de &lt;span class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt;voté les lois, tel que :
+&lt;span class=&#34;math inline&#34;&gt;\(V_{S}(D,.) -&amp;gt; L\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cette société a un niveau democratique, on note &lt;span class=&#34;math inline&#34;&gt;\(D(S)\)&lt;/span&gt;, et est calculé de la suivante&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pour chaque individus &lt;span class=&#34;math inline&#34;&gt;\(C_i\)&lt;/span&gt; on calcule son taux d’accord &lt;span class=&#34;math inline&#34;&gt;\(\bar{A_i}\)&lt;/span&gt; avec le systeme de regle &lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt; tel que :
+&lt;span class=&#34;math inline&#34;&gt;\(\bar{A_i}=\sum_{k=1}^{K}\alpha_{ik}A_{ik}\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;Avec &lt;span class=&#34;math inline&#34;&gt;\(A_{ik}=1\)&lt;/span&gt; si &lt;span class=&#34;math inline&#34;&gt;\(C_i\)&lt;/span&gt; est d’accord avec cette regle, accord exprimée de façon libre, claire et conscentie, 0 si non.&lt;/li&gt;
+&lt;li&gt;Avec &lt;span class=&#34;math inline&#34;&gt;\(\alpha_{ik\)&lt;/span&gt; l’importance relative de loi &lt;span class=&#34;math inline&#34;&gt;\(L_{k}\)&lt;/span&gt; pour &lt;span class=&#34;math inline&#34;&gt;\(C_i\)&lt;/span&gt; avec &lt;span class=&#34;math inline&#34;&gt;\(\sum_{1}^{K}\alpha_{ik}=1\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-On calcule la moyenne des taux d’accord tel que &lt;span class=&#34;math inline&#34;&gt;\(\bar{A}=\sum_{i=1}^{N}\bar{A_i}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Nous posons &lt;span class=&#34;math inline&#34;&gt;\(D(S)=\bar{A}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;On peut faire la remarque qu’une loi, peut également être évalué par la fonction &lt;span class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt;, on obtient alors la définition suivante :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pour chaque individus &lt;span class=&#34;math inline&#34;&gt;\(C_i\)&lt;/span&gt; on mesure son taux d’accord à la loi &lt;span class=&#34;math inline&#34;&gt;\(L_k\)&lt;/span&gt; relatif aux systeme de regle &lt;span class=&#34;math inline&#34;&gt;\(L\)&lt;/span&gt; tel que : &lt;span class=&#34;math inline&#34;&gt;\(\alpha_{ik}A_{ik}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;On calcule la moyenne des taux d’accord relatif tel que &lt;span class=&#34;math inline&#34;&gt;\(\bar{A_k}=\sum_{i=1}^{N}\alpha_{ik}A_{ik}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nous posons &lt;span class=&#34;math inline&#34;&gt;\(D(L_k)=\bar{A_k}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Si l’on enlève la pondération des équations, et on suppose que chaque loi possède le m^me poids, on parle de mesure démocratique absolue si non on parle de mesure démocratique relative.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;la-democratie-une-histoire-dempirisme&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;La democratie, une histoire d’empirisme&lt;/h1&gt;
+&lt;p&gt;Il est tout à fait impossible d’arriver à mesurer la démocratie de la façon dont nous l’avons définis précédemment.
+Non pour des raisons théoriques, mais pour l’ingénérie que cela nécessite de mêtre en oeuvre.&lt;/p&gt;
+&lt;p&gt;Par contre il est tout à fait possible d’estimer ce niveau démocratique.&lt;/p&gt;
+&lt;p&gt;Si l’on prend une loi aux hasard, voté par le parlement français, que l’on propose à un échantillon aléatoire de la population française suffisamment grand pour être représentatifs que l’on fait voter la loi à ces personnes, en les aidants à comprendre ce texte de loi.&lt;/p&gt;
+&lt;p&gt;Que l’on compare les résultats du vote de l’échantillon aux résultats du vote de la loi effectivement en place.&lt;/p&gt;
+&lt;p&gt;Nous pouvons mesurer le niveau democratique absolue de la loi en question.&lt;/p&gt;
+&lt;p&gt;Pour finir ce post, j’aimerais mettre à disposition, un code permettant d’obtenir dans un tableau synthétique les résultats d’un vote pour une loi donné.
+Les données peuvent être trouvé dans :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://data.assemblee-nationale.fr/acteurs/deputes-en-exercice&#34; class=&#34;uri&#34;&gt;http://data.assemblee-nationale.fr/acteurs/deputes-en-exercice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://data.assemblee-nationale.fr/travaux-parlementaires/votes&#34; class=&#34;uri&#34;&gt;http://data.assemblee-nationale.fr/travaux-parlementaires/votes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(jsonlite) # Pour ouvrir fichier json
+library(dplyr) # Pour manipuler les donnees
+library(stringr) #Pour manipuler les caracteres
 
+############  Loi
+
+# Une loi prise aux hasard
 vote &amp;lt;- fromJSON(&amp;quot;VTANR5L15V1899.json&amp;quot;, flatten=TRUE)
+
+#Titre du texte de loi
+vote[[&amp;quot;scrutin&amp;quot;]][[&amp;quot;titre&amp;quot;]]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;l&amp;#39;amendement n° 593 de Mme Karamanli avant l&amp;#39;article 6 du projet de loi de transformation de la fonction publique (première lecture).&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Mise en forme des vote POUR
 vote_contre &amp;lt;- bind_rows(vote[[&amp;quot;scrutin&amp;quot;]][[&amp;quot;ventilationVotes&amp;quot;]][[&amp;quot;organe&amp;quot;]][[&amp;quot;groupes&amp;quot;]][[&amp;quot;groupe&amp;quot;]][[&amp;quot;vote.decompteNominatif.contres.votant&amp;quot;]])
+#Mise en forme des vote CONTRE
 vote_pour &amp;lt;- bind_rows(vote[[&amp;quot;scrutin&amp;quot;]][[&amp;quot;ventilationVotes&amp;quot;]][[&amp;quot;organe&amp;quot;]][[&amp;quot;groupes&amp;quot;]][[&amp;quot;groupe&amp;quot;]][[&amp;quot;vote.decompteNominatif.pours.votant&amp;quot;]])
 
-vote_contre &amp;lt;- vote_contre[,-2]
-vote_pour &amp;lt;- vote_pour[,-2]
+#Suprression d&amp;#39;une variable qui ne m&amp;#39;interesse pas
+vote_contre &amp;lt;- vote_contre[,-3]
+vote_pour &amp;lt;- vote_pour[,-3]
 
-###############
+############ Depute
 
+#Recuperation de la liste des fichiers
 depute &amp;lt;- list.files()
+#Filtre sur les fichier des deputes
 depute &amp;lt;- depute[substr(depute, 1, 2)==&amp;quot;PA&amp;quot;]
 
+#Lecture des fichier
 fonction_lecture &amp;lt;- function(fichier){
   data.frame(fromJSON(fichier, flatten=TRUE)[[&amp;quot;acteur&amp;quot;]][[&amp;quot;uid&amp;quot;]][3][[1]],
              fromJSON(fichier, flatten=TRUE)[[&amp;quot;acteur&amp;quot;]][[&amp;quot;etatCivil&amp;quot;]][[&amp;quot;ident&amp;quot;]][[&amp;quot;nom&amp;quot;]],
              fromJSON(fichier, flatten=TRUE)[[&amp;quot;acteur&amp;quot;]][[&amp;quot;etatCivil&amp;quot;]][[&amp;quot;ident&amp;quot;]][[&amp;quot;prenom&amp;quot;]])
 }
-
-
 depute_liste&amp;lt;-lapply(depute,fonction_lecture)
+
+#Mise en forme final
 depute_liste &amp;lt;- bind_rows(depute_liste)
 names(depute_liste) &amp;lt;- c(&amp;quot;acteurRef&amp;quot;,&amp;quot;Nom&amp;quot;,&amp;quot;Prenom&amp;quot;)
 
-###########
+############# Merge des deux donnée en mode INNER JOIN
+
 vote_contre &amp;lt;- merge(vote_contre, depute_liste, by = &amp;quot;acteurRef&amp;quot;)
 vote_pour &amp;lt;- merge(vote_pour, depute_liste, by = &amp;quot;acteurRef&amp;quot;)
 
-vote_pour[,c(1,3,4)]&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##    acteurRef                  Nom      Prenom
-## 1     PA1012    de la Verpillière     Charles
-## 2   PA267204              Sermier  Jean-Marie
-## 3   PA332614              Juanico       Régis
-## 4   PA335612                Lecoq   Jean-Paul
-## 5   PA340343            Saulignac       Hervé
-## 6   PA342601             Brindeau      Pascal
-## 7   PA608695           Untermaier      Cécile
-## 8   PA609590              Rabault     Valérie
-## 9   PA643145 Vainqueur-Christophe      Hélène
-## 10  PA702052                 Sage       Maina
-## 11  PA712015                 Dive      Julien
-## 12  PA718926          Dharréville      Pierre
-## 13  PA719930              Vallaud       Boris
-## 14  PA720210             Beauvais     Valérie
-## 15  PA720386           Di Filippo      Fabien
-## 16  PA720430           Bernalicis         Ugo
-## 17  PA720630                Minot      Maxime
-## 18  PA720988                Manin     Josette
-## 19  PA721062              Ratenon Jean-Hugues
-## 20  PA721270                  Peu    Stéphane
-## 21  PA721314       Schellenberger     Raphaël
-## 22  PA721896            Faucillon        Elsa
-## 23  PA722110             Wulfranc      Hubert&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vote_contre[,c(1,3,4)]&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##    acteurRef               Nom           Prenom
-## 1   PA717379          Maillard          Sylvain
-## 2   PA719024          Blanchet       Christophe
-## 3   PA719186          Khattabi           Fadila
-## 4   PA719330       Gouttefarde           Fabien
-## 5   PA719550            Tanguy          Liliana
-## 6   PA719600          Poulliat             Éric
-## 7   PA719608            Ménard       Emmanuelle
-## 8   PA719616             Euzet       Christophe
-## 9   PA719664          Lavergne           Pascal
-## 10  PA719692            Eliaou    Jean-François
-## 11  PA719748            Chalas           Émilie
-## 12  PA719822          Thillaye           Sabine
-## 13  PA719850             Motin           Cendra
-## 14  PA719890         Brulebois         Danielle
-## 15  PA720138        Saint-Paul         Laetitia
-## 16  PA720318           Zannier           Hélène
-## 17  PA720326         Hammouche           Brahim
-## 18  PA720362         Belhaddad          Belkhir
-## 19  PA720402     Paluszkiewicz           Xavier
-## 20  PA720446              Liso         Brigitte
-## 21  PA720480            Lecocq        Charlotte
-## 22  PA720738           Michels          Thierry
-## 23  PA720806             Gayte         Laurence
-## 24  PA720900            Rilhac           Cécile
-## 25  PA720908          Moutchou            Naïma
-## 26  PA720916            Lazaar            Fiona
-## 27  PA721158           Anglade Pieyre-Alexandre
-## 28  PA721234             Petit             Maud
-## 29  PA721296      Gouffier-Cha        Guillaume
-## 30  PA721364           Gauvain          Raphaël
-## 31  PA721434            Lardet       Frédérique
-## 32  PA721584           Terlier             Jean
-## 33  PA721624              Avia         Laetitia
-## 34  PA721632           Lemoine         Patricia
-## 35  PA721710            Peyron          Michèle
-## 36  PA721734 Michel-Kleisbauer         Philippe
-## 37  PA721792            Guerel           Émilie
-## 38  PA721800            Matras           Fabien
-## 39  PA722070           Henriet           Pierre
-## 40  PA722170 Beaudouin-Hubiere           Sophie
-## 41  PA722292           Rudigoz           Thomas&lt;/code&gt;&lt;/pre&gt;
+vote_pour&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    acteurRef mandatRef                  Nom      Prenom
+## 1     PA1012  PM722418    de la Verpillière     Charles
+## 2   PA267204  PM722794              Sermier  Jean-Marie
+## 3   PA332614  PM722812              Juanico       Régis
+## 4   PA335612  PM723506                Lecoq   Jean-Paul
+## 5   PA340343  PM722470            Saulignac       Hervé
+## 6   PA342601  PM761932             Brindeau      Pascal
+## 7   PA608695  PM723564           Untermaier      Cécile
+## 8   PA609590  PM723326              Rabault     Valérie
+## 9   PA643145  PM723130 Vainqueur-Christophe      Hélène
+## 10  PA702052  PM723172                 Sage       Maina
+## 11  PA712015  PM722448                 Dive      Julien
+## 12  PA718926  PM722502          Dharréville      Pierre
+## 13  PA719930  PM722804              Vallaud       Boris
+## 14  PA720210  PM722892             Beauvais     Valérie
+## 15  PA720386  PM722948           Di Filippo      Fabien
+## 16  PA720430  PM722962           Bernalicis         Ugo
+## 17  PA720630  PM723020                Minot      Maxime
+## 18  PA720988  PM723132                Manin     Josette
+## 19  PA721062  PM723158              Ratenon Jean-Hugues
+## 20  PA721270  PM723220                  Peu    Stéphane
+## 21  PA721314  PM723236       Schellenberger     Raphaël
+## 22  PA721896  PM723414            Faucillon        Elsa
+## 23  PA722110  PM723474             Wulfranc      Hubert&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vote_contre&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    acteurRef mandatRef               Nom           Prenom
+## 1   PA717379  PM723282          Maillard          Sylvain
+## 2   PA719024  PM722536          Blanchet       Christophe
+## 3   PA719186  PM722588          Khattabi           Fadila
+## 4   PA719330  PM722628       Gouttefarde           Fabien
+## 5   PA719550  PM722694            Tanguy          Liliana
+## 6   PA719600  PM722708          Poulliat             Éric
+## 7   PA719608  PM722710            Ménard       Emmanuelle
+## 8   PA719616  PM722712             Euzet       Christophe
+## 9   PA719664  PM760309          Lavergne           Pascal
+## 10  PA719692  PM722732            Eliaou    Jean-François
+## 11  PA719748  PM722750            Chalas           Émilie
+## 12  PA719822  PM722772          Thillaye           Sabine
+## 13  PA719850  PM722780             Motin           Cendra
+## 14  PA719890  PM722790         Brulebois         Danielle
+## 15  PA720138  PM722872        Saint-Paul         Laetitia
+## 16  PA720318  PM722928           Zannier           Hélène
+## 17  PA720326  PM722930         Hammouche           Brahim
+## 18  PA720362  PM722942         Belhaddad          Belkhir
+## 19  PA720402  PM722952     Paluszkiewicz           Xavier
+## 20  PA720446  PM722966              Liso         Brigitte
+## 21  PA720480  PM722976            Lecocq        Charlotte
+## 22  PA720738  PM723062           Michels          Thierry
+## 23  PA720806  PM723082             Gayte         Laurence
+## 24  PA720900  PM723108            Rilhac           Cécile
+## 25  PA720908  PM723110          Moutchou            Naïma
+## 26  PA720916  PM723112            Lazaar            Fiona
+## 27  PA721158  PM723190           Anglade Pieyre-Alexandre
+## 28  PA721234  PM723210             Petit             Maud
+## 29  PA721296  PM723228      Gouffier-Cha        Guillaume
+## 30  PA721364  PM723250           Gauvain          Raphaël
+## 31  PA721434  PM723272            Lardet       Frédérique
+## 32  PA721584  PM723324           Terlier             Jean
+## 33  PA721624  PM723336              Avia         Laetitia
+## 34  PA721632  PM760305           Lemoine         Patricia
+## 35  PA721710  PM723362            Peyron          Michèle
+## 36  PA721734  PM723368 Michel-Kleisbauer         Philippe
+## 37  PA721792  PM723384            Guerel           Émilie
+## 38  PA721800  PM723386            Matras           Fabien
+## 39  PA722070  PM723464           Henriet           Pierre
+## 40  PA722170  PM723492 Beaudouin-Hubiere           Sophie
+## 41  PA722292  PM723530           Rudigoz           Thomas&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Finanzmathematik, Gymnasiumstufe</title>
-      <link>/post/autre/</link>
+      <link>https://goldentzgrahamz.netlify.app/post/autre/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/autre/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/post/autre/</guid>
       <description>
 
 
@@ -305,16 +379,16 @@ ggplot(data_C, aes(x = temps, y = C))+
       geom_hline(yintercept = 16000)+
       geom_vline(xintercept = 23)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/autre/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goldentzgrahamz.netlify.app/post/autre/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://goldentzgrahamz.netlify.app/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -446,30 +520,21 @@ Three
     
     <item>
       <title>LICENSE: CC-BY-SA</title>
-      <link>/privacy/</link>
+      <link>https://goldentzgrahamz.netlify.app/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/privacy/</guid>
       <description>&lt;p&gt;Meine 
-&lt;a href=&#34;/post/&#34;&gt;blog posts&lt;/a&gt; wird unter einer [Creative Commons Attribution-ShareAlike 4.0 International License] veröffentlicht (&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/)&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/)&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://goldentzgrahamz.netlify.app/post/&#34;&gt;blog posts&lt;/a&gt; wird unter einer [Creative Commons Attribution-ShareAlike 4.0 International License] veröffentlicht (&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/)&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/)&lt;/a&gt;.&lt;/p&gt;
 &lt;center&gt;
 &lt;i class=&#34;fab fa-creative-commons fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-by fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-sa fa-2x&#34;&gt;&lt;/i&gt;
 &lt;/center&gt;</description>
     </item>
     
     <item>
-      <title>Begriffe</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A Fully Homomorphic Encryption Scheme</title>
-      <link>/publication/these/</link>
+      <link>https://goldentzgrahamz.netlify.app/publication/these/</link>
       <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
-      <guid>/publication/these/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/publication/these/</guid>
       <description></description>
     </item>
     
