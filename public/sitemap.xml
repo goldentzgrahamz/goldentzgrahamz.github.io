@@ -3,106 +3,126 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/talk/example/</loc>
+    <loc>/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/</loc>
+    <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/talk/</loc>
+    <loc>/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/post/demokratie-daten/democratie/</loc>
+    <loc>/tag/cryptographie/</loc>
     <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/tag/demokratie/</loc>
+    <loc>/post/demokratie-daten/democratie/</loc>
     <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/tag/json/</loc>
+    <loc>/post/scheme-encryption/schemehomomorpherencryption/</loc>
     <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/tag/rmarkdown/</loc>
+    <loc>/tag/demokratie/</loc>
     <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/tags/</loc>
+    <loc>/tag/homomorphe/</loc>
     <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/post/</loc>
+    <loc>/tag/json/</loc>
     <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/post/autre/</loc>
+    <loc>/tag/rmarkdown/</loc>
     <lastmod>2020-05-28T20:45:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/slides/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/autre/</loc>
+    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/privacy/</loc>
+    <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/publication-type/4/</loc>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/4/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/publication/these/</loc>
+    <loc>/publication/these/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/publication/</loc>
+    <loc>/publication/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/author/craig-gentry/</loc>
+    <loc>/author/craig-gentry/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/publication_types/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2009-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://goldentzgrahamz.netlify.app/author/goldentz-grahamz/</loc>
+    <loc>/author/goldentz-grahamz/</loc>
   </url>
   
 </urlset>

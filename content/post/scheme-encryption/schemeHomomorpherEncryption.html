@@ -1,0 +1,67 @@
+---
+title: "De la recherche d'accord claire, libre et conscentie : une recherche d'anonymisation"
+author: "Goldentz Grahamz"
+date: '2020-07-04'
+categories: []
+disable_jquery: no
+featured: no
+image:
+  caption: 
+  focal_point: ''
+  preview_only: no
+lastmod: '2020-05-28T20:45:57-07:00'
+math: yes
+projects: []
+subtitle: ''
+summary: 'Essai sur la manière dobtenir un accord(ou désaccord) de façon libre claire et conscentie.'
+tags:
+- rmarkdown
+- cryptographie
+- homomorphe
+- demokratie
+authors: []
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/dagre/dagre.min.js"></script>
+<script src="/rmarkdown-libs/lodash/lodash.js"></script>
+<script src="/rmarkdown-libs/nomnoml/nomnoml.js"></script>
+<script src="/rmarkdown-libs/nomnoml-binding/nomnoml.js"></script>
+
+
+<iframe width="800" height="420" src="https://www.youtube.com/embed/aQOwQm-fjLg">
+</iframe>
+<div id="de-la-pertinence-dun-accord-à-la-regle" class="section level1">
+<h1>De la pertinence d’un accord à la regle</h1>
+<pre class="r"><code>library(nomnoml)
+diagram &lt;- &quot;
+[&lt;frame&gt;Homomorpher Kryptographie|
+  [&lt;abstract&gt;Nachricht von Alice1||+ Publische Schlussel K]
+  [&lt;abstract&gt;Nachricht von Alice2||+ Publische Schlussel K]
+  [&lt;abstract&gt;Bob|| + Privatishce Schlussel DK]
+  [&lt;abstract&gt;Drittenperson|| + Operation 0 und Speichern S]
+  [Alice1]
+  [&lt;abstract&gt;Alice1||+ PK und DK]
+  [&lt;abstract&gt;Alice2||+ PK und DK]
+
+  [Nachricht von Alice1]K -&gt; [KryptetNachricht1]
+  [Nachricht von Alice2]K -&gt; [KryptetNachricht2]
+  
+  [KryptetNachricht1]--&gt; [Drittenperson]
+  [KryptetNachricht2] --&gt; [Drittenperson]
+  
+  [Drittenperson] S--&gt; [Speichern]
+  
+  [Drittenperson] O--&gt; [MetaKryptetNachricht]
+  [MetaKryptetNachricht] --&gt;[Bob]
+  [Bob] DK -&gt;[MetaNachricht]
+  
+  [Alice1] &lt;------&gt; [Speichern]
+  [Alice2] &lt;------&gt; [Speichern]
+]
+&quot;
+
+nomnoml(diagram,svg=TRUE, width = 1000, height =500)</code></pre>
+<div id="htmlwidget-1" style="width:1000px;height:500px;" class="nomnoml html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n[<frame>Homomorpher Kryptographie|\n  [<abstract>Nachricht von Alice1||+ Publische Schlussel K]\n  [<abstract>Nachricht von Alice2||+ Publische Schlussel K]\n  [<abstract>Bob|| + Privatishce Schlussel DK]\n  [<abstract>Drittenperson|| + Operation 0 und Speichern S]\n  [Alice1]\n  [<abstract>Alice1||+ PK und DK]\n  [<abstract>Alice2||+ PK und DK]\n\n  [Nachricht von Alice1]K -> [KryptetNachricht1]\n  [Nachricht von Alice2]K -> [KryptetNachricht2]\n  \n  [KryptetNachricht1]--> [Drittenperson]\n  [KryptetNachricht2] --> [Drittenperson]\n  \n  [Drittenperson] S--> [Speichern]\n  \n  [Drittenperson] O--> [MetaKryptetNachricht]\n  [MetaKryptetNachricht] -->[Bob]\n  [Bob] DK ->[MetaNachricht]\n  \n  [Alice1] <------> [Speichern]\n  [Alice2] <------> [Speichern]\n]\n","svg":true},"evals":[],"jsHooks":[]}</script>
+</div>

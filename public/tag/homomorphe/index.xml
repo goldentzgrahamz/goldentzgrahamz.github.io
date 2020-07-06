@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>homomorphe | Goldentz Grahamz</title>
+    <link>/tag/homomorphe/</link>
+      <atom:link href="/tag/homomorphe/index.xml" rel="self" type="application/rss+xml" />
+    <description>homomorphe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
+      <title>homomorphe</title>
+      <link>/tag/homomorphe/</link>
+    </image>
+    
+    <item>
+      <title>De la recherche d&#39;accord claire, libre et conscentie : une recherche d&#39;anonymisation</title>
+      <link>/post/scheme-encryption/schemehomomorpherencryption/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/scheme-encryption/schemehomomorpherencryption/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/dagre/dagre.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/lodash/lodash.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/nomnoml/nomnoml.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/nomnoml-binding/nomnoml.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/aQOwQm-fjLg&#34;&gt;
+&lt;/iframe&gt;
+&lt;div id=&#34;de-la-pertinence-dun-accord-à-la-regle&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;De la pertinence d’un accord à la regle&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(nomnoml)
+diagram &amp;lt;- &amp;quot;
+[&amp;lt;frame&amp;gt;Homomorpher Kryptographie|
+  [&amp;lt;abstract&amp;gt;Nachricht von Alice1||+ Publische Schlussel K]
+  [&amp;lt;abstract&amp;gt;Nachricht von Alice2||+ Publische Schlussel K]
+  [&amp;lt;abstract&amp;gt;Bob|| + Privatishce Schlussel DK]
+  [&amp;lt;abstract&amp;gt;Drittenperson|| + Operation 0 und Speichern S]
+  [Alice1]
+  [&amp;lt;abstract&amp;gt;Alice1||+ PK und DK]
+  [&amp;lt;abstract&amp;gt;Alice2||+ PK und DK]
+
+  [Nachricht von Alice1]K -&amp;gt; [KryptetNachricht1]
+  [Nachricht von Alice2]K -&amp;gt; [KryptetNachricht2]
+  
+  [KryptetNachricht1]--&amp;gt; [Drittenperson]
+  [KryptetNachricht2] --&amp;gt; [Drittenperson]
+  
+  [Drittenperson] S--&amp;gt; [Speichern]
+  
+  [Drittenperson] O--&amp;gt; [MetaKryptetNachricht]
+  [MetaKryptetNachricht] --&amp;gt;[Bob]
+  [Bob] DK -&amp;gt;[MetaNachricht]
+  
+  [Alice1] &amp;lt;------&amp;gt; [Speichern]
+  [Alice2] &amp;lt;------&amp;gt; [Speichern]
+]
+&amp;quot;
+
+nomnoml(diagram,svg=TRUE, width = 1000, height =500)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:1000px;height:500px;&#34; class=&#34;nomnoml html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;code&#34;:&#34;\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n[&lt;frame&gt;Homomorpher Kryptographie|\n  [&lt;abstract&gt;Nachricht von Alice1||+ Publische Schlussel K]\n  [&lt;abstract&gt;Nachricht von Alice2||+ Publische Schlussel K]\n  [&lt;abstract&gt;Bob|| + Privatishce Schlussel DK]\n  [&lt;abstract&gt;Drittenperson|| + Operation 0 und Speichern S]\n  [Alice1]\n  [&lt;abstract&gt;Alice1||+ PK und DK]\n  [&lt;abstract&gt;Alice2||+ PK und DK]\n\n  [Nachricht von Alice1]K -&gt; [KryptetNachricht1]\n  [Nachricht von Alice2]K -&gt; [KryptetNachricht2]\n  \n  [KryptetNachricht1]--&gt; [Drittenperson]\n  [KryptetNachricht2] --&gt; [Drittenperson]\n  \n  [Drittenperson] S--&gt; [Speichern]\n  \n  [Drittenperson] O--&gt; [MetaKryptetNachricht]\n  [MetaKryptetNachricht] --&gt;[Bob]\n  [Bob] DK -&gt;[MetaNachricht]\n  \n  [Alice1] &lt;------&gt; [Speichern]\n  [Alice2] &lt;------&gt; [Speichern]\n]\n&#34;,&#34;svg&#34;:true},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

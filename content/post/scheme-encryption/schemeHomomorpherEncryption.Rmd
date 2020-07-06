@@ -1,0 +1,60 @@
+---
+title: "De la recherche d'accord claire, libre et conscentie : une recherche d'anonymisation"
+author: "Goldentz Grahamz"
+date: '2020-07-04'
+categories: []
+disable_jquery: no
+featured: no
+image:
+  caption: 
+  focal_point: ''
+  preview_only: no
+lastmod: '2020-05-28T20:45:57-07:00'
+math: yes
+projects: []
+subtitle: ''
+summary: 'Essai sur la manière dobtenir un accord(ou désaccord) de façon libre claire et conscentie.'
+tags:
+- rmarkdown
+- cryptographie
+- homomorphe
+- demokratie
+authors: []
+---
+<iframe width="800" height="420"
+  src="https://www.youtube.com/embed/aQOwQm-fjLg">
+</iframe>
+
+# De la pertinence d'un accord à la regle 
+
+```{r, message=FALSE}  
+library(nomnoml)
+diagram <- "
+[<frame>Homomorpher Kryptographie|
+  [<abstract>Nachricht von Alice1||+ Publische Schlussel K]
+  [<abstract>Nachricht von Alice2||+ Publische Schlussel K]
+  [<abstract>Bob|| + Privatishce Schlussel DK]
+  [<abstract>Drittenperson|| + Operation 0 und Speichern S]
+  [Alice1]
+  [<abstract>Alice1||+ PK und DK]
+  [<abstract>Alice2||+ PK und DK]
+
+  [Nachricht von Alice1]K -> [KryptetNachricht1]
+  [Nachricht von Alice2]K -> [KryptetNachricht2]
+  
+  [KryptetNachricht1]--> [Drittenperson]
+  [KryptetNachricht2] --> [Drittenperson]
+  
+  [Drittenperson] S--> [Speichern]
+  
+  [Drittenperson] O--> [MetaKryptetNachricht]
+  [MetaKryptetNachricht] -->[Bob]
+  [Bob] DK ->[MetaNachricht]
+  
+  [Alice1] <------> [Speichern]
+  [Alice2] <------> [Speichern]
+]
+"
+
+nomnoml(diagram,svg=TRUE, width = 1000, height =500)
+```
