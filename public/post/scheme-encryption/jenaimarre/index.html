@@ -662,12 +662,12 @@
 <div id="le-conscentement-éclairé-une-histoire-dinformation-loyale" class="section level1">
 <h1>Le conscentement éclairé, une histoire d’information loyale</h1>
 <p>On note <span class="math inline">\(L_{k}\)</span> une règle définis par un ensemble de paramètre <span class="math inline">\(Param_{k}\)</span> de dimension <span class="math inline">\(P\)</span> qui apporte un ensemble d’avantage <span class="math inline">\(Adv_k\)</span> de dimension <span class="math inline">\(A\)</span> et de désavantage <span class="math inline">\(DesAdv_k\)</span> de dimension <span class="math inline">\(D\)</span>.</p>
-<p>On appelle information loyale toute réduction de dimension <span class="math inline">\(P&#39;&lt;P\)</span> et/ou <span class="math inline">\(A&#39;&lt;A\)</span> et/ou <span class="math inline">\(D&#39;&lt;D\)</span> nous donne la même information <span class="math inline">\(I\)</span> sur la loi <span class="math inline">\(L_k\)</span> soit <span class="math inline">\(I(ReducDim(L_{k}))=I(L_{k})\)</span><br />
-On note <span class="math inline">\(ReducDimLoyal()\)</span></p>
-<p>On suppose par simplification qu’il existe un agent <span class="math inline">\(A\)</span> qui peut donné, une tel <span class="math inline">\(ReducDimLoyal()\)</span></p>
-<p>Néanmoins cette <span class="math inline">\(ReducDimLoyal()\)</span> soit tel que la dimension réduite soit exploitable, disposable pour que <span class="math inline">\(A_{ik}\)</span> par <span class="math inline">\(C_{i}\)</span> par rapport à la loi <span class="math inline">\(L_{k}\)</span> soit possible.<br />
-On note cette <span class="math inline">\(\star{ReducDimLoyal}()\)</span>, si une telle réduction est impossible, on parle de loi chaotique dans le sens où l’évaluation basé sur des informations loyales est impossible.</p>
-<p>On suppose par simplification que <span class="math inline">\(A\)</span> peut donné, une tel <span class="math inline">\(\star{ReducDimLoyal}()\)</span></p>
+<p>On appelle information loyale toute réduction de dimension <span class="math inline">\(P&#39;&lt;P\)</span> et/ou <span class="math inline">\(A&#39;&lt;A\)</span> et/ou <span class="math inline">\(D&#39;&lt;D\)</span> nous donne la même information <span class="math inline">\(I\)</span> sur la loi <span class="math inline">\(L_k\)</span> soit <span class="math inline">\(I(ReducDim(L_{k}))=I(L_{k})\)</span></p>
+<p>On note <span class="math inline">\(ReducDimLoyal()\)</span><br />
+On suppose par simplification qu’il existe un agent <span class="math inline">\(A\)</span> qui peut donné, une tel <span class="math inline">\(ReducDimLoyal()\)</span></p>
+<p>Néanmoins cette <span class="math inline">\(ReducDimLoyal()\)</span> soit tel que la dimension réduite soit exploitable, disposable pour que <span class="math inline">\(A_{ik}\)</span> par <span class="math inline">\(C_{i}\)</span> par rapport à la loi <span class="math inline">\(L_{k}\)</span> soit possible.</p>
+<p>On note cette <span class="math inline">\(\star{ReducDimLoyal}()\)</span>, si une telle réduction est impossible, on parle de loi chaotique dans le sens où l’évaluation basé sur des informations loyales est impossible.<br />
+On suppose par simplification que <span class="math inline">\(A\)</span> peut donné, une tel <span class="math inline">\(\star{ReducDimLoyal}()\)</span></p>
 <p>Nénamoins cela ne saurait être une condition suffisante au conscentement éclairé, puisque cette accord peut être sujette à la pression ou contrainte.</p>
 </div>
 <div id="le-conscentement-éclairé-une-histoire-dindépendance" class="section level1">
@@ -675,16 +675,17 @@ On note cette <span class="math inline">\(\star{ReducDimLoyal}()\)</span>, si un
 <p>En effet si l’on prend l’exemple, d’un pays autoritaire celui-ci aurait tendance à discriminer ceux qui manifeste un désaccord avec le pouvoir en place, ainsi par peur de représaille, le citoyen aurait tendance à biaiser son accord dans le sesns où celui-ci ne saurait être issu d’un conscentement éclairé.</p>
 <p>Une possibilité de s’assurer que le citoyen ne soit pas sujet à biaiser son accord, c’est de garder son information secret.
 Ainsi on ne pourrait pas exercer de conséquences sur le vote du citoyen en question car on n’aurait l’information de son choix.</p>
-<p>Mais dans ce cas là me dirait vous, qui de l’information ?<br />
+<p>Mais dans ce cas là me dirait vous, quid de l’information ?<br />
 C’est la qu’intervient le concept de crytopgraphie homomorphe.</p>
 <p>Globalement cela dit que si l’on fait des operations sur des messages chiffree et que l’on dechiffre le résultat, alors ce résultat est le même que le résultats de ces mêmes opérations sur on avait effectué les messages non-chiffre.</p>
 <div id="htmlwidget-1" style="width:500px;height:500px;" class="nomnoml html-widget"></div>
 <script type="application/json" data-for="htmlwidget-1">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n[Oeration classique|[Michelle]-- [0]|[Bertrand]-- [1]|\n   [Resultat]--[(0+1)/2=0.5]\n ]\n [Operation homomorphe par l'addition et la multiplication|[Encrypt(Michelle)=FVS9!]-- [Encrypt(0)=lfd80]|[Encrypt(Bertrand)=0?mdf]-- [Encrypt(1)=qsff9]|\n   [Resultat krypte]--[Add(lfd80,qsff9)/2=qzf8!]\n   [Resultat]--[Decrypt(qzf8!)=0.5]\n ]\n","svg":true},"evals":[],"jsHooks":[]}</script>
-<p>La synthèse <span class="math inline">\(\bar{A_k}\)</span> serait alors disponible sans que les <span class="math inline">\(\alpha_{ik}A_{ik}\)</span>ne soit directement accesible.</p>
+<p>La synthèse <span class="math inline">\(\bar{A_k}\)</span> serait alors disponible sans que les <span class="math inline">\(\alpha_{ik}A_{ik}\)</span>ne soit directement accesible.<br />
+Le vote serait alors anonyme sous condition que l’échantillon ne vote pas dans le même sens.</p>
 <p>Une tel pression ne saurait s’exercer sur un individu au titre de son choix, mais sur le résultat du groupe dans son ensemble.</p>
-<p>Ci-dessous une ébauche d’un algorithme permmettant l’addition sur des données chiffrée<br />
-et l’architecture proposés pour s’assurer de la cohérance du vote et de son anonymisation.</p>
+<p>Ci-dessous une ébauche d’un algorithme permmettant l’addition sur des données chiffrées .</p>
 <pre class="r"><code>### Cryptographie de Paillier
+# Ne fonctionne qu&#39;avec des entiers
 
 library(numbers)
 
@@ -703,21 +704,22 @@ lcm &lt;- function(a,b) {
   (a*b)/gcd(a,b)
 }
 
-# extended_euclidean_algorithm
+# Algorithme euclidien etendu
 extended_euclidean_algorithm &lt;- extGCD
 
-# inverse_of
+# Inverse modulaire
 inverse_of &lt;- modinv
 
-#Generation des cle, p&gt;q nombre premier
-p = 17
-q = 19
+#Generation des cle, p&gt;q et deux nombres premiers
+p = 17 #Garder secret
+q = 19 #Garder secret
 
-gLambda = lcm(p-1,q-1) #Cle privee
-n = p * q #Cle publique
+gLambda = lcm(p-1,q-1) #Cle privee : Garder secret
+n = p * q #Cle publique : A partagé aux votants
+
 g = floor(runif(1, 20, 150)) 
-l &lt;- (modpower(g, gLambda, n*n)-1)/n 
-gMu = inverse_of(l,n) #Cle prive
+l &lt;- (modpower(g, gLambda, n*n)-1)/n #Cle privee : Garder secret
+gMu = inverse_of(l,n) #Cle privee : Garder secret
 
 r = floor(runif(1, 20, 150)) 
 k = modpower(r, n, n*n) #Cle publique
@@ -727,41 +729,48 @@ m1 = 30 # n taille limite des message ici 5*17=85
 m2 = 20
 m3 = 10
 
+#Cryptage des messages avec la cle publique : g,n,r
 k3 = modpower(g, m3, n*n)
 k2 = modpower(g, m2, n*n)
 k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)</code></pre>
-<pre><code>## [1] 66821</code></pre>
-<pre class="r"><code>l1 &lt;-  (modpower(cipher1, gLambda, n*n)-1)/n
+<pre><code>## [1] 104269</code></pre>
+<pre class="r"><code>cipher2 = (k2*k) %% (n*n)
+print(cipher2)</code></pre>
+<pre><code>## [1] 19039</code></pre>
+<pre class="r"><code>cipher3 = (k3*k) %% (n*n)
+print(cipher3)</code></pre>
+<pre><code>## [1] 94892</code></pre>
+<pre class="r"><code>#Decryptage des messages avec la cle privee : gLambda, gMu
+l1 &lt;-  (modpower(cipher1, gLambda, n*n)-1)/n
 mess1 = (l1 * gMu) %% n
 mess1==m1</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>cipher2 = (k2*k) %% (n*n)
-print(cipher2)</code></pre>
-<pre><code>## [1] 53204</code></pre>
 <pre class="r"><code>l2 = floor( (modpower(cipher2, gLambda, n*n)-1)/n )
 mess2 = (l2 * gMu) %% n
 mess2==m2</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>cipher3 = (k3*k) %% (n*n)
-print(cipher3)</code></pre>
-<pre><code>## [1] 52014</code></pre>
 <pre class="r"><code>l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
 mess3 = (l3 * gMu) %% n
 mess3==m3</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>#Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
+<pre class="r"><code>#Addition homorphe
+#Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
 somme = m1+m2+m3
-addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la somme
+addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la 
 print(addition_crypte)</code></pre>
-<pre><code>## [1] 1.849173e+14</code></pre>
-<pre class="r"><code>l_somme_decypte = floor( (modpower(addition_crypte, gLambda, n*n)-1)/n )
+<pre><code>## [1] 1.883775e+14</code></pre>
+<pre class="r"><code>#Decryptage
+l_somme_decypte = floor((modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n
-somme_decypte==somme</code></pre>
+somme_decypte==somme #Fonctionne</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>#Fonctionne</code></pre>
+<p>Un tel algorithme ne saurait par lui-même, assurer une anonymisation du votant et d’assurer sans une architecture particulière.</p>
+<p>Ci-dessous une proposition d’architecture, se proposant d’assurer :
+- l’anonymisation du vote individuelle
+- la cohérance des résultats</p>
 <div id="htmlwidget-2" style="width:1000px;height:500px;" class="nomnoml html-widget"></div>
 <script type="application/json" data-for="htmlwidget-2">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n[<frame>Homomorpher Kryptographie|\n  [<abstract>Nachricht von Alice1||+ Publische Schlussel K]\n  [<abstract>Nachricht von Alice2||+ Publische Schlussel K]\n  [<abstract>Bob|| + Privatishce Schlussel DK]\n  [<abstract>Drittenperson|| + Operation 0 und Speichern S]\n  [Alice1]\n  [<abstract>Alice1||+ PK und DK]\n  [<abstract>Alice2||+ PK und DK]\n\n  [Nachricht von Alice1]K -> [KryptetNachricht1]\n  [Nachricht von Alice2]K -> [KryptetNachricht2]\n  \n  [KryptetNachricht1]--> [Drittenperson]\n  [KryptetNachricht2] --> [Drittenperson]\n  \n  [Drittenperson] S--> [Speichern]\n  \n  [Drittenperson] O--> [MetaKryptetNachricht]\n  [MetaKryptetNachricht] -->[Bob]\n  [Bob] DK ->[MetaNachricht]\n  \n  [Alice1] <------> [Speichern]\n  [Alice2] <------> [Speichern]\n]\n","svg":true},"evals":[],"jsHooks":[]}</script>
 </div>

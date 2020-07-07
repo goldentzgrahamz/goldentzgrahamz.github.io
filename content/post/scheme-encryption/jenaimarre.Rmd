@@ -48,17 +48,16 @@ Comment pouvons nous assurer du conscentement éclairé dans l'expression de l'a
 On note $L_{k}$ une règle définis par un ensemble de paramètre $Param_{k}$ de dimension $P$ qui apporte un ensemble d'avantage $Adv_k$ de dimension $A$ et de désavantage $DesAdv_k$ de dimension $D$.  
     
 On appelle information loyale toute réduction de dimension $P'<P$ et/ou $A'<A$ et/ou  $D'<D$ nous donne la même information $I$ sur la loi $L_k$ soit $I(ReducDim(L_{k}))=I(L_{k})$  
-On note $ReducDimLoyal()$ 
     
+On note $ReducDimLoyal()$  
 On suppose par simplification qu'il existe un agent $A$ qui peut donné, une tel $ReducDimLoyal()$
     
-Néanmoins cette $ReducDimLoyal()$ soit tel que la dimension réduite soit exploitable, disposable pour que $A_{ik}$ par $C_{i}$ par rapport à la loi $L_{k}$ soit possible.  
-On note cette $\star{ReducDimLoyal}()$, si une telle réduction est impossible, on parle de loi chaotique dans le sens où l'évaluation basé sur des informations loyales est impossible.
+Néanmoins cette $ReducDimLoyal()$ soit tel que la dimension réduite soit exploitable, disposable pour que $A_{ik}$ par $C_{i}$ par rapport à la loi $L_{k}$ soit possible. 
     
+On note cette $\star{ReducDimLoyal}()$, si une telle réduction est impossible, on parle de loi chaotique dans le sens où l'évaluation basé sur des informations loyales est impossible.   
 On suppose par simplification que $A$ peut donné, une tel $\star{ReducDimLoyal}()$
     
 Nénamoins cela ne saurait être une condition suffisante au conscentement éclairé, puisque cette accord peut être sujette à la pression ou contrainte.
-  
 
 # Le conscentement éclairé, une histoire d'indépendance
 
@@ -67,7 +66,7 @@ En effet si l'on prend l'exemple, d'un pays autoritaire celui-ci aurait tendance
 Une possibilité de s'assurer que le citoyen ne soit pas sujet à biaiser son accord, c'est de garder son information secret.
 Ainsi on ne pourrait pas exercer de conséquences sur le vote du citoyen en question car on n'aurait l'information de son choix.
     
-Mais dans ce cas là me dirait vous, qui de l'information ?  
+Mais dans ce cas là me dirait vous, quid de l'information ?  
 C'est la qu'intervient le concept de crytopgraphie homomorphe.
     
 Globalement cela dit que si l'on fait des operations sur des messages chiffree et que l'on dechiffre le résultat, alors ce résultat est le même que le résultats de ces mêmes opérations sur on avait effectué les messages non-chiffre.
@@ -86,15 +85,15 @@ diagram <-"[Oeration classique|[Michelle]-- [0]|[Bertrand]-- [1]|
 nomnoml(diagram,svg=TRUE, width = 500, height =500)
 ```
     
-La synthèse $\bar{A_k}$ serait alors disponible sans que les $\alpha_{ik}A_{ik}$ne soit directement accesible.
+La synthèse $\bar{A_k}$ serait alors disponible sans que les $\alpha_{ik}A_{ik}$ne soit directement accesible.  
+Le vote serait alors anonyme sous condition que l'échantillon ne vote pas dans le même sens.
     
 Une tel pression ne saurait s'exercer sur un individu au titre de son choix, mais sur le résultat du groupe dans son ensemble.
     
-Ci-dessous une ébauche d'un algorithme permmettant l'addition sur des données chiffrée  
-et l'architecture proposés pour s'assurer de la cohérance du vote et de son anonymisation.
-
+Ci-dessous une ébauche d'un algorithme permmettant l'addition sur des données chiffrées .
 ```{r}
 ### Cryptographie de Paillier
+# Ne fonctionne qu'avec des entiers
 
 library(numbers)
 
@@ -113,21 +112,22 @@ lcm <- function(a,b) {
   (a*b)/gcd(a,b)
 }
 
-# extended_euclidean_algorithm
+# Algorithme euclidien etendu
 extended_euclidean_algorithm <- extGCD
 
-# inverse_of
+# Inverse modulaire
 inverse_of <- modinv
 
-#Generation des cle, p>q nombre premier
-p = 17
-q = 19
+#Generation des cle, p>q et deux nombres premiers
+p = 17 #Garder secret
+q = 19 #Garder secret
 
-gLambda = lcm(p-1,q-1) #Cle privee
-n = p * q #Cle publique
+gLambda = lcm(p-1,q-1) #Cle privee : Garder secret
+n = p * q #Cle publique : A partagé aux votants
+
 g = floor(runif(1, 20, 150)) 
-l <- (modpower(g, gLambda, n*n)-1)/n 
-gMu = inverse_of(l,n) #Cle prive
+l <- (modpower(g, gLambda, n*n)-1)/n #Cle privee : Garder secret
+gMu = inverse_of(l,n) #Cle privee : Garder secret
 
 r = floor(runif(1, 20, 150)) 
 k = modpower(r, n, n*n) #Cle publique
@@ -137,38 +137,50 @@ m1 = 30 # n taille limite des message ici 5*17=85
 m2 = 20
 m3 = 10
 
+#Cryptage des messages avec la cle publique : g,n,r
 k3 = modpower(g, m3, n*n)
 k2 = modpower(g, m2, n*n)
 k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)
+
+cipher2 = (k2*k) %% (n*n)
+print(cipher2)
+
+cipher3 = (k3*k) %% (n*n)
+print(cipher3)
+
+#Decryptage des messages avec la cle privee : gLambda, gMu
 l1 <-  (modpower(cipher1, gLambda, n*n)-1)/n
 mess1 = (l1 * gMu) %% n
 mess1==m1
 
-cipher2 = (k2*k) %% (n*n)
-print(cipher2)
 l2 = floor( (modpower(cipher2, gLambda, n*n)-1)/n )
 mess2 = (l2 * gMu) %% n
 mess2==m2
 
-cipher3 = (k3*k) %% (n*n)
-print(cipher3)
 l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
 mess3 = (l3 * gMu) %% n
 mess3==m3
 
+#Addition homorphe
 #Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
 somme = m1+m2+m3
-addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la somme
+addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la 
 print(addition_crypte)
 
-l_somme_decypte = floor( (modpower(addition_crypte, gLambda, n*n)-1)/n )
+#Decryptage
+l_somme_decypte = floor((modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n
-somme_decypte==somme
-#Fonctionne
+somme_decypte==somme #Fonctionne
 ```
+
+Un tel algorithme ne saurait par lui-même, assurer une anonymisation du votant et d'assurer sans une architecture particulière.
+    
+Ci-dessous une proposition d'architecture, se proposant d'assurer :
+- l'anonymisation du vote individuelle
+- la cohérance des résultats
     
 ```{r, echo=FALSE}  
 library(nomnoml)
