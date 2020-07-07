@@ -1,5 +1,5 @@
 ---
-title: "De la recherche d'accord claire, libre et conscentie : une recherche d'anonymisation"
+title: "De la recherche d'accord claire, libre et conscentie : un conscentement éclairé"
 author: "Goldentz Grahamz"
 date: '2020-07-04'
 categories: []
@@ -27,7 +27,154 @@ authors: []
 
 # De la pertinence d'un accord à la regle 
 
-```{r, message=FALSE}  
+Pour la définition d'un accord claire, libre et conscentie à la règle, nous emprunterons à la médicine et la notion de conscentement libre et éclairé.    
+https://www.france-assos-sante.org/66-millions-dimpatients/patients-vous-avez-des-droits/consentement-aux-soins/
+    
+<span style="text-decoration: underline">Définition</span>:
+
+Avant de donner son accord ( ou désaccord) à la loi, le citoyen doit bénéficier d’informations loyales, claires et adaptées à son degré de compréhension de la part de personnes spécialisés  tout en étant libre de toute pression ou contrainte.
+        
+Donner son consentement éclairé implique de connaître les alternatives législatives envisageables, c’est-à-dire les autres moyens de traiter le(s) problème(s) du groupe avec leurs avantages et leurs inconvénients… C’est sur la base de cet échange que le citoyen pourra donner son accord ou désaccord avec la règle actuellement en vigeur.
+    
+Pour résumer, le conscentement éclairé implique de :
+    
+- disposer d'informations loyale sur la loi  
+- être libre de toute pression ou contrainte  
+    
+Comment pouvons nous assurer du conscentement éclairé dans l'expression de l'accord/désaccord du citoyen quant à la règle dont on cherche à mesurer le carctère démocratique ?
+      
+# Le conscentement éclairé, une histoire d'information loyale
+    
+On note $L_{k}$ une règle définis par un ensemble de paramètre $Param_{k}$ de dimension $P$ qui apporte un ensemble d'avantage $Adv_k$ de dimension $A$ et de désavantage $DesAdv_k$ de dimension $D$.  
+    
+On appelle information loyale toute réduction de dimension $P'<P$ et/ou $A'<A$ et/ou  $D'<D$ nous donne la même information $I$ sur la loi $L_k$ soit $I(ReducDim(L_{k}))=I(L_{k})$  
+On note $ReducDimLoyal()$ 
+    
+On suppose par simplification qu'il existe un agent $A$ qui peut donné, une tel $ReducDimLoyal()$
+    
+Néanmoins cette $ReducDimLoyal()$ soit tel que la dimension réduite soit exploitable, disposable pour que $A_{ik}$ par $C_{i}$ par rapport à la loi $L_{k}$ soit possible.  
+On note cette $\star{ReducDimLoyal}()$, si une telle réduction est impossible, on parle de loi chaotique dans le sens où l'évaluation basé sur des informations loyales est impossible.
+    
+On suppose par simplification que $A$ peut donné, une tel $\star{ReducDimLoyal}()$
+    
+Nénamoins cela ne saurait être une condition suffisante au conscentement éclairé, puisque cette accord peut être sujette à la pression ou contrainte.
+  
+
+# Le conscentement éclairé, une histoire d'indépendance
+
+En effet si l'on prend l'exemple, d'un pays autoritaire celui-ci aurait tendance à discriminer ceux qui manifeste un désaccord avec le pouvoir en place, ainsi par peur de représaille, le citoyen aurait tendance à biaiser son accord dans le sesns où celui-ci ne saurait être issu d'un conscentement éclairé.
+    
+Une possibilité de s'assurer que le citoyen ne soit pas sujet à biaiser son accord, c'est de garder son information secret.
+Ainsi on ne pourrait pas exercer de conséquences sur le vote du citoyen en question car on n'aurait l'information de son choix.
+    
+Mais dans ce cas là me dirait vous, qui de l'information ?  
+C'est la qu'intervient le concept de crytopgraphie homomorphe.
+    
+Globalement cela dit que si l'on fait des operations sur des messages chiffree et que l'on dechiffre le résultat, alors ce résultat est le même que le résultats de ces mêmes opérations sur on avait effectué les messages non-chiffre.
+
+```{r,echo=FALSE}  
+library(nomnoml)
+diagram <-"[Oeration classique|[Michelle]-- [0]|[Bertrand]-- [1]|
+   [Resultat]--[(0+1)/2=0.5]
+ ]
+ [Operation homomorphe par l'addition et la multiplication|[Encrypt(Michelle)=FVS9!]-- [Encrypt(0)=lfd80]|[Encrypt(Bertrand)=0?mdf]-- [Encrypt(1)=qsff9]|
+   [Resultat krypte]--[Add(lfd80,qsff9)/2=qzf8!]
+   [Resultat]--[Decrypt(qzf8!)=0.5]
+ ]
+"
+
+nomnoml(diagram,svg=TRUE, width = 500, height =500)
+```
+    
+La synthèse $\bar{A_k}$ serait alors disponible sans que les $\alpha_{ik}A_{ik}$ne soit directement accesible.
+    
+Une tel pression ne saurait s'exercer sur un individu au titre de son choix, mais sur le résultat du groupe dans son ensemble.
+    
+Ci-dessous une ébauche d'un algorithme permmettant l'addition sur des données chiffrée  
+et l'architecture proposés pour s'assurer de la cohérance du vote et de son anonymisation.
+
+```{r}
+library(numbers)
+
+# Plus grand dÃ©nominateur entier commun
+gcd <- function(a,b) {
+  rk_1 <- a
+  rk_2 <- b
+  while (rk_2 > 0) {
+    rk   <- rk_1 %% rk_2
+    rk_1 <- rk_2
+    rk_2 <- rk
+  }
+  return( rk_1 )
+}
+lcm <- function(a,b) {
+  (a*b)/gcd(a,b)
+}
+
+# extended_euclidean_algorithm
+extended_euclidean_algorithm <- extGCD
+
+# inverse_of
+inverse_of <- modinv
+
+#Generation des cle,s p>q nombre premier
+p = 17
+q = 5 
+gLambda = lcm(p-1,q-1) 
+n = p * q #Cle publique
+g = floor(runif(1, 20, 150)) 
+l <- floor( (modpower(g, gLambda, n*n)-1)/n ) 
+gMu = inverse_of(l,n) #Cle prive
+r = floor(runif(1, 20, 150)) 
+k = modpower(r, n, n*n) #Cle publique
+
+# Definition des messages, il ne doivent pas depasse n
+m1 = 84 # n taille limite des message
+m2 = 100
+m3 = 100
+
+k3 = modpower(g, m3, n*n)
+k2 = modpower(g, m2, n*n)
+k1 = modpower(g, m1, n*n)
+
+cipher1 = (k1*k) %% (n*n)
+print(cipher1)
+l1 <- floor( (modpower(cipher1, gLambda, n*n)-1)/n ) 
+mess1 = (l1 * gMu) %% n
+mess1==m1
+
+cipher2 = (k2*k) %% (n*n)
+print(cipher2)
+l2 = floor( (modpower(cipher2, gLambda, n*n)-1)/n )
+mess2 = (l2 * gMu) %% n
+mess2==m2
+
+cipher3 = (k3*k) %% (n*n)
+print(cipher3)
+l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
+mess3 = (l3 * gMu) %% n
+mess3==m3
+
+somme = m1+m2+m3
+addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la somme
+print(addition_crypte)
+
+
+l_somme_decypte = floor( (modpower(addition_crypte, gLambda, n*n)-1)/n )
+somme_decypte = (l_somme_decypte * gMu) %% n
+somme_decypte==somme
+#Fonctionne
+
+
+multiplication = m1*m2*m3
+multplication_crypte = (cipher1+cipher2+cipher3)
+l_multi_decypte = floor( (modpower(multplication_crypte, gLambda, n*n)-1)/n )
+multi_decypte = (l_multi_decypte * gMu) %% n
+multi_decypte==multiplication 
+#Ne fonctionne pas
+```
+    
+```{r, echo=FALSE}  
 library(nomnoml)
 diagram <- "
 [<frame>Homomorpher Kryptographie|
