@@ -94,9 +94,11 @@ Ci-dessous une ébauche d'un algorithme permmettant l'addition sur des données 
 et l'architecture proposés pour s'assurer de la cohérance du vote et de son anonymisation.
 
 ```{r}
+### Cryptographie de Paillier
+
 library(numbers)
 
-# Plus grand dÃ©nominateur entier commun
+# Plus grand dénominateur entier commun
 gcd <- function(a,b) {
   rk_1 <- a
   rk_2 <- b
@@ -113,25 +115,28 @@ lcm <- function(a,b) {
 
 # extended_euclidean_algorithm
 extended_euclidean_algorithm <- extGCD
+help(extGCD)
 
 # inverse_of
 inverse_of <- modinv
+help(modinv)
 
-#Generation des cle,s p>q nombre premier
+#Generation des cle, p>q nombre premier
 p = 17
 q = 5 
-gLambda = lcm(p-1,q-1) 
+
+gLambda = lcm(p-1,q-1) #Cle privee
 n = p * q #Cle publique
-g = floor(runif(1, 20, 150)) 
+g = floor(runif(1, 20, n)) 
 l <- floor( (modpower(g, gLambda, n*n)-1)/n ) 
 gMu = inverse_of(l,n) #Cle prive
-r = floor(runif(1, 20, 150)) 
+r = floor(runif(1, 20, n)) 
 k = modpower(r, n, n*n) #Cle publique
 
 # Definition des messages, il ne doivent pas depasse n
-m1 = 84 # n taille limite des message
-m2 = 100
-m3 = 100
+m1 = 30 # n taille limite des message ici 5*17=85
+m2 = 20
+m3 = 10
 
 k3 = modpower(g, m3, n*n)
 k2 = modpower(g, m2, n*n)
@@ -155,23 +160,15 @@ l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
 mess3 = (l3 * gMu) %% n
 mess3==m3
 
+#Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
 somme = m1+m2+m3
 addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la somme
 print(addition_crypte)
-
 
 l_somme_decypte = floor( (modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n
 somme_decypte==somme
 #Fonctionne
-
-
-multiplication = m1*m2*m3
-multplication_crypte = (cipher1+cipher2+cipher3)
-l_multi_decypte = floor( (modpower(multplication_crypte, gLambda, n*n)-1)/n )
-multi_decypte = (l_multi_decypte * gMu) %% n
-multi_decypte==multiplication 
-#Ne fonctionne pas
 ```
     
 ```{r, echo=FALSE}  

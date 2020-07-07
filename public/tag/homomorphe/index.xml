@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>homomorphe | Goldentz Grahamz</title>
-    <link>https://goldentzgrahamz.netlify.app/tag/homomorphe/</link>
-      <atom:link href="https://goldentzgrahamz.netlify.app/tag/homomorphe/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/homomorphe/</link>
+      <atom:link href="/tag/homomorphe/index.xml" rel="self" type="application/rss+xml" />
     <description>homomorphe</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>homomorphe</title>
-      <link>https://goldentzgrahamz.netlify.app/tag/homomorphe/</link>
+      <link>/tag/homomorphe/</link>
     </image>
     
     <item>
       <title>De la recherche d&#39;accord claire, libre et conscentie : un conscentement éclairé</title>
-      <link>https://goldentzgrahamz.netlify.app/post/scheme-encryption/schemehomomorpherencryption/</link>
+      <link>/post/scheme-encryption/schemehomomorpherencryption/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://goldentzgrahamz.netlify.app/post/scheme-encryption/schemehomomorpherencryption/</guid>
+      <guid>/post/scheme-encryption/schemehomomorpherencryption/</guid>
       <description>
-&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/dagre/dagre.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/lodash/lodash.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/nomnoml/nomnoml.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/nomnoml-binding/nomnoml.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/dagre/dagre.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/lodash/lodash.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/nomnoml/nomnoml.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/nomnoml-binding/nomnoml.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/aQOwQm-fjLg&#34;&gt;
@@ -67,9 +67,11 @@ C’est la qu’intervient le concept de crytopgraphie homomorphe.&lt;/p&gt;
 &lt;p&gt;Une tel pression ne saurait s’exercer sur un individu au titre de son choix, mais sur le résultat du groupe dans son ensemble.&lt;/p&gt;
 &lt;p&gt;Ci-dessous une ébauche d’un algorithme permmettant l’addition sur des données chiffrée&lt;br /&gt;
 et l’architecture proposés pour s’assurer de la cohérance du vote et de son anonymisation.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(numbers)
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;### Cryptographie de Paillier
 
-# Plus grand dÃ©nominateur entier commun
+library(numbers)
+
+# Plus grand dénominateur entier commun
 gcd &amp;lt;- function(a,b) {
   rk_1 &amp;lt;- a
   rk_2 &amp;lt;- b
@@ -86,25 +88,28 @@ lcm &amp;lt;- function(a,b) {
 
 # extended_euclidean_algorithm
 extended_euclidean_algorithm &amp;lt;- extGCD
-
-# inverse_of
+help(extGCD)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## starting httpd help server ... done&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# inverse_of
 inverse_of &amp;lt;- modinv
+help(modinv)
 
-#Generation des cle,s p&amp;gt;q nombre premier
+#Generation des cle, p&amp;gt;q nombre premier
 p = 17
 q = 5 
-gLambda = lcm(p-1,q-1) 
+
+gLambda = lcm(p-1,q-1) #Cle privee
 n = p * q #Cle publique
-g = floor(runif(1, 20, 150)) 
+g = floor(runif(1, 20, n)) 
 l &amp;lt;- floor( (modpower(g, gLambda, n*n)-1)/n ) 
 gMu = inverse_of(l,n) #Cle prive
-r = floor(runif(1, 20, 150)) 
+r = floor(runif(1, 20, n)) 
 k = modpower(r, n, n*n) #Cle publique
 
 # Definition des messages, il ne doivent pas depasse n
-m1 = 84 # n taille limite des message
-m2 = 100
-m3 = 100
+m1 = 30 # n taille limite des message ici 5*17=85
+m2 = 20
+m3 = 10
 
 k3 = modpower(g, m3, n*n)
 k2 = modpower(g, m2, n*n)
@@ -112,43 +117,35 @@ k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 3468&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1725&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l1 &amp;lt;- floor( (modpower(cipher1, gLambda, n*n)-1)/n ) 
 mess1 = (l1 * gMu) %% n
 mess1==m1&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cipher2 = (k2*k) %% (n*n)
 print(cipher2)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 3468&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 5300&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l2 = floor( (modpower(cipher2, gLambda, n*n)-1)/n )
 mess2 = (l2 * gMu) %% n
 mess2==m2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cipher3 = (k3*k) %% (n*n)
 print(cipher3)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 3468&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3300&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
 mess3 = (l3 * gMu) %% n
 mess3==m3&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;somme = m1+m2+m3
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
+somme = m1+m2+m3
 addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la somme
 print(addition_crypte)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 41709719232&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 30170250000&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l_somme_decypte = floor( (modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n
 somme_decypte==somme&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Fonctionne
-
-
-multiplication = m1*m2*m3
-multplication_crypte = (cipher1+cipher2+cipher3)
-l_multi_decypte = floor( (modpower(multplication_crypte, gLambda, n*n)-1)/n )
-multi_decypte = (l_multi_decypte * gMu) %% n
-multi_decypte==multiplication &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Ne fonctionne pas&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Fonctionne&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:1000px;height:500px;&#34; class=&#34;nomnoml html-widget&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;code&#34;:&#34;\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n[&lt;frame&gt;Homomorpher Kryptographie|\n  [&lt;abstract&gt;Nachricht von Alice1||+ Publische Schlussel K]\n  [&lt;abstract&gt;Nachricht von Alice2||+ Publische Schlussel K]\n  [&lt;abstract&gt;Bob|| + Privatishce Schlussel DK]\n  [&lt;abstract&gt;Drittenperson|| + Operation 0 und Speichern S]\n  [Alice1]\n  [&lt;abstract&gt;Alice1||+ PK und DK]\n  [&lt;abstract&gt;Alice2||+ PK und DK]\n\n  [Nachricht von Alice1]K -&gt; [KryptetNachricht1]\n  [Nachricht von Alice2]K -&gt; [KryptetNachricht2]\n  \n  [KryptetNachricht1]--&gt; [Drittenperson]\n  [KryptetNachricht2] --&gt; [Drittenperson]\n  \n  [Drittenperson] S--&gt; [Speichern]\n  \n  [Drittenperson] O--&gt; [MetaKryptetNachricht]\n  [MetaKryptetNachricht] --&gt;[Bob]\n  [Bob] DK -&gt;[MetaNachricht]\n  \n  [Alice1] &lt;------&gt; [Speichern]\n  [Alice2] &lt;------&gt; [Speichern]\n]\n&#34;,&#34;svg&#34;:true},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 &lt;/div&gt;
