@@ -121,14 +121,15 @@ inverse_of <- modinv
 
 #Generation des cle, p>q nombre premier
 p = 17
-q = 5 
+q = 19
 
 gLambda = lcm(p-1,q-1) #Cle privee
 n = p * q #Cle publique
-g = floor(runif(1, 20, n)) 
-l <- floor( (modpower(g, gLambda, n*n)-1)/n ) 
+g = floor(runif(1, 20, 150)) 
+l <- (modpower(g, gLambda, n*n)-1)/n 
 gMu = inverse_of(l,n) #Cle prive
-r = floor(runif(1, 20, n)) 
+
+r = floor(runif(1, 20, 150)) 
 k = modpower(r, n, n*n) #Cle publique
 
 # Definition des messages, il ne doivent pas depasse n
@@ -142,7 +143,7 @@ k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)
-l1 <- floor( (modpower(cipher1, gLambda, n*n)-1)/n ) 
+l1 <-  (modpower(cipher1, gLambda, n*n)-1)/n
 mess1 = (l1 * gMu) %% n
 mess1==m1
 

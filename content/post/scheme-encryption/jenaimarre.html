@@ -98,14 +98,15 @@ inverse_of &lt;- modinv
 
 #Generation des cle, p&gt;q nombre premier
 p = 17
-q = 5 
+q = 19
 
 gLambda = lcm(p-1,q-1) #Cle privee
 n = p * q #Cle publique
-g = floor(runif(1, 20, n)) 
-l &lt;- floor( (modpower(g, gLambda, n*n)-1)/n ) 
+g = floor(runif(1, 20, 150)) 
+l &lt;- (modpower(g, gLambda, n*n)-1)/n 
 gMu = inverse_of(l,n) #Cle prive
-r = floor(runif(1, 20, n)) 
+
+r = floor(runif(1, 20, 150)) 
 k = modpower(r, n, n*n) #Cle publique
 
 # Definition des messages, il ne doivent pas depasse n
@@ -119,34 +120,34 @@ k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)</code></pre>
-<pre><code>## [1] 6850</code></pre>
-<pre class="r"><code>l1 &lt;- floor( (modpower(cipher1, gLambda, n*n)-1)/n ) 
+<pre><code>## [1] 66821</code></pre>
+<pre class="r"><code>l1 &lt;-  (modpower(cipher1, gLambda, n*n)-1)/n
 mess1 = (l1 * gMu) %% n
 mess1==m1</code></pre>
-<pre><code>## [1] NA</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 <pre class="r"><code>cipher2 = (k2*k) %% (n*n)
 print(cipher2)</code></pre>
-<pre><code>## [1] 400</code></pre>
+<pre><code>## [1] 53204</code></pre>
 <pre class="r"><code>l2 = floor( (modpower(cipher2, gLambda, n*n)-1)/n )
 mess2 = (l2 * gMu) %% n
 mess2==m2</code></pre>
-<pre><code>## [1] NA</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 <pre class="r"><code>cipher3 = (k3*k) %% (n*n)
 print(cipher3)</code></pre>
-<pre><code>## [1] 1500</code></pre>
+<pre><code>## [1] 52014</code></pre>
 <pre class="r"><code>l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
 mess3 = (l3 * gMu) %% n
 mess3==m3</code></pre>
-<pre><code>## [1] NA</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 <pre class="r"><code>#Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
 somme = m1+m2+m3
 addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la somme
 print(addition_crypte)</code></pre>
-<pre><code>## [1] 4.11e+09</code></pre>
+<pre><code>## [1] 1.849173e+14</code></pre>
 <pre class="r"><code>l_somme_decypte = floor( (modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n
 somme_decypte==somme</code></pre>
-<pre><code>## [1] NA</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 <pre class="r"><code>#Fonctionne</code></pre>
 <div id="htmlwidget-2" style="width:1000px;height:500px;" class="nomnoml html-widget"></div>
 <script type="application/json" data-for="htmlwidget-2">{"x":{"code":"\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n[<frame>Homomorpher Kryptographie|\n  [<abstract>Nachricht von Alice1||+ Publische Schlussel K]\n  [<abstract>Nachricht von Alice2||+ Publische Schlussel K]\n  [<abstract>Bob|| + Privatishce Schlussel DK]\n  [<abstract>Drittenperson|| + Operation 0 und Speichern S]\n  [Alice1]\n  [<abstract>Alice1||+ PK und DK]\n  [<abstract>Alice2||+ PK und DK]\n\n  [Nachricht von Alice1]K -> [KryptetNachricht1]\n  [Nachricht von Alice2]K -> [KryptetNachricht2]\n  \n  [KryptetNachricht1]--> [Drittenperson]\n  [KryptetNachricht2] --> [Drittenperson]\n  \n  [Drittenperson] S--> [Speichern]\n  \n  [Drittenperson] O--> [MetaKryptetNachricht]\n  [MetaKryptetNachricht] -->[Bob]\n  [Bob] DK ->[MetaNachricht]\n  \n  [Alice1] <------> [Speichern]\n  [Alice2] <------> [Speichern]\n]\n","svg":true},"evals":[],"jsHooks":[]}</script>
