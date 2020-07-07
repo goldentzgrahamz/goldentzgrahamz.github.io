@@ -115,11 +115,9 @@ lcm <- function(a,b) {
 
 # extended_euclidean_algorithm
 extended_euclidean_algorithm <- extGCD
-help(extGCD)
 
 # inverse_of
 inverse_of <- modinv
-help(modinv)
 
 #Generation des cle, p>q nombre premier
 p = 17
