@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goldentz Grahamz</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://goldentzgrahamz.netlify.app/</link>
+      <atom:link href="https://goldentzgrahamz.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Goldentz Grahamz</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
+      <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>Goldentz Grahamz</title>
-      <link>/</link>
+      <link>https://goldentzgrahamz.netlify.app/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://goldentzgrahamz.netlify.app/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -36,9 +36,9 @@
     
     <item>
       <title>De la démocratie conceptuel, à la démocratie empirique : un critère de mesure</title>
-      <link>/post/demokratie-daten/democratie/</link>
+      <link>https://goldentzgrahamz.netlify.app/post/demokratie-daten/democratie/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/demokratie-daten/democratie/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/post/demokratie-daten/democratie/</guid>
       <description>
 
 
@@ -296,15 +296,15 @@ vote_pour&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>De la recherche d&#39;accord claire, libre et conscentie : un conscentement éclairé</title>
-      <link>/post/scheme-encryption/schemehomomorpherencryption/</link>
+      <link>https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/scheme-encryption/schemehomomorpherencryption/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/dagre/dagre.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/lodash/lodash.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/nomnoml/nomnoml.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/nomnoml-binding/nomnoml.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/dagre/dagre.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/lodash/lodash.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/nomnoml/nomnoml.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/nomnoml-binding/nomnoml.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/aQOwQm-fjLg&#34;&gt;
@@ -397,34 +397,34 @@ k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 5226&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 6850&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l1 &amp;lt;- floor( (modpower(cipher1, gLambda, n*n)-1)/n ) 
 mess1 = (l1 * gMu) %% n
 mess1==m1&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cipher2 = (k2*k) %% (n*n)
 print(cipher2)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 7049&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 400&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l2 = floor( (modpower(cipher2, gLambda, n*n)-1)/n )
 mess2 = (l2 * gMu) %% n
 mess2==m2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cipher3 = (k3*k) %% (n*n)
 print(cipher3)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1676&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1500&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
 mess3 = (l3 * gMu) %% n
 mess3==m3&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
 somme = m1+m2+m3
 addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la somme
 print(addition_crypte)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 61740612024&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 4.11e+09&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l_somme_decypte = floor( (modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n
 somme_decypte==somme&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] NA&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Fonctionne&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:1000px;height:500px;&#34; class=&#34;nomnoml html-widget&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;code&#34;:&#34;\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n[&lt;frame&gt;Homomorpher Kryptographie|\n  [&lt;abstract&gt;Nachricht von Alice1||+ Publische Schlussel K]\n  [&lt;abstract&gt;Nachricht von Alice2||+ Publische Schlussel K]\n  [&lt;abstract&gt;Bob|| + Privatishce Schlussel DK]\n  [&lt;abstract&gt;Drittenperson|| + Operation 0 und Speichern S]\n  [Alice1]\n  [&lt;abstract&gt;Alice1||+ PK und DK]\n  [&lt;abstract&gt;Alice2||+ PK und DK]\n\n  [Nachricht von Alice1]K -&gt; [KryptetNachricht1]\n  [Nachricht von Alice2]K -&gt; [KryptetNachricht2]\n  \n  [KryptetNachricht1]--&gt; [Drittenperson]\n  [KryptetNachricht2] --&gt; [Drittenperson]\n  \n  [Drittenperson] S--&gt; [Speichern]\n  \n  [Drittenperson] O--&gt; [MetaKryptetNachricht]\n  [MetaKryptetNachricht] --&gt;[Bob]\n  [Bob] DK -&gt;[MetaNachricht]\n  \n  [Alice1] &lt;------&gt; [Speichern]\n  [Alice2] &lt;------&gt; [Speichern]\n]\n&#34;,&#34;svg&#34;:true},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
@@ -434,9 +434,9 @@ somme_decypte==somme&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Finanzmathematik, Gymnasiumstufe</title>
-      <link>/post/autre/</link>
+      <link>https://goldentzgrahamz.netlify.app/post/autre/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/autre/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/post/autre/</guid>
       <description>
 
 
@@ -539,16 +539,16 @@ ggplot(data_C, aes(x = temps, y = C))+
       geom_hline(yintercept = 16000)+
       geom_vline(xintercept = 23)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/autre/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goldentzgrahamz.netlify.app/post/autre/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://goldentzgrahamz.netlify.app/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -680,30 +680,21 @@ Three
     
     <item>
       <title>LICENSE: CC-BY-SA</title>
-      <link>/privacy/</link>
+      <link>https://goldentzgrahamz.netlify.app/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/privacy/</guid>
       <description>&lt;p&gt;Meine 
-&lt;a href=&#34;/post/&#34;&gt;blog posts&lt;/a&gt; wird unter einer [Creative Commons Attribution-ShareAlike 4.0 International License] veröffentlicht (&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/)&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/)&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://goldentzgrahamz.netlify.app/post/&#34;&gt;blog posts&lt;/a&gt; wird unter einer [Creative Commons Attribution-ShareAlike 4.0 International License] veröffentlicht (&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/)&#34;&gt;http://creativecommons.org/licenses/by-sa/4.0/)&lt;/a&gt;.&lt;/p&gt;
 &lt;center&gt;
 &lt;i class=&#34;fab fa-creative-commons fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-by fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-sa fa-2x&#34;&gt;&lt;/i&gt;
 &lt;/center&gt;</description>
     </item>
     
     <item>
-      <title>Begriffe</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A Fully Homomorphic Encryption Scheme</title>
-      <link>/publication/these/</link>
+      <link>https://goldentzgrahamz.netlify.app/publication/these/</link>
       <pubDate>Tue, 01 Dec 2009 00:00:00 +0000</pubDate>
-      <guid>/publication/these/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/publication/these/</guid>
       <description></description>
     </item>
     
