@@ -123,13 +123,13 @@ k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)</code></pre>
-<pre><code>## [1] 88989</code></pre>
+<pre><code>## [1] 104269</code></pre>
 <pre class="r"><code>cipher2 = (k2*k) %% (n*n)
 print(cipher2)</code></pre>
-<pre><code>## [1] 74976</code></pre>
+<pre><code>## [1] 19039</code></pre>
 <pre class="r"><code>cipher3 = (k3*k) %% (n*n)
 print(cipher3)</code></pre>
-<pre><code>## [1] 66532</code></pre>
+<pre><code>## [1] 94892</code></pre>
 <pre class="r"><code>#Decryptage des messages avec la cle privee : gLambda, gMu
 l1 &lt;-  (modpower(cipher1, gLambda, n*n)-1)/n
 mess1 = (l1 * gMu) %% n
@@ -148,7 +148,7 @@ mess3==m3</code></pre>
 somme = m1+m2+m3
 addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la 
 print(addition_crypte)</code></pre>
-<pre><code>## [1] 4.439041e+14</code></pre>
+<pre><code>## [1] 1.883775e+14</code></pre>
 <pre class="r"><code>#Decryptage
 l_somme_decypte = floor((modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n

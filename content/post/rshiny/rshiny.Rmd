@@ -1,0 +1,29 @@
+---
+title: "Un simple test de Rshiny"
+author: "Goldentz Grahamz"
+date: '2020-07-04'
+categories: []
+disable_jquery: no
+featured: no
+image:
+  caption: 
+  focal_point: ''
+  preview_only: no
+lastmod: '2020-08-14T20:45:57-07:00'
+math: yes
+projects: []
+subtitle: ''
+summary: 'Essai sur le fait dimporter une application Rshiny sur mon blog'
+tags:
+- rmarkdown
+- rshiny
+- app
+authors: []
+output:
+  blogdown::html_page:
+    toc: false
+runtime: shiny
+---
+<iframe width="800" height="420"
+  src="https://quentin-gollentz.shinyapps.io/test/">
+</iframe>

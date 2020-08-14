@@ -274,9 +274,9 @@ vote_pour&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>De la recherche d&#39;accord claire, libre et conscentie : un conscentement éclairé</title>
-      <link>https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/</link>
+      <link>https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/</guid>
       <description>
 &lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/dagre/dagre.min.js&#34;&gt;&lt;/script&gt;
@@ -405,6 +405,154 @@ somme = m1+m2+m3
 addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la 
 print(addition_crypte)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 1.883775e+14&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Decryptage
+l_somme_decypte = floor((modpower(addition_crypte, gLambda, n*n)-1)/n )
+somme_decypte = (l_somme_decypte * gMu) %% n
+somme_decypte==somme #Fonctionne&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Un tel algorithme ne saurait par lui-même, assurer une anonymisation du votant et d’assurer sans une architecture particulière.&lt;/p&gt;
+&lt;p&gt;Ci-dessous une proposition d’architecture, se proposant d’assurer :
+- l’anonymisation du vote individuelle
+- la cohérance des résultats&lt;/p&gt;
+&lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:1000px;height:500px;&#34; class=&#34;nomnoml html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;code&#34;:&#34;\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n\n[&lt;frame&gt;Homomorpher Kryptographie|\n  [&lt;abstract&gt;Nachricht von Alice1||+ Publische Schlussel K]\n  [&lt;abstract&gt;Nachricht von Alice2||+ Publische Schlussel K]\n  [&lt;abstract&gt;Bob|| + Privatishce Schlussel DK]\n  [&lt;abstract&gt;Drittenperson|| + Operation 0 und Speichern S]\n  [Alice1]\n  [&lt;abstract&gt;Alice1||+ PK und DK]\n  [&lt;abstract&gt;Alice2||+ PK und DK]\n\n  [Nachricht von Alice1]K -&gt; [KryptetNachricht1]\n  [Nachricht von Alice2]K -&gt; [KryptetNachricht2]\n  \n  [KryptetNachricht1]--&gt; [Drittenperson]\n  [KryptetNachricht2] --&gt; [Drittenperson]\n  \n  [Drittenperson] S--&gt; [Speichern]\n  \n  [Drittenperson] O--&gt; [MetaKryptetNachricht]\n  [MetaKryptetNachricht] --&gt;[Bob]\n  [Bob] DK -&gt;[MetaNachricht]\n  \n  [Alice1] &lt;------&gt; [Speichern]\n  [Alice2] &lt;------&gt; [Speichern]\n]\n&#34;,&#34;svg&#34;:true},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>De la recherche d&#39;accord claire, libre et conscentie : un conscentement éclairé</title>
+      <link>https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/</guid>
+      <description>
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/dagre/dagre.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/lodash/lodash.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/nomnoml/nomnoml.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/nomnoml-binding/nomnoml.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/aQOwQm-fjLg&#34;&gt;
+&lt;/iframe&gt;
+&lt;div id=&#34;de-la-pertinence-dun-accord-à-la-regle&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;De la pertinence d’un accord à la regle&lt;/h1&gt;
+&lt;p&gt;Pour la définition d’un accord claire, libre et conscentie à la règle, nous emprunterons à la médicine et la notion de conscentement libre et éclairé.&lt;br /&gt;
+&lt;a href=&#34;https://www.france-assos-sante.org/66-millions-dimpatients/patients-vous-avez-des-droits/consentement-aux-soins/&#34; class=&#34;uri&#34;&gt;https://www.france-assos-sante.org/66-millions-dimpatients/patients-vous-avez-des-droits/consentement-aux-soins/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;text-decoration: underline&#34;&gt;Définition&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;Avant de donner son accord ( ou désaccord) à la loi, le citoyen doit bénéficier d’informations loyales, claires et adaptées à son degré de compréhension de la part de personnes spécialisés tout en étant libre de toute pression ou contrainte.&lt;/p&gt;
+&lt;p&gt;Donner son consentement éclairé implique de connaître les alternatives législatives envisageables, c’est-à-dire les autres moyens de traiter le(s) problème(s) du groupe avec leurs avantages et leurs inconvénients… C’est sur la base de cet échange que le citoyen pourra donner son accord ou désaccord avec la règle actuellement en vigeur.&lt;/p&gt;
+&lt;p&gt;Pour résumer, le conscentement éclairé implique de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;disposer d’informations loyale sur la loi&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;être libre de toute pression ou contrainte&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comment pouvons nous assurer du conscentement éclairé dans l’expression de l’accord/désaccord du citoyen quant à la règle dont on cherche à mesurer le carctère démocratique ?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;le-conscentement-éclairé-une-histoire-dinformation-loyale&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Le conscentement éclairé, une histoire d’information loyale&lt;/h1&gt;
+&lt;p&gt;On note &lt;span class=&#34;math inline&#34;&gt;\(L_{k}\)&lt;/span&gt; une règle définis par un ensemble de paramètre &lt;span class=&#34;math inline&#34;&gt;\(Param_{k}\)&lt;/span&gt; de dimension &lt;span class=&#34;math inline&#34;&gt;\(P\)&lt;/span&gt; qui apporte un ensemble d’avantage &lt;span class=&#34;math inline&#34;&gt;\(Adv_k\)&lt;/span&gt; de dimension &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; et de désavantage &lt;span class=&#34;math inline&#34;&gt;\(DesAdv_k\)&lt;/span&gt; de dimension &lt;span class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;On appelle information loyale toute réduction de dimension &lt;span class=&#34;math inline&#34;&gt;\(P&amp;#39;&amp;lt;P\)&lt;/span&gt; et/ou &lt;span class=&#34;math inline&#34;&gt;\(A&amp;#39;&amp;lt;A\)&lt;/span&gt; et/ou &lt;span class=&#34;math inline&#34;&gt;\(D&amp;#39;&amp;lt;D\)&lt;/span&gt; nous donne la même information &lt;span class=&#34;math inline&#34;&gt;\(I\)&lt;/span&gt; sur la loi &lt;span class=&#34;math inline&#34;&gt;\(L_k\)&lt;/span&gt; soit &lt;span class=&#34;math inline&#34;&gt;\(I(ReducDim(L_{k}))=I(L_{k})\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;On note &lt;span class=&#34;math inline&#34;&gt;\(ReducDimLoyal()\)&lt;/span&gt;&lt;br /&gt;
+On suppose par simplification qu’il existe un agent &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; qui peut donné, une tel &lt;span class=&#34;math inline&#34;&gt;\(ReducDimLoyal()\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Néanmoins cette &lt;span class=&#34;math inline&#34;&gt;\(ReducDimLoyal()\)&lt;/span&gt; soit tel que la dimension réduite soit exploitable, disposable pour que &lt;span class=&#34;math inline&#34;&gt;\(A_{ik}\)&lt;/span&gt; par &lt;span class=&#34;math inline&#34;&gt;\(C_{i}\)&lt;/span&gt; par rapport à la loi &lt;span class=&#34;math inline&#34;&gt;\(L_{k}\)&lt;/span&gt; soit possible.&lt;/p&gt;
+&lt;p&gt;On note cette &lt;span class=&#34;math inline&#34;&gt;\(\star{ReducDimLoyal}()\)&lt;/span&gt;, si une telle réduction est impossible, on parle de loi chaotique dans le sens où l’évaluation basé sur des informations loyales est impossible.&lt;br /&gt;
+On suppose par simplification que &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; peut donné, une tel &lt;span class=&#34;math inline&#34;&gt;\(\star{ReducDimLoyal}()\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Nénamoins cela ne saurait être une condition suffisante au conscentement éclairé, puisque cette accord peut être sujette à la pression ou contrainte.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;le-conscentement-éclairé-une-histoire-dindépendance&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Le conscentement éclairé, une histoire d’indépendance&lt;/h1&gt;
+&lt;p&gt;En effet si l’on prend l’exemple, d’un pays autoritaire celui-ci aurait tendance à discriminer ceux qui manifeste un désaccord avec le pouvoir en place, ainsi par peur de représaille, le citoyen aurait tendance à biaiser son accord dans le sesns où celui-ci ne saurait être issu d’un conscentement éclairé.&lt;/p&gt;
+&lt;p&gt;Une possibilité de s’assurer que le citoyen ne soit pas sujet à biaiser son accord, c’est de garder son information secret.
+Ainsi on ne pourrait pas exercer de conséquences sur le vote du citoyen en question car on n’aurait l’information de son choix.&lt;/p&gt;
+&lt;p&gt;Mais dans ce cas là me dirait vous, quid de l’information ?&lt;br /&gt;
+C’est la qu’intervient le concept de crytopgraphie homomorphe.&lt;/p&gt;
+&lt;p&gt;Globalement cela dit que si l’on fait des operations sur des messages chiffree et que l’on dechiffre le résultat, alors ce résultat est le même que le résultats de ces mêmes opérations sur on avait effectué les messages non-chiffre.&lt;/p&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:500px;height:500px;&#34; class=&#34;nomnoml html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;code&#34;:&#34;\n#fill: #FEFEFF\n#lineWidth: 1\n#zoom: 4\n#direction: right\n\n[Oeration classique|[Michelle]-- [0]|[Bertrand]-- [1]|\n   [Resultat]--[(0+1)/2=0.5]\n ]\n [Operation homomorphe par l&#39;addition et la multiplication|[Encrypt(Michelle)=FVS9!]-- [Encrypt(0)=lfd80]|[Encrypt(Bertrand)=0?mdf]-- [Encrypt(1)=qsff9]|\n   [Resultat krypte]--[Add(lfd80,qsff9)/2=qzf8!]\n   [Resultat]--[Decrypt(qzf8!)=0.5]\n ]\n&#34;,&#34;svg&#34;:true},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;La synthèse &lt;span class=&#34;math inline&#34;&gt;\(\bar{A_k}\)&lt;/span&gt; serait alors disponible sans que les &lt;span class=&#34;math inline&#34;&gt;\(\alpha_{ik}A_{ik}\)&lt;/span&gt;ne soit directement accesible.&lt;br /&gt;
+Le vote serait alors anonyme sous condition que l’échantillon ne vote pas dans le même sens.&lt;/p&gt;
+&lt;p&gt;Une tel pression ne saurait s’exercer sur un individu au titre de son choix, mais sur le résultat du groupe dans son ensemble.&lt;/p&gt;
+&lt;p&gt;Ci-dessous une ébauche d’un algorithme permmettant l’addition sur des données chiffrées .&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;### Cryptographie de Paillier
+# Ne fonctionne qu&amp;#39;avec des entiers
+
+library(numbers)
+
+# Plus grand dénominateur entier commun
+gcd &amp;lt;- function(a,b) {
+  rk_1 &amp;lt;- a
+  rk_2 &amp;lt;- b
+  while (rk_2 &amp;gt; 0) {
+    rk   &amp;lt;- rk_1 %% rk_2
+    rk_1 &amp;lt;- rk_2
+    rk_2 &amp;lt;- rk
+  }
+  return( rk_1 )
+}
+lcm &amp;lt;- function(a,b) {
+  (a*b)/gcd(a,b)
+}
+
+# Algorithme euclidien etendu
+extended_euclidean_algorithm &amp;lt;- extGCD
+
+# Inverse modulaire
+inverse_of &amp;lt;- modinv
+
+#Generation des cle, p&amp;gt;q et deux nombres premiers
+p = 17 #Garder secret
+q = 19 #Garder secret
+
+gLambda = lcm(p-1,q-1) #Cle privee : Garder secret
+n = p * q #Cle publique : A partagé aux votants
+
+g = floor(runif(1, 20, 150)) 
+l &amp;lt;- (modpower(g, gLambda, n*n)-1)/n #Cle privee : Garder secret
+gMu = inverse_of(l,n) #Cle privee : Garder secret
+
+r = floor(runif(1, 20, 150)) 
+k = modpower(r, n, n*n) #Cle publique
+
+# Definition des messages, il ne doivent pas depasse n
+m1 = 30 # n taille limite des message ici 5*17=85
+m2 = 20
+m3 = 10
+
+#Cryptage des messages avec la cle publique : g,n,r
+k3 = modpower(g, m3, n*n)
+k2 = modpower(g, m2, n*n)
+k1 = modpower(g, m1, n*n)
+
+cipher1 = (k1*k) %% (n*n)
+print(cipher1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 88989&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cipher2 = (k2*k) %% (n*n)
+print(cipher2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 74976&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cipher3 = (k3*k) %% (n*n)
+print(cipher3)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 66532&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Decryptage des messages avec la cle privee : gLambda, gMu
+l1 &amp;lt;-  (modpower(cipher1, gLambda, n*n)-1)/n
+mess1 = (l1 * gMu) %% n
+mess1==m1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l2 = floor( (modpower(cipher2, gLambda, n*n)-1)/n )
+mess2 = (l2 * gMu) %% n
+mess2==m2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l3 = floor( (modpower(cipher3, gLambda, n*n)-1)/n )
+mess3 = (l3 * gMu) %% n
+mess3==m3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Addition homorphe
+#Note si les messages ne doivent etre plus grand que N cela est egalement vrai pour la somme des message
+somme = m1+m2+m3
+addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la 
+print(addition_crypte)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 4.439041e+14&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Decryptage
 l_somme_decypte = floor((modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n

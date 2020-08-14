@@ -30,7 +30,7 @@
   <meta name="description" content="Essai sur la manière dobtenir un accord(ou désaccord) de façon libre claire et conscentie.">
 
   
-  <link rel="alternate" hreflang="ge" href="https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/">
+  <link rel="alternate" hreflang="ge" href="https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/">
 
   
 
@@ -220,7 +220,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/">
+  <link rel="canonical" href="https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/">
 
   
   
@@ -236,7 +236,7 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Goldentz Grahamz">
-  <meta property="og:url" content="https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/">
+  <meta property="og:url" content="https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/">
   <meta property="og:title" content="De la recherche d&#39;accord claire, libre et conscentie : un conscentement éclairé | Goldentz Grahamz">
   <meta property="og:description" content="Essai sur la manière dobtenir un accord(ou désaccord) de façon libre claire et conscentie."><meta property="og:image" content="https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ge">
@@ -268,7 +268,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/"
+    "@id": "https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/"
   },
   "headline": "De la recherche d'accord claire, libre et conscentie : un conscentement éclairé",
   
@@ -736,13 +736,13 @@ k1 = modpower(g, m1, n*n)
 
 cipher1 = (k1*k) %% (n*n)
 print(cipher1)</code></pre>
-<pre><code>## [1] 88989</code></pre>
+<pre><code>## [1] 104269</code></pre>
 <pre class="r"><code>cipher2 = (k2*k) %% (n*n)
 print(cipher2)</code></pre>
-<pre><code>## [1] 74976</code></pre>
+<pre><code>## [1] 19039</code></pre>
 <pre class="r"><code>cipher3 = (k3*k) %% (n*n)
 print(cipher3)</code></pre>
-<pre><code>## [1] 66532</code></pre>
+<pre><code>## [1] 94892</code></pre>
 <pre class="r"><code>#Decryptage des messages avec la cle privee : gLambda, gMu
 l1 &lt;-  (modpower(cipher1, gLambda, n*n)-1)/n
 mess1 = (l1 * gMu) %% n
@@ -761,7 +761,7 @@ mess3==m3</code></pre>
 somme = m1+m2+m3
 addition_crypte = (cipher1*cipher2*cipher3) #Paradoxalement la multiplication des crypte decrypte nous donne la 
 print(addition_crypte)</code></pre>
-<pre><code>## [1] 4.439041e+14</code></pre>
+<pre><code>## [1] 1.883775e+14</code></pre>
 <pre class="r"><code>#Decryptage
 l_somme_decypte = floor((modpower(addition_crypte, gLambda, n*n)-1)/n )
 somme_decypte = (l_somme_decypte * gMu) %% n
@@ -809,7 +809,7 @@ somme_decypte==somme #Fonctionne</code></pre>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/&amp;text=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/&amp;text=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -822,7 +822,7 @@ somme_decypte==somme #Fonctionne</code></pre>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/&amp;t=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/&amp;t=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -835,7 +835,7 @@ somme_decypte==somme #Fonctionne</code></pre>
       
       
       <li>
-        <a href="mailto:?subject=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9&amp;body=https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9&amp;body=https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -848,7 +848,7 @@ somme_decypte==somme #Fonctionne</code></pre>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/&amp;title=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/&amp;title=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -861,7 +861,7 @@ somme_decypte==somme #Fonctionne</code></pre>
       
       
       <li>
-        <a href="whatsapp://send?text=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9%20https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9%20https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -874,7 +874,7 @@ somme_decypte==somme #Fonctionne</code></pre>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://goldentzgrahamz.netlify.app/post/scheme-encryption/jenaimarre/&amp;title=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://goldentzgrahamz.netlify.app/post/rshiny/jenaimarre/&amp;title=De%20la%20recherche%20d&amp;#39;accord%20claire,%20libre%20et%20conscentie%20:%20un%20conscentement%20%c3%a9clair%c3%a9" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -979,7 +979,7 @@ somme_decypte==somme #Fonctionne</code></pre>
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/rshiny/jenaimarre/">De la recherche d&#39;accord claire, libre et conscentie : un conscentement éclairé</a></li>
+      <li><a href="/post/scheme-encryption/jenaimarre/">De la recherche d&#39;accord claire, libre et conscentie : un conscentement éclairé</a></li>
       
       <li><a href="/post/demokratie-daten/democratie/">De la démocratie conceptuel, à la démocratie empirique : un critère de mesure</a></li>
       
