@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general | Goldentz Grahamz</title>
+    <link>https://goldentzgrahamz.netlify.app/tag/general/</link>
+      <atom:link href="https://goldentzgrahamz.netlify.app/tag/general/index.xml" rel="self" type="application/rss+xml" />
+    <description>general</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
+      <title>general</title>
+      <link>https://goldentzgrahamz.netlify.app/tag/general/</link>
+    </image>
+    
+    <item>
+      <title>Fin de mon travail au sein de SopraSteria</title>
+      <link>https://goldentzgrahamz.netlify.app/post/fin-de-mon-travail-au-sein-de-soprasteria/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://goldentzgrahamz.netlify.app/post/fin-de-mon-travail-au-sein-de-soprasteria/</guid>
+      <description>
+&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/watch?v=E7xFtjqNRZw&#34;&gt;
+&lt;/iframe&gt;
+&lt;div id=&#34;un-nouveau-départ&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Un nouveau départ&lt;/h1&gt;
+&lt;p&gt;Pour faire simple, ce post est simplement destiné à annoncé ma nouvelle situation : un doctorant sans bourse.&lt;/p&gt;
+&lt;p&gt;Nous allons essayer de reprendre un rythme de vie sain dans lequel je vais m’évertuezr de pratiquer ma discipline le plus possible, à savoir l’analyse de données.&lt;/p&gt;
+&lt;p&gt;C’est avec enthousiasme que j’ai donc décvider de mettre fin à mon contrat avec mon ancien employeur pour entreprendre ce projet personnel qu’est ce blog.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
