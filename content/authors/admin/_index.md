@@ -2,7 +2,7 @@
 authors:
 - admin
 bio: 
-  Meine Name, Goldentz jetz der Chef.
+  Meine Name, Goldentz jetzt der Chef.
 Bildung:
   courses:
   - course: Master Staistik & Ökonometrie

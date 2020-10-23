@@ -5,7 +5,7 @@
     <link>https://goldentzgrahamz.netlify.app/tag/rshiny/</link>
       <atom:link href="https://goldentzgrahamz.netlify.app/tag/rshiny/index.xml" rel="self" type="application/rss+xml" />
     <description>rshiny</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>rshiny</title>
@@ -13,14 +13,16 @@
     </image>
     
     <item>
-      <title>Un simple test de Rshiny</title>
+      <title>De la réalité sur la propogation du covid-19, un tableau interactif</title>
       <link>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</guid>
       <description>
+&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://quentin-gollentz.shinyapps.io/SwimmingTest/?_ga=2.137984566.709679849.1597433426-2044819338.1595016433&#34;&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://quentin-gollentz.shinyapps.io/testshiny/?_ga=2.154934833.881593865.1603465387-1553317943.1603465387&#34;&gt;
 &lt;/iframe&gt;
 </description>
     </item>

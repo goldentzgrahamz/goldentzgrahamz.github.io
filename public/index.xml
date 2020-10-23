@@ -5,7 +5,7 @@
     <link>https://goldentzgrahamz.netlify.app/</link>
       <atom:link href="https://goldentzgrahamz.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Goldentz Grahamz</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ge</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>Goldentz Grahamz</title>
@@ -35,20 +35,25 @@
     </item>
     
     <item>
-      <title>Fin de mon travail au sein de SopraSteria</title>
-      <link>https://goldentzgrahamz.netlify.app/post/fin-de-mon-travail-au-sein-de-soprasteria/</link>
+      <title>De la poursuite de ses rêves à la prise de risque</title>
+      <link>https://goldentzgrahamz.netlify.app/post/2020-10-23-fin-de-mon-travail-au-sein-de-soprasteria/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://goldentzgrahamz.netlify.app/post/fin-de-mon-travail-au-sein-de-soprasteria/</guid>
+      <guid>https://goldentzgrahamz.netlify.app/post/2020-10-23-fin-de-mon-travail-au-sein-de-soprasteria/</guid>
       <description>
 &lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/watch?v=E7xFtjqNRZw&#34;&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/Nu__TzWfpss&#34;&gt;
 &lt;/iframe&gt;
 &lt;div id=&#34;un-nouveau-départ&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Un nouveau départ&lt;/h1&gt;
 &lt;p&gt;Pour faire simple, ce post est simplement destiné à annoncé ma nouvelle situation : un doctorant sans bourse.&lt;/p&gt;
+&lt;p&gt;En effet j’ai d’un commun accord avec mon ancien employeur décidé de mettre fin à mon contrat CDI qui nous liaient.&lt;/p&gt;
+&lt;p&gt;En ce qui me concerne je ne pouvais accepté d’être un “mercenaire” de l’informatique qui à travers 2 intermédiaires, je finissais chez un client final qui était Keolis, elle-même filiale de la SNCG gérant le réseau de transport en commun lillois métropole lillois dont la gestion du transport.&lt;/p&gt;
+&lt;p&gt;J’aspire comme toute personne, à un sentiment d’appartenance, d’autant plus que j’ai effectué une grande partie de mes 10 mois d’expérience dans le secteur dit “Business Analyst” dans le cadre du télé-travail (#20m2) suites aux mesures pris par le gouvernement français.&lt;/p&gt;
+&lt;p&gt;Autrement dit, confinés tout seul dans une ville où je ne connais personne, et dans lequelle je n’ai pas d’affection particulière.&lt;/p&gt;
+&lt;p&gt;Le salaire ne permettant pas de de passer outre ces problêmes, bien que en termes de travail pur j’ai beaucoup appris notamment en termes de de connaissance dans le dévellopement informatique, j’ai décider d’arrêter et de commencer une période de chômage.&lt;/p&gt;
 &lt;p&gt;Nous allons essayer de reprendre un rythme de vie sain dans lequel je vais m’évertuezr de pratiquer ma discipline le plus possible, à savoir l’analyse de données.&lt;/p&gt;
 &lt;p&gt;C’est avec enthousiasme que j’ai donc décvider de mettre fin à mon contrat avec mon ancien employeur pour entreprendre ce projet personnel qu’est ce blog.&lt;/p&gt;
 &lt;p&gt;Cordialement,
@@ -466,14 +471,16 @@ somme_decypte==somme #Fonctionne&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>Un simple test de Rshiny</title>
+      <title>De la réalité sur la propogation du covid-19, un tableau interactif</title>
       <link>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</guid>
       <description>
+&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://quentin-gollentz.shinyapps.io/SwimmingTest/?_ga=2.137984566.709679849.1597433426-2044819338.1595016433&#34;&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://quentin-gollentz.shinyapps.io/testshiny/?_ga=2.154934833.881593865.1603465387-1553317943.1603465387&#34;&gt;
 &lt;/iframe&gt;
 </description>
     </item>

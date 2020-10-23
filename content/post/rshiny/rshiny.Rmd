@@ -1,5 +1,5 @@
 ---
-title: "Un simple test de Rshiny"
+title: "De la réalité sur la propogation du covid-19, un tableau interactif"
 author: "Goldentz Grahamz"
 date: '2020-07-04'
 categories: []
@@ -25,5 +25,5 @@ output:
 runtime: shiny
 ---
 <iframe width="800" height="420"
-  src="https://quentin-gollentz.shinyapps.io/SwimmingTest/?_ga=2.137984566.709679849.1597433426-2044819338.1595016433">
+  src="https://quentin-gollentz.shinyapps.io/testshiny/?_ga=2.154934833.881593865.1603465387-1553317943.1603465387">
 </iframe>
