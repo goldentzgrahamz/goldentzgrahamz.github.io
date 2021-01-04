@@ -231,7 +231,7 @@ plugins_js  = []
   # Configuration of Commento.
   [comments.commento]
     # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
-    url = ""
+    url = "https://cdn.commento.io/js/commento.js"
 
 ############################
 ## Search
