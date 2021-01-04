@@ -1123,23 +1123,18 @@
       
     
 
-    <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/quentin.gollentz@outlook.com">
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputName">Name</label>
-          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
-        </div>
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputEmail">Email</label>
-          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
-        </div>
-        <div class="form-group">
-          <label class="sr-only" for="inputMessage">Message</label>
-          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
-      </form>
-    </div>
+<form action="https://formspree.io/quentin.gollentz@outlook.com" method="POST">
+  <label for="name">Your name: </label>
+  <input type="text" name="name" required="required" placeholder="here"><br>
+  <label for="email">Your email: </label>
+  <input type="email" name="_replyto" required="required" placeholder="here"><br>
+  <label for="message">Your message:</label><br>
+  <textarea rows="4" name="message" id="message" required="required" class="form-control" placeholder="I can't wait to read this!"></textarea>
+  <input type="hidden" name="_next" value="/html/thanks.html" />
+  <input type="submit" value="Send" name="submit" class="btn btn-primary btn-outline">
+  <input type="hidden" name="_subject" value="Website message" />
+  <input type="text" name="_gotcha" style="display:none" />
+</form>
     
 
     <ul class="fa-ul">
