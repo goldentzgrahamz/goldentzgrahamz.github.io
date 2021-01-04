@@ -1,4 +1,9 @@
- <h3>Kontakt</h3>
+ {{ $ := .root }}
+{{ $page := .page }}
+{{ $autolink := default true $page.Params.autolink }}
+{{ $data := site.Params }}
+ 
+ <h3>Mail</h3>
 <form action="https://formspree.io/quentin.gollentz@outlook.com" method="POST">
   <label for="name">Your name: </label>
   <input type="text" name="name" required="required" placeholder="here"><br>
@@ -11,3 +16,80 @@
   <input type="hidden" name="_subject" value="Website message" />
   <input type="text" name="_gotcha" style="display:none" />
 </form>
+
+	   <h3>Telefon</h3>
+{{ with $data.phone }}
+        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone">
+        {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+        </span>
+{{ end }}
+
+	  
+	   <h3>Adresse</h3>
+{{ $addr_formatted := "" }}{{/* Scoping for maps. */}}
+      {{ if $data.address.street | or $data.address.city | or $data.address.region | or $data.address.postcode | or $data.address.country }}
+        {{ $addr_formatted = partial "functions/get_address" (dict "root" . "address" $data.address) }}
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">{{$addr_formatted}}</span>
+ {{ end }}
+ 
+
+ {{ with $data.directions }}
+        <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+        <span>{{ . | markdownify | emojify }}</span>
+ {{ end }}
+ 	  
+
+	   <h3>Schedule</h3>
+ {{ with $data.office_hours }}
+        <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
+        <span>
+          {{- if not (reflect.IsSlice .)}}{{/* Support legacy string format. */}}
+            {{- . | markdownify | emojify -}}
+          {{else}}
+            {{- delimit . "<br>" | markdownify | emojify -}}
+          {{end -}}
+        </span>
+ {{ end }}
+
+
+	   <h3>Discord</h3>
+ {{ with $data.appointment_url }}
+        <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
+        <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "book_appointment" | default "Book an appointment" }}</a>
+ {{ end }}
+ 
+  {{/* Contact links. */}}
+      {{ range $data.contact_links }}
+      {{ $pack := or .icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      {{ $link := .link }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ $target := "" }}
+      {{ if not $scheme }}
+        {{ $link = .link | relLangURL }}
+      {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+        <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true"></i>
+        <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{.name|markdownify|emojify|safeHTML}}</a>
+      {{ end }}
+
+    </ul>
+
+	   <h3>Map</h3>
+    {{ if and site.Params.map.engine $data.coordinates.latitude }}
+    <div class="d-none">
+      <input id="map-provider" value="{{ site.Params.map.engine }}">
+      <input id="map-lat" value="{{ $data.coordinates.latitude }}">
+      <input id="map-lng" value="{{ $data.coordinates.longitude }}">
+      <input id="map-dir" value="{{ $addr_formatted }}">
+      <input id="map-zoom" value="{{ site.Params.map.zoom | default "15" }}">
+      <input id="map-api-key" value="{{ site.Params.map.api_key }}">
+    </div>
+    <div id="map"></div>
+    {{ end }}
