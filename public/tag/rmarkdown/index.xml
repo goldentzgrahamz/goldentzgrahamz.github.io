@@ -5,7 +5,7 @@
     <link>https://goldentzgrahamz.netlify.app/tag/rmarkdown/</link>
       <atom:link href="https://goldentzgrahamz.netlify.app/tag/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <description>rmarkdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz 2021</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz `2021`</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>rmarkdown</title>
@@ -24,7 +24,7 @@
 
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;R Markdown&lt;/h2&gt;
-&lt;p&gt;C’est un changement test
+&lt;p&gt;C’est un changement test. A voir si cela fonctionne
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;

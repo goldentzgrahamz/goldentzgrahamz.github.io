@@ -14,7 +14,7 @@ baseurl = "https://goldentzgrahamz.netlify.app/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "Goldentz Grahamz {year}"
+copyright = "Goldentz Grahamz `{year}`"
 
 ############################
 ## Advanced options below ##
@@ -55,6 +55,11 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [outputFormats.WebAppManifest]
   mediaType = "application/manifest+json"
   rel = "manifest"
+
+[params]
+ 
+    email = "https://formspree.io/f/quentin.gollentz@outlook.com"
+    contact_form_ajax = false
 
 # Configure the Markdown renderer.
 [markup]
