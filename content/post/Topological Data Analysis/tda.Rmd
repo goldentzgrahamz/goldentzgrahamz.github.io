@@ -1,5 +1,5 @@
 ---
-title: "Topological Data Anlysis, une recherche de la forme des data"
+title: "De la recherche de trou à la forme des data : une analyse topologique"
 author: "Goldentz Grahamz"
 date: '2021-01-04'
 categories: []
@@ -9,7 +9,7 @@ image:
   caption: 
   focal_point: ''
   preview_only: no
-lastmod: '2020-01-04T17:45:57-07:00'
+lastmod: '2021-01-04T17:45:57-07:00'
 math: yes
 projects: []
 subtitle: ''
@@ -26,9 +26,69 @@ authors: []
   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(TDA)
 ```
 
-## R Markdown
+## Introduction 
+
+Topological Data Analysis (**TDA**) est un nouveau axe dans l'analyse des données, bien que proche des techniques de **clustering**, ces techniques sont à mon sens plus pointus. 
+    
+En effet, les techniques de **clustering** s'intéressent à déterminer des groupes au sein des data, alors que l'analyse topologique s'intéresse de manière plus large à la structure des données (cela implique la notion de groupe mais pas que).
+Pour expliciter mon propos, regardons la figure ci-dessous :
+
+```{r , echo=FALSE, message = FALSE}
+library("spatstat")
+library("TDA")
+library("ggplot2")
+library("ggpubr")
+library("cowplot")
+
+onCircleData <- as.data.frame(circleUnif(1000, r = 1))
+names(onCircleData) <- c("x","y")
+
+inCircle <- runifdisc(1000)
+inCircleData <- data.frame(inCircle$x,inCircle$y)
+names(inCircleData) <- c("x","y")
+
+# Nuage de points
+onCirclePlot <- ggplot(onCircleData, aes(x = x, y = y))+ 
+  geom_point(size=1)
+
+inCirclePlot <- ggplot(inCircleData, aes(x = x, y = y))+ 
+  geom_point(size=1)
+
+plot_grid(
+  onCirclePlot, inCirclePlot,
+  labels = c('onCirclePlot', 'inCirclePlot'),
+  align="hv")
+```
+
+Si nous appliquons une technique de clustering quelconque, ici **PAM** ( Partitional around medoïd) en fixant le nombre de groupe de 1 à 10 sur les deux échantillon précédent, nous observons qu'il n'existe aucune différence entre les deux échantillon.
+
+Les deux groupes semblent ne présenter qu'un seul groupe de donnée, si l'on se base sur la technique de selection du nombre de groupe dite **Elbow** .
+
+
+puis de 1 et que nous comparons la qualité à travers l'information Silhouette, nous voyons que le groupe
+
+is a recent field that emerged from various works in applied
+(algebraic) topology and computational geometry during the first decade of the century. Although one can trace back geometric approaches for data analysis quite far in the past, tda
+really started as a field with the pioneering works of Edelsbrunner et al. (2002) and Zomorodian
+and Carlsson (2005) in persistent homology and was popularized in a landmark paper in 2009
+Carlsson (2009). tda is mainly motivated by the idea that topology and geometry provide a
+powerful approach to infer robust qualitative, and sometimes quantitative, information about
+the structure of data - see, e.g. Chazal (2017).
+tda aims at providing well-founded mathematical, statistical and algorithmic methods to
+infer, analyze and exploit the complex topological and geometric structures underlying data that
+are often represented as point clouds in Euclidean or more general metric spaces. During the last
+few years, a considerable effort has been made to provide robust and efficient data structures and
+algorithms for tda that are now implemented and available and easy to use through standard
+libraries such as the Gudhi library (C++ and Python) Maria et al. (2014) and its R software
+interface Fasy et al. (2014a). Although it is still rapidly evolving, tda now provides a set of
+mature and efficient tools that can be used in combination or complementary to other data
+sciences tools
+
+:smile:
 
 C'est un changement test. A voir si cela fonctionne
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.

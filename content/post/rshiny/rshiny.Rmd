@@ -1,5 +1,5 @@
 ---
-title: "De la réalité sur la propogation du covid-19, un tableau interactif"
+title: "De la réalité sur la propogation du covid-19 au calcul du R0 : un tableau interactif"
 author: "Goldentz Grahamz"
 date: '2020-07-04'
 categories: []

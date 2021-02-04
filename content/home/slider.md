@@ -17,7 +17,7 @@ height = "325px"
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = ""
-  content = "\"Clairement l'avenir, un modèle de réussite pour les petits.\" Koba La D"
+  content = "\"Clairement l'avenir, un modèle de réussite pour les petits.\" Albert Camus"
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -31,7 +31,7 @@ height = "325px"
 
 [[item]]
   title = ""
-  content = "\"Son vécu apporte beaucoup a sa strict-crédibilité.\" Amel Bent"
+  content = "\"Son vécu apporte beaucoup a sa strict-crédibilité.\" Franz Kafka"
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -45,7 +45,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"Sérieux dans ses affaires, on sent l'énergie de bien faire, de faire sortir les petits frères de la misère.\" Mafia K'1 Fry"
+  content = "\"Sérieux dans ses affaires, on sent l'énergie de bien faire, de faire sortir les petits frères de la misère.\" Karl Friedrich Gauss"
   align = "center"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -59,7 +59,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"Une nouvelle facon de conçevoir le milieu, ça me pousse a repenser la manière de pratiquer mon art, une concurrence saine.\" SCH "
+  content = "\"Une nouvelle facon de conçevoir le milieu, ça me pousse a repenser la manière de pratiquer mon art, une concurrence saine.\" Pierre-Simon De Laplace "
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -73,7 +73,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"Il a réquilibré fond et forme.\"   Chris Brown"
+  content = "\"Il a réquilibré fond et forme.\"   Jospeh Fourier"
   align = "center"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -87,7 +87,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"C'est ce genre d'attitude qui me pousse à continuer\" Moha la squale"
+  content = "\"C'est ce genre d'attitude qui me pousse à continuer\" Elon Musk"
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -101,7 +101,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"Le gars a travaillé dans l'ombre, mais nous les gens du domaine, on toujours sû que ça allait exploser pour lui\" PNL"
+  content = "\"Le gars a travaillé dans l'ombre, mais nous les gens du domaine, on toujours sû que ça allait exploser pour lui\" Ragnar Frisch"
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -115,7 +115,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"Jamais vu avant, honnêtement un ovni.\" Jul"
+  content = "\"Jamais vu avant, honnêtement un ovni.\" John von Neumann"
   align = "center"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -129,7 +129,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"Autant en terme de technicité que sur le fond, le mec impose, je valide\" Lacrim"
+  content = "\"Autant en terme de technicité que sur le fond, le mec impose, je valide\" Antoine-Augustin Cournot"
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.

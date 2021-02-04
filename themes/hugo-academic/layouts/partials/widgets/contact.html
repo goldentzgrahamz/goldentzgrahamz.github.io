@@ -5,14 +5,14 @@
  
  <h3>Mail</h3>
 <form action="https://formspree.io/f/mdopynwy" method="POST">
-  <label for="name">Your name: </label>
-  <input type="text" name="name" required="required" placeholder="here"><br>
-  <label for="email">Your email: </label>
-  <input type="email" name="_replyto" required="required" placeholder="here"><br>
-  <label for="message">Your message:</label><br>
-  <textarea rows="4" name="message" id="message" required="required" class="form-control" placeholder="I can't wait to read this!"></textarea>
+  <label for="name">Ihre Name: </label>
+  <input type="text" name="name" required="required" placeholder="hier"><br>
+  <label for="email">Ihre Mail: </label>
+  <input type="email" name="_replyto" required="required" placeholder="hier"><br>
+  <label for="message">Ihre Nachricht:</label><br>
+  <textarea rows="4" name="message" id="message" required="required" class="form-control" placeholder="Ich kann nicht warten, zum Lesen !!"></textarea>
   <input type="hidden" name="_next" value="/html/thanks.html" />
-  <input type="submit" value="Send" name="submit" class="btn btn-primary btn-outline">
+  <input type="submit" value="Senden" name="submit" class="btn btn-primary btn-outline">
   <input type="hidden" name="_subject" value="Website message" />
   <input type="text" name="_gotcha" style="display:none" />
 </form>
@@ -41,7 +41,7 @@
  {{ end }}
  	  
 
-	   <h3>Schedule</h3>
+	   <h3>Studenplan</h3>
  {{ with $data.office_hours }}
         <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
         <span>
@@ -81,7 +81,7 @@
 
     </ul>
 
-	   <h3>Map</h3>
+	   <h3>Karten</h3>
     {{ if and site.Params.map.engine $data.coordinates.latitude }}
     <div class="d-none">
       <input id="map-provider" value="{{ site.Params.map.engine }}">

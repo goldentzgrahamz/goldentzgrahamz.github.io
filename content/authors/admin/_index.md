@@ -43,13 +43,11 @@ Ich möchte in meiner Heimat leben, aber die Möglichkeit, in Deutschland zu arb
 
 Ich habe einen Master in Ökonometrie und Statistik absolviert und in diesen Bereichen würde ich gerne arbeiten, eine Vorliebe habe ich für die Datenanalyse.
 
-Ich habe Berufserfahrung im Bereich Business Intelligence bei der Firma Sopra Steria sammeln können.
-
-Im Rahmen der französischen öffentlichen Verkehrsmittel besteht mein jetziger Auftrag darin, an der Erneuerung des Informatiksystems (= système informatique) zu arbeiten.
-
 Ich bin stets offen und lernbereit, was die verschiedenen Möglichkeiten im Bereich der Datenanalyse anbelangt, vorausgesetzt, dass es nicht direkt oder indirekt gegen meinen Moralkodex verstößt.
 
 Die bereichsübergreifenden Aspekte, bzw. die verschiedenen Studienbereiche, welche dieses Fach bietet, weiß ich zu schätzen.
 
-Ich interessiere mich für die homomorphe Verschlüsselung, für die Verarbeitung von sensiblen Daten in anonymisierter Form, was für mich ein zukunftsweisendes Thema darstellt.
+Freundliche Grüsse,
+    
+GOLLENTZ Quentin
 

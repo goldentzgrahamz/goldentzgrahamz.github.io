@@ -1,5 +1,5 @@
 ---
-title: Finanzmathematik, Gymnasiumstufe
+title: "De l'enseignement des mathématiques à ma petite soeur : un exercice de finance "
 author: Goldentz Grahamz
 date: '2020-05-28'
 categories: []
