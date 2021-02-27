@@ -51,8 +51,8 @@ $\partial x=R.cos(\theta).\partial  \theta$
 Reste à calucler les nouvelles bornes :  
 $sin(\theta)=\frac{x}{R}$  
       
-Or lorsque $x=0$ le sinus d'un angle $\theta \in [0,R]$  tel que $sin(\theta)=0$ est donné par $\theta=0$  
-Or lorsque $x=R$ le sinus d'un angle $\theta \in [0,R]$  tel que $sin(\theta)=1$ est donné par $\theta=\frac{\pi}{2}$  
+Or lorsque $x=0$ le sinus d'un angle $\theta \in [0,\frac{\pi}{2}]$  tel que $sin(\theta)=0$ est donné par $\theta=0$  
+Or lorsque $x=R$ le sinus d'un angle $\theta \in [0,\frac{\pi}{2}]$  tel que $sin(\theta)=1$ est donné par $\theta=\frac{\pi}{2}$  
   
 On peut donc récrire l'intégrale précédente :  
 $I = \left(\int_{0}^{\frac{\pi}{2}}  \sqrt{R^{2}-(R.sin(\theta))^{2}} \; R.cos(\theta) d\theta\right)$   
@@ -62,7 +62,8 @@ $I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}}  \sqrt{1-sin(\theta)^{2}} \; cos(\th
 Or $cos(\theta)^{2}=1-sin(\theta)^{2}$ ainsi :  
 $I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}}  cos(\theta)^{2} \;  d\theta\right)$  
   
-En utilisant la formule de linérisation $cos(\theta)^{2}=\frac{1+cos(2.\theta)}{2}$  
+En utilisant la formule de linérisation [^n1].  
+$cos(\theta)^{2}=\frac{1+cos(2.\theta)}{2}$  
 $I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}}  \frac{1+cos(2.\theta)}{2} \;  d\theta\right)$  
 $I = \frac{R^{2}}{2} . \left(\int_{0}^{\frac{\pi}{2}}  1+cos(2.\theta) \;  d\theta\right)$  
   
@@ -73,7 +74,27 @@ On obtient donc :
 $I = \frac{R^{2}}{2} . [\theta + \frac{sin(2.\theta)}{2}]^{\frac{\pi}{2}}_0$  
 $I = \frac{R^{2}}{2} . ((\frac{\pi}{2} + 0)-(0+0)=\frac{R^{2} .\pi}{4})$  
    
-On en déduit l'aire d'un cercle qui est 4foir l'aire du quart de cercle :   
+On en déduit l'aire d'un cercle qui est 4 fois l'aire du quart de cercle :   
 $Aire  = R^{2} .\pi$  
 
+[^n1]: demonstration formule de linerisationgrâce aux formules d'Euler [^n2]  
+$E_{1} : e^{ix}=cos(x)+i.sin(x)$  
+$E_{2} : e^{-ix}=cos(x)-i.sin(x)$ 
+    
+$E_{1} + E_{2} : e^{ix} + e^{-ix} = 2 . cos(x) => cos(x)= \frac{e^{ix} + e^{-ix}}{2}$    
+$E_{1} + E_{2} : e^{ix} - e^{-ix} = 2 .i. sin(x) => sin(x)= \frac{e^{ix} - e^{-ix}}{2i}$    
+    
+$ cos(x)^{2}= \frac{(e^{ix} + e^{-ix})^{2}}{4}$    
+$ cos(x)^{2}= \frac{(e^{ix} + e^{-ix})^{2}}{4}$      
+$ cos(x)^{2}= \frac{cos(2x)+1}{2}$    
 
+[^n2]: demonstration des formules d'Euler   
+
+Rappelons nous des dérivés $\frac{u}{v}'=\frac{u'v-uv'}{v^{2}}$ et également que si une dérivée est 0 sur tout le domaine de définition de $f$ alors la fonction $f$ est constante sur son domaine de définition.  
+  
+Posons $f(x)=\frac{cos(x)+isin(x)}{e^{ix}}$  
+Calculons sa dérivée $f'(x)= \frac{(-sin(x)+i.cos(x)).e^{ix}-i.e^{ix}.(cos(x)+isin(x))}{(e^{ix})^2}$  
+$f'(x)= \frac{-sin(x).e^{ix} + sin(x).e^{ix}+i.e^{ix}.cos(x)-i.e^{ix}.cos(x)}{(e^{ix})^2}$ 
+$f'(x)= 0$ ce qui implique que la fonction est constante.  
+
+En valeur $x=0 => f(0)=1$ cela implique que $e^{ix}=cos(x)+i.sin(x)$
