@@ -77,7 +77,7 @@ $I = \frac{R^{2}}{2} . ((\frac{\pi}{2} + 0)-(0+0)=\frac{R^{2} .\pi}{4})$
 On en déduit l'aire d'un cercle qui est 4 fois l'aire du quart de cercle :   
 $Aire  = R^{2} .\pi$  
 
-[^n1]: demonstration formule de linerisation grâce aux formules d'Euler [^n2]  
+[^n1]: Demonstration formule de linerisation grâce aux formules d'Euler   
 $E_{1} : e^{ix}=cos(x)+i.sin(x)$  
 $E_{2} : e^{-ix}=cos(x)-i.sin(x)$   
 $E_{1} + E_{2} : e^{ix} + e^{-ix} = 2 . cos(x) => cos(x)= \frac{e^{ix} + e^{-ix}}{2}$    
@@ -91,4 +91,5 @@ Posons $f(x)=\frac{cos(x)+isin(x)}{e^{ix}}$
 Calculons sa dérivée $f'(x)= \frac{(-sin(x)+i.cos(x)).e^{ix}-i.e^{ix}.(cos(x)+isin(x))}{(e^{ix})^2}$    
 $f'(x)= \frac{-sin(x).e^{ix} + sin(x).e^{ix}+i.e^{ix}.cos(x)-i.e^{ix}.cos(x)}{(e^{ix})^2}$   
 $f'(x)= 0$  
-Cela implique que la fonction est constante, en valeur $x=0 => f(0)=1$   Nous avons donc $e^{ix}=cos(x)+i.sin(x)$
+Cela implique que la fonction est constante, en valeur $x=0 => f(0)=1$  
+Nous avons donc $e^{ix}=cos(x)+i.sin(x)$  
