@@ -1,5 +1,5 @@
 ---
-title: "Du cercle trigonemetrique au calcul de l'aire d'un cercle"
+title: "Du cercle trigonometrique à l'aire d'un cercle"
 author: "Goldentz Grahamz"
 date: '2021-02-27'
 categories: []
@@ -92,4 +92,4 @@ Calculons sa dérivée $f'(x)= \frac{(-sin(x)+i.cos(x)).e^{ix}-i.e^{ix}.(cos(x)+
 $f'(x)= \frac{-sin(x).e^{ix} + sin(x).e^{ix}+i.e^{ix}.cos(x)-i.e^{ix}.cos(x)}{(e^{ix})^2}$   
 $f'(x)= 0$  
 Cela implique que la fonction est constante, en valeur $x=0 => f(0)=1$  
-Nous avons donc $e^{ix}=cos(x)+i.sin(x)$  
+  Nous avons donc $e^{ix}=cos(x)+i.sin(x)$  
