@@ -5,7 +5,7 @@
     <link>https://goldentzgrahamz.netlify.app/tag/rmarkdown/</link>
       <atom:link href="https://goldentzgrahamz.netlify.app/tag/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <description>rmarkdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz `2021`</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz `2021`</copyright><lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>rmarkdown</title>
@@ -13,43 +13,7 @@
     </image>
     
     <item>
-      <title>Topological Data Anlysis, une recherche de la forme des data</title>
-      <link>https://goldentzgrahamz.netlify.app/post/topological-data-analysis/tda/</link>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://goldentzgrahamz.netlify.app/post/topological-data-analysis/tda/</guid>
-      <description>
-&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/l61Cplav24w&#34;&gt;
-&lt;/iframe&gt;
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;R Markdown&lt;/h2&gt;
-&lt;p&gt;😄&lt;/p&gt;
-&lt;p&gt;C’est un changement test. A voir si cela fonctionne
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Including Plots&lt;/h2&gt;
-&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldentzgrahamz.netlify.app/post/Topological Data Analysis/tda_files/figure-html/pressure-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Note that the &lt;code&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>De la poursuite de ses rêves à la prise de risque</title>
+      <title>De la poursuite de ses rêves à la prise de risque : une démission réfléchie</title>
       <link>https://goldentzgrahamz.netlify.app/post/2020-10-23-fin-de-mon-travail-au-sein-de-soprasteria/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/2020-10-23-fin-de-mon-travail-au-sein-de-soprasteria/</guid>
@@ -485,7 +449,22 @@ somme_decypte==somme #Fonctionne&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>De la réalité sur la propogation du covid-19, un tableau interactif</title>
+      <title>De la réalité sur la propogation du covid-19 au calcul du R0 : un tableau interactif</title>
+      <link>https://goldentzgrahamz.netlify.app/post/cercletrigo/rshiny/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://goldentzgrahamz.netlify.app/post/cercletrigo/rshiny/</guid>
+      <description>
+&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://quentin-gollentz.shinyapps.io/testshiny/?_ga=2.154934833.881593865.1603465387-1553317943.1603465387&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>De la réalité sur la propogation du covid-19 au calcul du R0 : un tableau interactif</title>
       <link>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</guid>
@@ -500,11 +479,13 @@ somme_decypte==somme #Fonctionne&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>Finanzmathematik, Gymnasiumstufe</title>
+      <title>De l&#39;enseignement des mathématiques à ma petite soeur : un exercice de finance </title>
       <link>https://goldentzgrahamz.netlify.app/post/autre/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/autre/</guid>
       <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/nb9NCjoWIJ8&#34;&gt;
@@ -606,7 +587,7 @@ ggplot(data_C, aes(x = temps, y = C))+
       geom_hline(yintercept = 16000)+
       geom_vline(xintercept = 23)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldentzgrahamz.netlify.app/post/autre/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

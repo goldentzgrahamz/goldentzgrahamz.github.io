@@ -5,7 +5,7 @@
     <link>https://goldentzgrahamz.netlify.app/post/</link>
       <atom:link href="https://goldentzgrahamz.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Zeitung</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz `2021`</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>Goldentz Grahamz `2021`</copyright><lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://goldentzgrahamz.netlify.app/images/icon_hu8c2df1270d38e7e7968c1c89c8b0079d_275926_512x512_fill_lanczos_center_2.png</url>
       <title>Zeitung</title>
@@ -13,43 +13,7 @@
     </image>
     
     <item>
-      <title>Topological Data Anlysis, une recherche de la forme des data</title>
-      <link>https://goldentzgrahamz.netlify.app/post/topological-data-analysis/tda/</link>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://goldentzgrahamz.netlify.app/post/topological-data-analysis/tda/</guid>
-      <description>
-&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/l61Cplav24w&#34;&gt;
-&lt;/iframe&gt;
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;R Markdown&lt;/h2&gt;
-&lt;p&gt;😄&lt;/p&gt;
-&lt;p&gt;C’est un changement test. A voir si cela fonctionne
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Including Plots&lt;/h2&gt;
-&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldentzgrahamz.netlify.app/post/Topological Data Analysis/tda_files/figure-html/pressure-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Note that the &lt;code&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>De la poursuite de ses rêves à la prise de risque</title>
+      <title>De la poursuite de ses rêves à la prise de risque : une démission réfléchie</title>
       <link>https://goldentzgrahamz.netlify.app/post/2020-10-23-fin-de-mon-travail-au-sein-de-soprasteria/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/2020-10-23-fin-de-mon-travail-au-sein-de-soprasteria/</guid>
@@ -485,7 +449,22 @@ somme_decypte==somme #Fonctionne&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>De la réalité sur la propogation du covid-19, un tableau interactif</title>
+      <title>De la réalité sur la propogation du covid-19 au calcul du R0 : un tableau interactif</title>
+      <link>https://goldentzgrahamz.netlify.app/post/cercletrigo/rshiny/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://goldentzgrahamz.netlify.app/post/cercletrigo/rshiny/</guid>
+      <description>
+&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://quentin-gollentz.shinyapps.io/testshiny/?_ga=2.154934833.881593865.1603465387-1553317943.1603465387&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>De la réalité sur la propogation du covid-19 au calcul du R0 : un tableau interactif</title>
       <link>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</guid>
@@ -500,11 +479,13 @@ somme_decypte==somme #Fonctionne&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>Finanzmathematik, Gymnasiumstufe</title>
+      <title>De l&#39;enseignement des mathématiques à ma petite soeur : un exercice de finance </title>
       <link>https://goldentzgrahamz.netlify.app/post/autre/</link>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/autre/</guid>
       <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://www.youtube.com/embed/nb9NCjoWIJ8&#34;&gt;
@@ -606,159 +587,8 @@ ggplot(data_C, aes(x = temps, y = C))+
       geom_hline(yintercept = 16000)+
       geom_vline(xintercept = 23)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: Ignoring unknown parameters: label&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldentzgrahamz.netlify.app/post/autre/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo Theme Components, Modules, and All I Wanted Was Some Shortcodes</title>
-      <link>https://goldentzgrahamz.netlify.app/post/hugo-theme-components-modules/</link>
-      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://goldentzgrahamz.netlify.app/post/hugo-theme-components-modules/</guid>
-      <description>&lt;h2 id=&#34;fun-with-shortcodes&#34;&gt;Fun With Shortcodes&lt;/h2&gt;
-&lt;p&gt;I had been playing around with making some custom 
-&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo shortcodes&lt;/a&gt; to fill some gaps as far as functionality provided by Hugo&amp;rsquo;s existing (built-in) shortcodes was concerned. Others were for my own convenience to wrap frequently used elements, and some were just for fun as a learning exercise (and let&amp;rsquo;s be honest, usually all of the above combined).&lt;/p&gt;
-&lt;p&gt;On the &lt;em&gt;&amp;ldquo;filling a gap&amp;rdquo;&lt;/em&gt; side, there&amp;rsquo;s my shortcode to embed videos. It&amp;rsquo;s not perfect, and I already found 
-&lt;a href=&#34;https://github.com/martignoni/hugo-video/blob/master/layouts/shortcodes/video.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a smarter one&lt;/a&gt; in the wild, but it does its job and works for me:&lt;/p&gt;
-&lt;p&gt;This wraps a &lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt; element inside a &lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; element inluding a &lt;code&gt;&amp;lt;figcaption&amp;gt;&lt;/code&gt;, as you might have seen in action already in a previous post. The output HTML looks roughly like this:&lt;/p&gt;
-&lt;p&gt;I generally like the added caption over a plain &lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt; tag, and since I learned that the &lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; tag is meant to hold all kinds of content including &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; (for code), &lt;code&gt;&amp;lt;video&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;, I also added a shortcode to wrap highlighted code in &lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt;, &lt;em&gt;and&lt;/em&gt; a generalized shortcode to wrap &lt;em&gt;anything&lt;/em&gt; inside &lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; with a caption. Once I copypasted 
-&lt;a href=&#34;https://github.com/gohugoio/hugo/blob/aba2647c152ffff927f42523b77ee6651630cd67/tpl/tplimpl/embedded/templates/shortcodes/figure.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&amp;rsquo;s embedded &lt;code&gt;figure.html&lt;/code&gt;&lt;/a&gt; shortcode, the floodgates were open on my shortcoding and &lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt;-wrapping.&lt;/p&gt;
-&lt;p&gt;A more complex thing I&amp;rsquo;m playing around with is a shortcode to mention R packages in text. You might have seen R packages referred to something like this: &lt;code&gt;{ggplot2}&lt;/code&gt;. That&amp;rsquo;s a package name wrapped inside &lt;code&gt;{ }&lt;/code&gt; for 
-&lt;a href=&#34;https://twitter.com/ma_salmon/status/1264191903383392257&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;whatever reason&lt;/a&gt;, &lt;em&gt;and&lt;/em&gt; inside &lt;code&gt;` `&lt;/code&gt; for the monospaced formatting. And I haven&amp;rsquo;t even linked the package to its website!&lt;br&gt;
-That&amp;rsquo;s &lt;em&gt;a lot&lt;/em&gt; of work for just one package mention. Wouldn&amp;rsquo;t it be &lt;em&gt;much easier&lt;/em&gt; to just type &lt;code&gt;{{&amp;lt; pkg &amp;quot;ggplot2&amp;quot; &amp;gt;}}&lt;/code&gt;?&lt;/p&gt;
-&lt;p&gt;&amp;hellip;What do you mean &lt;em&gt;&amp;ldquo;no it wouldn&amp;rsquo;t, that&amp;rsquo;s worse&amp;rdquo;&lt;/em&gt;?&lt;/p&gt;
-&lt;p&gt;Well anyway, now I did it. Next I thought &amp;ldquo;wouldn&amp;rsquo;t it be cool if this was &lt;em&gt;smarter&lt;/em&gt;&amp;rdquo; and, well, justified its syntactic overhead?&lt;br&gt;
-As it turned out, my 
-&lt;a href=&#34;https://goldentzgrahamz.netlify.app/2020/05/migrating-themes-and-overhauling-the-rest/#the-quest-for-taxonomies&#34;&gt;previous ideas regarding package taxonomies&lt;/a&gt; have since lead to the realization that this is &lt;em&gt;probably&lt;/em&gt; much better handled via Hugo&amp;rsquo;s 
-&lt;a href=&#34;https://gohugo.io/templates/data-templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data templates&lt;/a&gt;, and once you have some R package metadata lying around, that shortcode suddenly has a lot more potential.&lt;/p&gt;
-&lt;p&gt;The gist is this: Create a file named &lt;code&gt;/data/packages.yaml&lt;/code&gt; (could also be &lt;code&gt;.json&lt;/code&gt;), fill it with package metadata, and now you have access to said data in layout templates and shortcodes via &lt;code&gt;.Site.Data.packages&lt;/code&gt;.&lt;br&gt;
-What is this for? Well, the current iteration of that &lt;code&gt;pkg&lt;/code&gt; shortcode looks like in this:&lt;/p&gt;
-&lt;p&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;All of them have a hover-tooltip with the package&amp;rsquo;s &lt;code&gt;Title:&lt;/code&gt; from their &lt;code&gt;DESCRIPTION&lt;/code&gt; file &amp;mdash; which probably doesn&amp;rsquo;t work right on mobile. But nobody uses mobile devices these days anyway and this wasn&amp;rsquo;t a totally pointless feature to waste a night over because I couldn&amp;rsquo;t get the CSS positioning right, …right?&lt;br&gt;
-Please validate my bad life choices.&lt;br&gt;
-Thanks.&lt;/p&gt;
-&lt;p&gt;Depending on when you&amp;rsquo;re reading this, these examples either don&amp;rsquo;t work anymore, or they look completely different because I&amp;rsquo;ve changed my mind and/or learned a lot since I wrote this initially, and the shortcode has changed accordingly.&lt;br&gt;
-That&amp;rsquo;s the blog-post equivalent of a live demo, sorry.&lt;br&gt;
-You can check out the shortcode 
-&lt;a href=&#34;https://github.com/jemus42/jemsugo/blob/44bd506487f52ccd37cb947417e4ca888dfd736c/layouts/shortcodes/pkg.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;as of right now here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The package&amp;rsquo;s name (surprisingly)&lt;/li&gt;
-&lt;li&gt;A CRAN url, also serving as a (CRAN | Not CRAN)-indicator&lt;/li&gt;
-&lt;li&gt;A GitHub / source repository URL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Additionally, I haven&amp;rsquo;t found a good method of determining which package has a dedicated documentation website, e.g. via &lt;code&gt;{pkgdown}&lt;/code&gt;, because preferably I&amp;rsquo;d like to make the package name link to its website and the associated icon either link to CRAN or to its source / GitHub repository. Guess there&amp;rsquo;s a lot of room for improvement &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;But I digress, I wanted to talk about shortcode externalization.&lt;br&gt;
-Focus.&lt;/p&gt;
-&lt;p&gt;Anyway, with some new shortcodes in hand, I wondered how I&amp;rsquo;d get them to be usable with another Hugo site without having to copypaste them over. That&amp;rsquo;s when, once again, 
-&lt;a href=&#34;https://twitter.com/ma_salmon/status/1264192872498290688&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maëlle &lt;em&gt;literally pushed me&lt;/em&gt; into another rabbit hole&lt;/a&gt; about Hugo modules and theme components &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;I hesitated to get into 
-&lt;a href=&#34;https://gohugo.io/hugo-modules/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo modules&lt;/a&gt; (built upon Go modules) at first because neither these 
-&lt;a href=&#34;https://blog.golang.org/using-go-modules&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Go modules&lt;/a&gt; docs nor this 
-&lt;a href=&#34;https://github.com/golang/go/wiki/Modules&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Go modules wiki&lt;/a&gt; was particularly easy to skim through, given my only contact with Go had been the second syllable in my chosen static site generator.&lt;/p&gt;
-&lt;h2 id=&#34;theme-components-and-git-submodules&#34;&gt;Theme Components and &lt;code&gt;git&lt;/code&gt; Submodules&lt;/h2&gt;
-&lt;p&gt;It turned out that 
-&lt;a href=&#34;https://gohugo.io/hugo-modules/theme-components/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;theme components&lt;/a&gt; are a pretty nifty Hugo feature &amp;mdash; you can basically mix and match various themes and theme-like components as you please, as long as you keep precedence in mind. That&amp;rsquo;s the perfect solution for a repository that only contains shortcodes, for example.&lt;/p&gt;
-&lt;p&gt;The first step was to remove my shortcodes from my site&amp;rsquo;s &lt;code&gt;/layouts/shortcodes&lt;/code&gt; and place them into their own cozy little repository at {&amp;lt; gh &amp;ldquo;jemus42/jemsugo&amp;rdquo; &amp;gt;} &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Note the file structure: They still live in &lt;code&gt;/layouts/shortcodes&lt;/code&gt; so Hugo merges them correctly with other theme components.&lt;/p&gt;
-&lt;p&gt;Once that was done, I could add this new repository as a secondary &lt;code&gt;git submodule&lt;/code&gt; in my site&amp;rsquo;s &lt;code&gt;/theme/&lt;/code&gt; directory, where you&amp;rsquo;d usually only find, well, your theme:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Adding a git submodule
-git submodule add https://github.com/jemus42/jemsugo.git themes/jemsugo
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The next step was to adjust my &lt;code&gt;config.toml&lt;/code&gt; to tell it about the secondary 
-&lt;a href=&#34;https://gohugo.io/hugo-modules/theme-components/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;theme component&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;# Before:
-theme = &amp;quot;hugo-coder&amp;quot;
-# After:
-theme = [&amp;quot;jemsugo&amp;quot;, &amp;quot;hugo-coder&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note that now the &lt;code&gt;theme&lt;/code&gt; key (or whatever they&amp;rsquo;re called in TOML) is not a single string anymore, but an… array? Again, whatever they&amp;rsquo;re called in TOML. This is cool from Hugo&amp;rsquo;s side, but {&amp;lt; pkg &amp;ldquo;blogdown&amp;rdquo; &amp;gt;} doesn&amp;rsquo;t seem to like it, at least &lt;code&gt;blogdown::serve_site&lt;/code&gt; and &lt;code&gt;blogdown::build_site(..., run_hugo = TRUE)&lt;/code&gt; seem to not expect this being a multi-valued element.&lt;/p&gt;
-&lt;p&gt;Besides that, everything seemed to work fine though. You can control the precedence of theme components by adjusting the order in which they appear in the &lt;code&gt;theme&lt;/code&gt; setting, so in this case my &lt;code&gt;jemsugo&lt;/code&gt; components take precedence over everything in &lt;code&gt;hugo-coder&lt;/code&gt; &amp;mdash; which in this case does not matter at all, as &lt;code&gt;hugo-coder&lt;/code&gt; doesn&amp;rsquo;t provide any shortcodes. If there was a &lt;code&gt;videofig&lt;/code&gt; shortcode in Coder though, it would be ovewritten by my own.&lt;/p&gt;
-&lt;p&gt;To update your &lt;code&gt;git&lt;/code&gt; submodules, you can run &lt;code&gt;git submodule update --rebase --remote&lt;/code&gt;.&lt;br&gt;
-Which is something that I did quite a lot, because once I externalized my shortcodes, I&amp;rsquo;d have to push the shortcode repository to GitHub and pull it from my blog&amp;rsquo;s repository locally every time I wanted to preview some changes.&lt;br&gt;
-That&amp;rsquo;s not a terribly nice workflow, and I assume the &lt;code&gt;git&lt;/code&gt; people will know a better solution &amp;mdash; but the point was moot as soon as I realized that Hugo modules were only a small step away, and not that hard to get into.&lt;/p&gt;
-&lt;h2 id=&#34;switching-to-hugo-modules&#34;&gt;Switching to Hugo Modules&lt;/h2&gt;
-&lt;p&gt;Why 
-&lt;a href=&#34;https://gohugo.io/hugo-modules/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo modules&lt;/a&gt; though? Didn&amp;rsquo;t &lt;code&gt;git&lt;/code&gt; submodules work &lt;em&gt;just fine&lt;/em&gt;?&lt;br&gt;
-Yes. Yes they worked &lt;em&gt;just fine&lt;/em&gt;, and this &lt;em&gt;just fine&lt;/em&gt; included updating submodules via &lt;code&gt;git submodule update --rebase --remote&lt;/code&gt; after I first ran &lt;code&gt;git push&lt;/code&gt; on the repository that contained my shortcodes.&lt;br&gt;
-What Hugo modules allow is to just run &lt;code&gt;hugo mod get -u&lt;/code&gt; in my blog repo after I ran &lt;code&gt;git push&lt;/code&gt; in &amp;mdash; &lt;em&gt;wait a minuute&lt;/em&gt; that&amp;rsquo;s not better!&lt;/p&gt;
-&lt;p&gt;Okay, there is a decent workaround to ease local testing with modules, but first, let&amp;rsquo;s walk through the steps to use Hugo modules instead of theme components + &lt;code&gt;git&lt;/code&gt; submodules.&lt;/p&gt;
-&lt;p&gt;After skimming 
-&lt;a href=&#34;https://discourse.gohugo.io/t/hugo-modules-for-dummies/20758&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this helpful post on the Hugo forums&lt;/a&gt;, I realized that the thing I wanted to use as a module didn&amp;rsquo;t even need special configuration, meaning I didn&amp;rsquo;t need to run &lt;code&gt;hugo mod init&lt;/code&gt; in my &lt;code&gt;jemsugo&lt;/code&gt; repo (apparently), and I didn&amp;rsquo;t need my theme to be specially configured as well.&lt;br&gt;
-All it took (I think), was to declare &lt;em&gt;my blog itself&lt;/em&gt; a Hugo module by running this in its root directory:&lt;/p&gt;
-&lt;p&gt;{&amp;lt; codecaption lang=&amp;ldquo;bash&amp;rdquo; caption=&amp;ldquo;Substitute the repo spec accordingly (or maybe remove it? I&amp;rsquo;m not sure)&amp;rdquo; &amp;gt;}
-hugo mod init github.com/rbind/blog.jemu.name
-{&amp;lt; /codecaption &amp;gt;}&lt;/p&gt;
-&lt;p&gt;This creates a &lt;code&gt;go.mod&lt;/code&gt; (and later a &lt;code&gt;go.sum&lt;/code&gt;) file in the site&amp;rsquo;s root that lists the modules you&amp;rsquo;re using, once you have declared any in your &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s my &lt;code&gt;config.toml&lt;/code&gt; for the theme component configuration from previously:&lt;/p&gt;
-&lt;p&gt;{&amp;lt; codecaption lang=&amp;ldquo;toml&amp;rdquo; caption=&amp;ldquo;Tired: Define theme components like this&amp;rdquo; &amp;gt;}
-theme = [&amp;ldquo;jemsugo&amp;rdquo;, &amp;ldquo;hugo-coder&amp;rdquo;]
-{&amp;lt; /codecaption &amp;gt;}&lt;/p&gt;
-&lt;p&gt;The equivalent configuration using Hugo modules apparently looks like this, while &lt;em&gt;removing the &lt;code&gt;theme = &lt;/code&gt; line&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;&amp;lt; codecaption lang=&amp;ldquo;toml&amp;rdquo; caption=&amp;ldquo;Wired: Using Hugo modules like that&amp;rdquo; &amp;gt;
-[module]
-[[module.imports]]
-path = &amp;ldquo;github.com/jemus42/jemsugo&amp;rdquo;
-[[module.imports]]
-path = &amp;ldquo;github.com/luizdepra/hugo-coder&amp;rdquo;
-{&amp;lt; /codecaption &amp;gt;}&lt;/p&gt;
-&lt;p&gt;After running &lt;code&gt;hugo mod get -u&lt;/code&gt; and/or a quick &lt;code&gt;hugo server&lt;/code&gt; for testing, the &lt;code&gt;go.mod&lt;/code&gt; in my blog&amp;rsquo;s root now looks like this:&lt;/p&gt;
-&lt;p&gt;{&amp;lt; codecaption lang=&amp;ldquo;go&amp;rdquo; caption=&amp;ldquo;Satisfyingly self-explanatory&amp;rdquo; &amp;gt;}
-module github.com/rbind/blog.jemu.name&lt;/p&gt;
-&lt;p&gt;go 1.14&lt;/p&gt;
-&lt;p&gt;// For local testing
-replace github.com/jemus42/jemsugo =&amp;gt; /Users/Lukas/repos/github/jemus42/jemsugo&lt;/p&gt;
-&lt;p&gt;require (
-github.com/jemus42/jemsugo v0.0.0-20200524200711-6fca0e2b9d66 // indirect
-github.com/luizdepra/hugo-coder v0.0.0-20200521121849-ff8d5364ad00 // indirect
-)
-{&amp;lt; /codecaption &amp;gt;}&lt;/p&gt;
-&lt;p&gt;That &lt;code&gt;replace&lt;/code&gt; line is used, as the comment suggests, for local testing. It&amp;rsquo;s mentioned in the Hugo docs, but without much info about what it really does or if its placement in &lt;code&gt;go.mod&lt;/code&gt; matters. Thankfully 
-&lt;a href=&#34;https://thewebivore.com/using-replace-in-go-mod-to-point-to-your-local-module/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this blog post&lt;/a&gt; was helpful to get the gist, and I &lt;em&gt;think&lt;/em&gt; it now works as expected.&lt;br&gt;
-And it&amp;rsquo;s the &amp;ldquo;local testing&amp;rdquo; thing that really makes the difference in workflows compared to submodules: I can tweak my shortcodes in their local folder outside the blog repo, and when I save changes the &lt;code&gt;hugo server&lt;/code&gt; running in my blog repo automatically picks them up. It&amp;rsquo;s almost as if this is the way it&amp;rsquo;s supposed to work in the first place!&lt;br&gt;
-…And what I already had when I still had the shortcodes in my blog rather then external, so… yeah.&lt;br&gt;
-But external though!&lt;/p&gt;
-&lt;p&gt;{&amp;lt; addendum title=&amp;ldquo;From local testing to deployment&amp;rdquo; &amp;gt;}
-Before you deploy your site by pushing to whereever your site is built from (like Netlify), you&amp;rsquo;ll have to comment out that &lt;code&gt;replace&lt;/code&gt; line in &lt;code&gt;go.mod&lt;/code&gt; again, because Netlify won&amp;rsquo;t know that local path of yours.
-{&amp;lt; /addendum &amp;gt;}&lt;/p&gt;
-&lt;p&gt;I have now deleted my &lt;code&gt;themes&lt;/code&gt; directory, ran &lt;code&gt;git submodule deinit&lt;/code&gt; on both submodules, and &lt;em&gt;it still works&lt;/em&gt; &amp;mdash; even on netlify! So I&amp;rsquo;m reasonably confident that yes, this modules thing… it might actually not have been that complicated?&lt;br&gt;
-Just like that?&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m not sure how to handle the precedence thing though, so what if I wanted to make sure some shortcode in {&amp;lt; gh &amp;ldquo;jemus42/jemsugo&amp;rdquo; &amp;gt;} takes precedence over a shortcode with the same name in a different module &amp;mdash; I assume there&amp;rsquo;s a solution for that, but I&amp;rsquo;ll look into that some more once I actually have the need for it.&lt;br&gt;
-In any case, according to 
-&lt;a href=&#34;https://discourse.gohugo.io/t/hugo-modules-for-dummies/20758/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bep, modules are here to stay and the &lt;code&gt;theme = &lt;/code&gt; thing is left for compatibility&lt;/a&gt;, so I doubt there&amp;rsquo;s something modules &lt;em&gt;can&amp;rsquo;t&lt;/em&gt; do that was possible before &amp;mdash; they already have a much greater set of features.
-&lt;em&gt;&lt;strong&gt;favorite&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;This whole shift in dependency workflows is still pretty new to me, and I mainly discovered my way through it while I was still writing this post.&lt;/p&gt;
-&lt;p&gt;I haven&amp;rsquo;t gathered a lot of experience with the Hugo modules approach yet, and there might be a case or two in which I wish I&amp;rsquo;d still be using the original approach (using my theme as a &lt;code&gt;git&lt;/code&gt; submodule and my shortcodes in my site).&lt;br&gt;
-I guess the worst thing that could happen would be learning more about how Go works, especially with regards to module caching (&lt;em&gt;where are they even stored&lt;/em&gt;?) and versioning, or whatever that &lt;code&gt;_vendor&lt;/code&gt; thing is all about.&lt;/p&gt;
-&lt;p&gt;Well, I&amp;rsquo;ll see how it *clear&amp;rsquo;s throat* … &lt;em&gt;Goes&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;{&amp;lt; addendum title=&amp;ldquo;Addendum Re: Module Location&amp;rdquo; &amp;gt;}
-Turns out hugo modules are by default stored in your &lt;code&gt;/tmp/&lt;/code&gt; (or equivalent), and you can use the environment variable &lt;code&gt;HUGO_CACHEDIR&lt;/code&gt;, which I&amp;rsquo;ve now set as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export HUGO_CACHEDIR=$HOME/.local/share/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And as far as the local-testing vs. deployment goes, I guess &lt;em&gt;that&amp;rsquo;s&lt;/em&gt; what 
-&lt;a href=&#34;https://gohugo.io/hugo-modules/use-modules/#vendor-your-modules&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vendoring&lt;/a&gt; is for? If you &lt;code&gt;hugo mod vendor&lt;/code&gt; your modules, hugo will look for them in &lt;code&gt;_vendor&lt;/code&gt; first, so you could then probably use that fact and the &lt;code&gt;--ignoreVendor&lt;/code&gt; flag for local testing?&lt;br&gt;
-Needs more playing around with.&lt;/p&gt;
-&lt;p&gt;{&amp;lt; /addendum &amp;gt;}&lt;/p&gt;
-&lt;!-- Links --&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;I should note that I wouldn&amp;rsquo;t be using so many shortcodes if it wasn&amp;rsquo;t for 
-&lt;a href=&#34;https://www.alfredapp.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alfred&lt;/a&gt;&amp;rsquo;s snippet functionality. Seriously, give whatever snippet tool you have access to a go. It&amp;rsquo;s great. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Wonder why I didn&amp;rsquo;t use the shortcode to refer to &lt;code&gt;pkgdown&lt;/code&gt;? Well that package isn&amp;rsquo;t installed in my blog&amp;rsquo;s project library, so it&amp;rsquo;s not in the &lt;code&gt;packages.yaml&lt;/code&gt; (because I didn&amp;rsquo;t want one file for &lt;em&gt;all packages ever&lt;/em&gt; (yet)), and… well, I have since updated that file from all packages installed on my local machine, but left this note here as a reminder about the limitations of this approach. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;I kid, of course. I&amp;rsquo;m starting to like the dynamic where I have a half-baked idea and she throws enough ideas and suggestions my way to actually make them work (kind of). &lt;br&gt; 🐇🕳️ &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;It turns out naming things is really hard. Have you heard? 😱 &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
 </description>
     </item>
     

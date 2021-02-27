@@ -13,7 +13,22 @@
     </image>
     
     <item>
-      <title>De la réalité sur la propogation du covid-19, un tableau interactif</title>
+      <title>De la réalité sur la propogation du covid-19 au calcul du R0 : un tableau interactif</title>
+      <link>https://goldentzgrahamz.netlify.app/post/cercletrigo/rshiny/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://goldentzgrahamz.netlify.app/post/cercletrigo/rshiny/</guid>
+      <description>
+&lt;link href=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://goldentzgrahamz.netlify.app/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;iframe width=&#34;800&#34; height=&#34;420&#34; src=&#34;https://quentin-gollentz.shinyapps.io/testshiny/?_ga=2.154934833.881593865.1603465387-1553317943.1603465387&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>De la réalité sur la propogation du covid-19 au calcul du R0 : un tableau interactif</title>
       <link>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://goldentzgrahamz.netlify.app/post/rshiny/rshiny/</guid>
