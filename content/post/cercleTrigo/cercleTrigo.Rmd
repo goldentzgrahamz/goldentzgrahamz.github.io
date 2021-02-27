@@ -1,5 +1,5 @@
 ---
-title: "Du cercle trigonemetrique au calcul de l'aire"
+title: "Du cercle trigonemetrique au calcul de l'aire d'un cercle"
 author: "Goldentz Grahamz"
 date: '2021-02-27'
 categories: []
@@ -27,3 +27,53 @@ runtime: shiny
 <iframe width="800" height="420"
   src="https://quentin-gollentz.shinyapps.io/cercleTrigonemetrique/?_ga=2.244401350.2109755109.1614429842-1989212960.1613151693">
 </iframe>
+
+Cherchons l'aire du quart de cercle représenté par le triangle vert et la zone rouge.
+    
+On peut faire remarquer que : 
+$x^{2} + y^{2} = R$
+    
+Il s'en suit que :
+$y = \sqrt{R^{2}-x^{2}}$
+
+L'aire du quart de cercle est donc donner par l'intégrale suivante :
+$I = \left(\int_{0}^{R}  \sqrt{R^{2}-x^{2}} \; dx\right)$ 
+
+Posons le changement de variable suivant :
+$x=R . sin(\theta)$ 
+    
+Il s'en suit que :
+$\frac{\partial x}{\partial \theta}=R.cos(\theta)$ en se rappelant que $sin(u)'=u'cos(u)$
+
+On note donc : 
+$\partial x=R.cos(\theta).\partial  \theta$
+
+Reste à calucler les nouvelles bornes :
+$sin(\theta)=\frac{x}{R}$
+
+Or lorsque $x=0$ le sinus d'un angle $\theta \in [0,R]$  tel que $sin(\theta)=0$ est donné par $\theta=0$
+Or lorsque $x=R$ le sinus d'un angle $\theta \in [0,R]$  tel que $sin(\theta)=1$ est donné par $\theta=\frac{\pi}{2}$
+
+On peut donc récrire l'intégrale précédente :
+ $I = \left(\int_{0}^{\frac{\pi}{2}}  \sqrt{R^{2}-(R.sin(\theta))^{2}} \; R.cos(\theta) d\theta\right)$ 
+ $I = \left(\int_{0}^{\frac{\pi}{2}}  \sqrt{R^{2}.(1-sin(\theta)^{2})} \; R.cos(\theta) d\theta\right)$ 
+ $I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}}  \sqrt{1-sin(\theta)^{2}} \; cos(\theta) d\theta\right)$
+     
+Or $cos(\theta)^{2}=1-sin(\theta)^{2}$ ainsi :
+$I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}}  cos(\theta)^{2} \;  d\theta\right)$
+
+En utilisant la formule de linérisation $cos(\theta)^{2}=\frac{1+cos(2.\theta)}{2}$
+$I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}}  \frac{1+cos(2.\theta)}{2} \;  d\theta\right)$
+$I = \frac{R^{2}}{2} . \left(\int_{0}^{\frac{\pi}{2}}  1+cos(2.\theta) \;  d\theta\right)$
+
+Une primitive de 1 est donné par $\theta$
+Une primitive de $cos(2.\theta)$ est donné par $\frac{sin(2.\theta)}{2}$
+
+On obtient donc :
+$I = \frac{R^{2}}{2} . [\theta + \frac{sin(2.\theta)}{2}]^{\frac{\pi}{2}}_0$
+$I = \frac{R^{2}}{2} . ((\frac{\pi}{2} + 0)-(0+0)=\frac{R^{2} .\pi}{4})$
+
+On en déduit l'aire d'un cercle qui est 4foir l'aire du quart de cercle : 
+$Aire  = R^{2} .\pi$
+
+

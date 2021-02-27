@@ -1,5 +1,5 @@
 ---
-title: "Du cercle trigonemetrique au calcul de l'aire"
+title: "Du cercle trigonemetrique au calcul de l'aire d'un cercle"
 author: "Goldentz Grahamz"
 date: '2021-02-27'
 categories: []
@@ -31,3 +31,36 @@ runtime: shiny
 
 <iframe width="800" height="420" src="https://quentin-gollentz.shinyapps.io/cercleTrigonemetrique/?_ga=2.244401350.2109755109.1614429842-1989212960.1613151693">
 </iframe>
+<p>Cherchons l’aire du quart de cercle représenté par le triangle vert et la zone rouge.</p>
+<p>On peut faire remarquer que :
+<span class="math inline">\(x^{2} + y^{2} = R\)</span></p>
+<p>Il s’en suit que :
+<span class="math inline">\(y = \sqrt{R^{2}-x^{2}}\)</span></p>
+<p>L’aire du quart de cercle est donc donner par l’intégrale suivante :
+<span class="math inline">\(I = \left(\int_{0}^{R} \sqrt{R^{2}-x^{2}} \; dx\right)\)</span></p>
+<p>Posons le changement de variable suivant :
+<span class="math inline">\(x=R . sin(\theta)\)</span></p>
+<p>Il s’en suit que :
+<span class="math inline">\(\frac{\partial x}{\partial \theta}=R.cos(\theta)\)</span> en se rappelant que <span class="math inline">\(sin(u)&#39;=u&#39;cos(u)\)</span></p>
+<p>On note donc :
+<span class="math inline">\(\partial x=R.cos(\theta).\partial \theta\)</span></p>
+<p>Reste à calucler les nouvelles bornes :
+<span class="math inline">\(sin(\theta)=\frac{x}{R}\)</span></p>
+<p>Or lorsque <span class="math inline">\(x=0\)</span> le sinus d’un angle <span class="math inline">\(\theta \in [0,R]\)</span> tel que <span class="math inline">\(sin(\theta)=0\)</span> est donné par <span class="math inline">\(\theta=0\)</span>
+Or lorsque <span class="math inline">\(x=R\)</span> le sinus d’un angle <span class="math inline">\(\theta \in [0,R]\)</span> tel que <span class="math inline">\(sin(\theta)=1\)</span> est donné par <span class="math inline">\(\theta=\frac{\pi}{2}\)</span></p>
+<p>On peut donc récrire l’intégrale précédente :
+<span class="math inline">\(I = \left(\int_{0}^{\frac{\pi}{2}} \sqrt{R^{2}-(R.sin(\theta))^{2}} \; R.cos(\theta) d\theta\right)\)</span>
+<span class="math inline">\(I = \left(\int_{0}^{\frac{\pi}{2}} \sqrt{R^{2}.(1-sin(\theta)^{2})} \; R.cos(\theta) d\theta\right)\)</span>
+<span class="math inline">\(I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}} \sqrt{1-sin(\theta)^{2}} \; cos(\theta) d\theta\right)\)</span></p>
+<p>Or <span class="math inline">\(cos(\theta)^{2}=1-sin(\theta)^{2}\)</span> ainsi :
+<span class="math inline">\(I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}} cos(\theta)^{2} \; d\theta\right)\)</span></p>
+<p>En utilisant la formule de linérisation <span class="math inline">\(cos(\theta)^{2}=\frac{1+cos(2.\theta)}{2}\)</span>
+<span class="math inline">\(I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}} \frac{1+cos(2.\theta)}{2} \; d\theta\right)\)</span>
+<span class="math inline">\(I = \frac{R^{2}}{2} . \left(\int_{0}^{\frac{\pi}{2}} 1+cos(2.\theta) \; d\theta\right)\)</span></p>
+<p>Une primitive de 1 est donné par <span class="math inline">\(\theta\)</span>
+Une primitive de <span class="math inline">\(cos(2.\theta)\)</span> est donné par <span class="math inline">\(\frac{sin(2.\theta)}{2}\)</span></p>
+<p>On obtient donc :
+<span class="math inline">\(I = \frac{R^{2}}{2} . [\theta + \frac{sin(2.\theta)}{2}]^{\frac{\pi}{2}}_0\)</span>
+<span class="math inline">\(I = \frac{R^{2}}{2} . ((\frac{\pi}{2} + 0)-(0+0)=\frac{R^{2} .\pi}{4})\)</span></p>
+<p>On en déduit l’aire d’un cercle qui est 4foir l’aire du quart de cercle :
+<span class="math inline">\(Aire = R^{2} .\pi\)</span></p>
