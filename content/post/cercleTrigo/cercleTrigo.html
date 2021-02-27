@@ -54,7 +54,7 @@ Or lorsque <span class="math inline">\(x=R\)</span> le sinus d’un angle <span 
 <span class="math inline">\(I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}} \sqrt{1-sin(\theta)^{2}} \; cos(\theta) d\theta\right)\)</span></p>
 <p>Or <span class="math inline">\(cos(\theta)^{2}=1-sin(\theta)^{2}\)</span> ainsi :<br />
 <span class="math inline">\(I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}} cos(\theta)^{2} \; d\theta\right)\)</span></p>
-<p>En utilisant la formule de linérisation <a href="#section-fn1" class="footnote-ref" id="section-fnref1"><sup>1</sup></a>.<br />
+<p>En utilisant la formule de linérisation <a href="#section-fn1" class="footnote-ref" id="section-fnref1"><sup>1</sup></a> <a href="#section-fn2" class="footnote-ref" id="section-fnref2"><sup>2</sup></a>.<br />
 <span class="math inline">\(cos(\theta)^{2}=\frac{1+cos(2.\theta)}{2}\)</span><br />
 <span class="math inline">\(I = R^{2} . \left(\int_{0}^{\frac{\pi}{2}} \frac{1+cos(2.\theta)}{2} \; d\theta\right)\)</span><br />
 <span class="math inline">\(I = \frac{R^{2}}{2} . \left(\int_{0}^{\frac{\pi}{2}} 1+cos(2.\theta) \; d\theta\right)\)</span></p>
@@ -65,22 +65,22 @@ Une primitive de <span class="math inline">\(cos(2.\theta)\)</span> est donné p
 <span class="math inline">\(I = \frac{R^{2}}{2} . ((\frac{\pi}{2} + 0)-(0+0)=\frac{R^{2} .\pi}{4})\)</span></p>
 <p>On en déduit l’aire d’un cercle qui est 4 fois l’aire du quart de cercle :<br />
 <span class="math inline">\(Aire = R^{2} .\pi\)</span></p>
-<p><span class="math inline">\(E_{1} + E_{2} : e^{ix} + e^{-ix} = 2 . cos(x) =&gt; cos(x)= \frac{e^{ix} + e^{-ix}}{2}\)</span><br />
-<span class="math inline">\(E_{1} + E_{2} : e^{ix} - e^{-ix} = 2 .i. sin(x) =&gt; sin(x)= \frac{e^{ix} - e^{-ix}}{2i}\)</span></p>
-<p>$ cos(x)^{2}= $<br />
-$ cos(x)^{2}= $<br />
-$ cos(x)^{2}= $</p>
-<p>Rappelons nous des dérivés <span class="math inline">\(\frac{u}{v}&#39;=\frac{u&#39;v-uv&#39;}{v^{2}}\)</span> et également que si une dérivée est 0 sur tout le domaine de définition de <span class="math inline">\(f\)</span> alors la fonction <span class="math inline">\(f\)</span> est constante sur son domaine de définition.</p>
-<p>Posons <span class="math inline">\(f(x)=\frac{cos(x)+isin(x)}{e^{ix}}\)</span><br />
-Calculons sa dérivée <span class="math inline">\(f&#39;(x)= \frac{(-sin(x)+i.cos(x)).e^{ix}-i.e^{ix}.(cos(x)+isin(x))}{(e^{ix})^2}\)</span><br />
-<span class="math inline">\(f&#39;(x)= \frac{-sin(x).e^{ix} + sin(x).e^{ix}+i.e^{ix}.cos(x)-i.e^{ix}.cos(x)}{(e^{ix})^2}\)</span>
-<span class="math inline">\(f&#39;(x)= 0\)</span> ce qui implique que la fonction est constante.</p>
-<p>En valeur <span class="math inline">\(x=0 =&gt; f(0)=1\)</span> cela implique que <span class="math inline">\(e^{ix}=cos(x)+i.sin(x)\)</span></p>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="section-fn1"><p>demonstration formule de linerisationgrâce aux formules d’Euler [^n2]<br />
+<li id="section-fn1"><p>demonstration formule de linerisation grâce aux formules d’Euler [^n2]<br />
 <span class="math inline">\(E_{1} : e^{ix}=cos(x)+i.sin(x)\)</span><br />
-<span class="math inline">\(E_{2} : e^{-ix}=cos(x)-i.sin(x)\)</span><a href="#section-fnref1" class="footnote-back">↩</a></p></li>
+<span class="math inline">\(E_{2} : e^{-ix}=cos(x)-i.sin(x)\)</span><br />
+<span class="math inline">\(E_{1} + E_{2} : e^{ix} + e^{-ix} = 2 . cos(x) =&gt; cos(x)= \frac{e^{ix} + e^{-ix}}{2}\)</span><br />
+<span class="math inline">\(E_{1} - E_{2} : e^{ix} - e^{-ix} = 2 .i. sin(x) =&gt; sin(x)= \frac{e^{ix} - e^{-ix}}{2i}\)</span><br />
+<span class="math inline">\(cos(x)^{2}= \frac{(e^{ix} + e^{-ix})^{2}}{4}\)</span><br />
+<span class="math inline">\(cos(x)^{2}= \frac{cos(2x)+1}{2}\)</span><a href="#section-fnref1" class="footnote-back">↩</a></p></li>
+<li id="section-fn2"><p>Demonstration des formules d’Euler<br />
+Rappelons nous des dérivés <span class="math inline">\(\frac{u}{v}&#39;=\frac{u&#39;v-uv&#39;}{v^{2}}\)</span> et également du fait que si la dérivée d’une fonction <span class="math inline">\(f&#39;\)</span> est nulle sur tout le domaine de définition de <span class="math inline">\(f\)</span> alors la fonction <span class="math inline">\(f\)</span> est constante sur son domaine de définition.<br />
+Posons <span class="math inline">\(f(x)=\frac{cos(x)+isin(x)}{e^{ix}}\)</span><br />
+Calculons sa dérivée <span class="math inline">\(f&#39;(x)= \frac{(-sin(x)+i.cos(x)).e^{ix}-i.e^{ix}.(cos(x)+isin(x))}{(e^{ix})^2}\)</span><br />
+<span class="math inline">\(f&#39;(x)= \frac{-sin(x).e^{ix} + sin(x).e^{ix}+i.e^{ix}.cos(x)-i.e^{ix}.cos(x)}{(e^{ix})^2}\)</span><br />
+<span class="math inline">\(f&#39;(x)= 0\)</span><br />
+Cela implique que la fonction est constante, en valeur <span class="math inline">\(x=0 =&gt; f(0)=1\)</span> Nous avons donc <span class="math inline">\(e^{ix}=cos(x)+i.sin(x)\)</span><a href="#section-fnref2" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
